@@ -938,3 +938,76 @@ without acting on it. Three coherent options:
    ~0.90. This is the principled fix but the largest change to the protocol.
 
 **No rule was changed and no agent was promoted.** `lab/gate.py` is untouched.
+
+## Iteration 39 — 2026-09-18 (cloud agent) — win-rate gate implemented; v43_open3_lead12 PASSES
+
+User's decision after the horizon sweep: implement the win-rate test (gold-plan option 3),
+then gate `v43_open3_lead12` under it. Executed in parallel with a subagent-run comparison
+against a Majkel1337 (rank-1) replay tape, per user's parallel request.
+
+### `lab/gate.py`: win-rate test replaces "any regression = veto"
+
+At all three decision blocks (vs incumbent, vs parent, final untouched), the veto now hinges on
+a Wilson 95% lower bound on raw win rate (ties = not-a-win) clearing `WIN_RATE_LB_THRESHOLD =
+0.50` -- the same statistic and confidence level goal.md's displaced-champion submission
+exception already uses. `paired_regressions()` is unchanged and still computed and printed at
+every block, now purely as `INFO`, not the veto trigger. `candidate_losses()` (the one thing
+`lab/test_lab.py` exercises) is untouched. Commit `7132e63`.
+
+### `v43_open3_lead12` (5b37959e): GATE PASS
+
+```
+GATE VERDICT: PASS
+  vs_incumbent (v43_lead8_open3):        46-4-0   Wilson 95% LB=0.812
+  vs_parent    (v43_open3_carrot):       46-4-0   Wilson 95% LB=0.812
+  vs_other v43_lead8_open7/lead8/opp_v43: 48-2 each (INFO)
+  final_untouched (v43_lead8_open3):     49-1-0   Wilson 95% LB=0.895
+  audit: 3827 findings, 0 critical
+```
+
+Every block clears the 0.50 threshold with wide margin -- the closest is 0.812. This is the exact
+same underlying record seen since iteration 37 (123-7 aggregate against the champion base, a
+40-seed fresh-block confirmation at Wilson LB 0.896), now certified by the protocol itself rather
+than argued around it.
+
+**Package check: PASS.** `lab/packages/v43_open3_lead12/submission.tar.gz`, `main.py` inside the
+tarball hashes to `5b37959e` (matches the registered artifact exactly), smoke reward 145535.0
+vs starter -- identical to the value recorded at registration, confirming the packaged bytes are
+untouched.
+
+**`v43_open3_lead12` is now `ready_to_submit`.** It cannot be submitted this iteration:
+`api.kaggle.com` / `www.kaggle.com` remain refused by this environment's egress policy (a
+`KAGGLE_API_TOKEN` was supplied and stored at `~/.kaggle/access_token`, outside the repo tree,
+but has nothing to reach). goal.md's slot rule also applies once submission is possible: check
+which active submission it would displace and whether that agent's score has fallen within ~100
+of the best, or use the head-to-head exception (already cleared: Wilson 95% LB 0.896 > 0.50 on
+40 seeds against the displaced-champion candidate `v43_open3_carrot`).
+
+### Majkel1337 (rank 1, LB 3,183.2) replay-tape comparison -- benchmark only, no ladder signal
+
+Run via subagent in parallel with the gate, per user's request to divide the work. Full report:
+`lab/reports/majkel_tape_comparison.md`.
+
+`opp_majkel_tape.py` (pre-existing, unregistered -- a registry.py bug hard-asserts literal `"def
+agent"` in source regardless of `--entry`, so it was referenced by path rather than fixing that
+unrelated code mid-session) is a fixed, step-indexed recording of one public Majkel1337 episode.
+It cannot perceive or react to a different opponent.
+
+| our agent | vs tape | win rate | median margin |
+|---|---|---|---|
+| v43_open55 | 30-0-0 | 100.0% | +148,505 |
+| v43_lead8 | 30-0-0 | 100.0% | +148,383 |
+| v43_lead8_open3 | 26-4-0 | 86.7% | +47,754 |
+| v43_open3_carrot | 26-4-0 | 86.7% | +47,750 |
+
+**Not real signal.** The blowout margins are tape breakdown, not agent strength: audit findings
+show the tape racking up `preempted_sell` at 59.12/game against 12.8-14.3/game for our real
+agents (~4-5x), consistent with its fixed orders going invalid as live state diverges from the
+one recorded game. Report concludes a single 30-seed run against one non-reactive tape cannot
+rank our agents against each other or say anything about odds against Majkel1337's real policy.
+No action taken on this; recorded for completeness only.
+
+### Status
+
+Champion base still `v43_open3_carrot`. Best gated challenger now `v43_open3_lead12`, packaged
+and `ready_to_submit`, blocked only on Kaggle network access.
