@@ -711,3 +711,46 @@ rule (≤1 regression, ≥40/50 better) would not have changed this verdict eith
   relaxed rule is still only plan text. Left unimplemented on purpose — changing the gate and
   testing a candidate in one iteration would confound both. Worth doing in an iteration of its
   own, since it is what vetoed `v43_lead8_open7` on a single regression back in iteration 26.
+
+## Iteration 36 — 2026-09-18 (cloud agent) — opener x carrot cross, user-directed
+
+Two things asked for: an `open7 + carrot` cross, and a measurement of the big-opening branch
+(`open55_carrot`) against today's champion base. Still no `KAGGLE_API_TOKEN`, so nothing can be
+submitted or synced; the nominated agent is packaged and held as `ready_to_submit`.
+
+### `v43_lead8_open7_carrot` (d4d64572): VETO — but it proves the carrot knob a fourth time
+
+Built as `v43_lead8_open7` + the carrot overlay verbatim, appended byte-exact (CRLF base kept,
+LF overlay), so the only change vs the parent is the carrot tie-break.
+
+```
+GATE VERDICT: VETO (lost to incumbent in 42/50 games (seed_block=850000-850024))
+  [PASS ] vs_parent (v43_lead8_open7):     raw 48-2,  44 better than mirror, 0 regressions
+  [VETO ] vs_incumbent (v43_open3_carrot): raw 4-46,  0 better,             42 regressions
+  [INFO ] vs_other:v43_lead8_open3: 47-3   [INFO ] vs_other:v43_lead8: 49-1
+  [INFO ] vs_other:opp_v43:         50-0   [PASS ] audit: 2698 findings, 0 critical
+```
+
+Two clean readings:
+
+1. **The carrot tie-break generalises again** — 48-2 with zero paired regressions on the open7
+   base, its fourth passing base after open55, lead8 and open3. It is a base-independent knob.
+2. **open3 > open7 survives adding carrot to both sides.** The cross beats *plain* `open3`
+   47-3, which is just the carrot knob showing up; against `open3_carrot`, where both carry
+   the knob, it loses 4-46. The opening advantage is what separates them, and 3 still wins.
+
+So the cross is a genuine improvement on its own parent and still not worth a slot. Champion
+base stays **`v43_open3_carrot` (1367897a)**.
+
+### The adaptive opener the user asked for cannot be built — recorded so it is not retried
+
+The request was an agent opening 55 by default that switches to open3 against opponents who
+open low. **The opening cannot be conditioned on anything.** Verified from a replay: at step 0
+both players see an identical observation — money 3000/3000, market inventory 10000 for every
+product, WHEAT price 25, same farms — and it is the same on every seed. The turn-0 wash is a
+constant decision, chosen before any opponent information exists. Only at step 1 does the
+opponent's wash become visible (WHEAT inventory 9999, price 26 in the sample game), and by then
+the opening is spent. There is also no "open3 behaviour" after step 0 to switch into: open3 and
+open55 differ in exactly one line, the step-0 wash size.
+
+User's call: skip the adaptive framing and measure the big-opening branch directly instead.
