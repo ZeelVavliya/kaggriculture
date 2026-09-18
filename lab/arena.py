@@ -209,7 +209,7 @@ def main():
         row = ledger.get_artifact_by_name(name_or_path)
         if row is None:
             raise SystemExit(f"not a path and not a registered artifact name: {name_or_path}")
-        return row["path"]
+        return ledger.artifact_path(row)
 
     if args.cmd == "h2h":
         h2h(resolve(args.a), resolve(args.b), args.seed_block, workers=args.workers)

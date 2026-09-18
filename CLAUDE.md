@@ -11,6 +11,17 @@ Kaggle CLI command. [README.md](README.md) has the full game rules and price tab
 pip install -r requirements.txt
 ```
 
+On a Debian-based cloud image `pip` may refuse with `Cannot uninstall blinker ... RECORD file
+not found` (a distro-installed package). Add `--ignore-installed blinker`:
+
+```bash
+pip install --ignore-installed blinker -r requirements.txt
+```
+
+The ledger's `artifacts.path` column holds absolute Windows paths from the original machine.
+`lab.ledger.artifact_path()` falls back to the tracked, content-addressed copy at
+`lab/artifacts/<sha8>/main.py`, so gates and tournaments resolve artifacts by name on any OS.
+
 `KAGGLE_API_TOKEN` must be in the environment for anything that talks to Kaggle (submit,
 sync, episodes, replay, leaderboard). Locally it is read from `kaggle.json`; in a cloud
 agent set it as a secret. Everything else — tournaments, gates, replay analysis — runs

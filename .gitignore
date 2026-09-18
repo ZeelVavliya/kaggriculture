@@ -33,3 +33,7 @@ kaggleagriculture/lab/artifacts/
 kaggleagriculture/lab/candidates/
 
 .claude/scheduled_tasks.lock
+
+# sqlite WAL sidecars (transient; runs.db itself is tracked)
+lab/runs.db-shm
+lab/runs.db-wal

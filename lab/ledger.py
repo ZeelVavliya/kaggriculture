@@ -1,6 +1,7 @@
 """SQLite run ledger: artifacts, games, batches. WAL mode so parallel game
 workers writing through a single parent-process connection never lock."""
 import json
+import re
 import sqlite3
 import time
 from pathlib import Path
@@ -114,3 +115,34 @@ def games_for_batch(batch_id, conn=None):
     if own:
         conn.close()
     return rows
+
+
+def artifact_path(row_or_path, sha256=None) -> str:
+    """Localize a stored artifact path.
+
+    The ledger was written on Windows, so `path` holds absolute `C:\...` strings that do
+    not exist on a Linux checkout. Every artifact is also stored content-addressed at
+    lab/artifacts/<sha8>/main.py, which is tracked in git, so fall back to that whenever
+    the recorded path is not present on this machine.
+    """
+    if row_or_path is None:
+        return None
+    if sha256 is None and not isinstance(row_or_path, (str, Path)):
+        sha256 = row_or_path["sha256"]
+        stored = row_or_path["path"]
+    else:
+        stored = row_or_path if isinstance(row_or_path, (str, Path)) else row_or_path["path"]
+    stored = str(stored)
+    if Path(stored).exists():
+        return stored
+    if sha256:
+        local = LAB / "artifacts" / sha256[:8] / "main.py"
+        if local.exists():
+            return str(local)
+    # last resort: re-root anything after a "lab" component onto this checkout
+    parts = re.split(r"[\\/]+", stored)
+    if "lab" in parts:
+        local = LAB.parent.joinpath(*parts[parts.index("lab"):])
+        if local.exists():
+            return str(local)
+    return stored

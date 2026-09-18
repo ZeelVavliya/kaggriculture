@@ -49,7 +49,7 @@ def _resolve(name_or_path):
     row = ledger.get_artifact_by_name(name_or_path)
     if row is None:
         raise SystemExit(f"not a path and not a registered artifact name: {name_or_path}")
-    return row["path"], row["sha256"]
+    return ledger.artifact_path(row), row["sha256"]
 
 
 def run_gate(candidate: str, parent: str = None, incumbent: str = None, others: list = None, workers=None):
@@ -76,14 +76,14 @@ def run_gate(candidate: str, parent: str = None, incumbent: str = None, others: 
     # step 3/4: incumbent + parent on disjoint seeds, both seats, any loss = veto
     if incumbent is None:
         row_art = ledger.get_artifact_by_name("c95")
-        incumbent = row_art["path"] if row_art else None
+        incumbent = ledger.artifact_path(row_art) if row_art else None
     if parent is None:
         art_row = None
         conn = ledger.connect()
         r = conn.execute("SELECT parent_sha FROM artifacts WHERE sha256=?", (cand_sha,)).fetchone()
         if r and r["parent_sha"]:
             prow = conn.execute("SELECT path FROM artifacts WHERE sha256=?", (r["parent_sha"],)).fetchone()
-            parent = prow["path"] if prow else None
+            parent = ledger.artifact_path(prow) if prow else None
         conn.close()
 
     for label, opp_path, seed_block in (("incumbent", incumbent, INCUMBENT_SEEDS), ("parent", parent, PARENT_SEEDS)):
