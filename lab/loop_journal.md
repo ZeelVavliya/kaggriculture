@@ -837,3 +837,47 @@ what carries this result, not the sweep.
 matrix agents at exactly 0.0 margin, and `v43_lead8_open0_carrot` ties the champion 0-0-4 at margin 0.
 A zero-size wash is evidently dropped rather than executed, so open0 is a null, not a strategy. Its
 BT rating is meaningless for the opening question. Flagged for a replay-level look, not pursued.
+
+## Iteration 38 — 2026-09-18 (cloud agent) — the horizon sweep (user's call: no rule change)
+
+User's decision on the horizon-12 veto: **sweep 9/10/11 first**, leave `lab/gate.py` and the
+veto alone. If a lower horizon keeps most of the gain at <=1 paired regression it passes the
+gate as written and no rule question arises.
+
+Built `v43_open3_lead9/10/11` on the `v43_open3_carrot` base. The knob is a single line (1892):
+`if 288 <= step < 696:_R37_HORIZONS[player] = 8` during steps 288-696. Each candidate changes
+only that number, CRLF preserved, verified as a one-line diff. Distinct smoke rewards
+(145624 / 145591 / 145535) confirm all three diverge from each other and the base.
+
+### Sweep (`tourney-688c357b`, 1030000-1030014, 15 seeds, both seats, 300 games)
+
+| agent | horizon | BT elo | W-L | mean margin |
+|---|---|---|---|---|
+| v43_open3_lead12 | 12 | 2171 | 116-4 | +967 |
+| v43_open3_lead11 | 11 | 1808 | 88-32 | +489 |
+| v43_open3_lead10 | 10 | 1500 | 60-60 | -17 |
+| v43_open3_lead9 | 9 | 1192 | 32-88 | -561 |
+| v43_open3_carrot | 8 | 829 | 4-116 | -878 |
+
+**Strictly monotone in the horizon: 12 > 11 > 10 > 9 > 8. There is no interior optimum** — the
+gain scales smoothly and longer is simply better across the whole tested range. The horizon
+search was closed in iteration 32 one notch below where the curve was still climbing.
+
+### The result that matters: against the champion base they are indistinguishable
+
+| agent | vs v43_open3_carrot | losing seeds | median | loss margins |
+|---|---|---|---|---|
+| lead9 | 29-1 | 1 / 15 | +678.0 | -239 |
+| lead10 | 29-1 | 1 / 15 | +656.0 | -313 |
+| lead11 | 29-1 | 1 / 15 | +603.5 | -260 |
+| lead12 | 29-1 | 1 / 15 | +616.0 | -272 |
+
+**All four beat the champion 29-1, each losing exactly one seed of fifteen.** The ordering above
+comes entirely from the horizons playing *each other*, not from playing the base. So a lower
+horizon buys no safety against the base — it only gives up head-to-head strength. That is
+evidence against the hypothesis behind this sweep, and it is worth stating plainly: the
+regressions are not a property of "12 is too far", they are seed-specific.
+
+Screen running on the gate's own decision blocks (850000-850024 and 860000-860024), replicating
+`gate.paired_regressions` exactly but computing each block's mirror once, to get the paired
+regression count for 9/10/11 — the single number that decides a VETO.
