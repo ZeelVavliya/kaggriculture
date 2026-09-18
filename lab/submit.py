@@ -51,7 +51,8 @@ def _kaggle_env():
     # ponytail: reads the token fresh each call instead of caching a module
     # global -- a few extra ms per invocation, never prints the token.
     env = os.environ.copy()
-    if KAGGLE_JSON.exists():
+    # cloud agents supply the token as an env var; locally it comes from kaggle.json
+    if not env.get("KAGGLE_API_TOKEN") and KAGGLE_JSON.exists():
         key = json.loads(KAGGLE_JSON.read_text())["key"]
         env["KAGGLE_API_TOKEN"] = key
     return env

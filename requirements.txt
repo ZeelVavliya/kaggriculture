@@ -1,0 +1,5 @@
+# pinned to the versions the local lab was validated against
+kaggle-environments==1.32.7   # game engine - version affects replay parity
+numpy==2.2.6
+kaggle==2.2.1                 # CLI: submit, episodes, replay, leaderboard
+torch==2.7.0                  # lab/p2 only (behaviour cloning + RL)

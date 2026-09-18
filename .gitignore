@@ -16,13 +16,18 @@ top_replays/
 kaggle_eps/
 
 # training artifacts
-*.pt
 *.npz
 *.log
 *.err
 *.zip
-*.db
 *.env
+
+# ledger + trained models are the loop's memory - keep them
+*.db
+!lab/runs.db
+*.pt
+!lab/p2/data/*.pt
+!lab/p2/data/rl_bias/*.pt
 # submission bundles
 kaggleagriculture/lab/artifacts/
 kaggleagriculture/lab/candidates/

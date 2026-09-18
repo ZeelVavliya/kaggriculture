@@ -1,7 +1,9 @@
 """Smoke test for lab/submit.py parsing logic. Run: python -m lab.test_submit
 No local file edits, no kaggle CLI calls, no local games -- safe to run
 alongside the running tournament."""
-from lab.submit import SHA_MSG_RE, _parse_submissions_csv
+import os
+
+from lab.submit import SHA_MSG_RE, _kaggle_env, _parse_submissions_csv
 
 CSV_SAMPLE = (
     "Warning: Looks like you're using an outdated `kaggle` version, please upgrade\n"
@@ -23,6 +25,13 @@ def demo():
     m = SHA_MSG_RE.search("lab:main sha:551da854")
     assert m and m.group("name") == "main" and m.group("sha8") == "551da854"
     assert SHA_MSG_RE.search("first trial") is None
+
+    # an env-supplied token (cloud agents) must survive _kaggle_env untouched
+    os.environ["KAGGLE_API_TOKEN"] = "from-env"
+    try:
+        assert _kaggle_env()["KAGGLE_API_TOKEN"] == "from-env"
+    finally:
+        del os.environ["KAGGLE_API_TOKEN"]
     print("ok")
 
 
