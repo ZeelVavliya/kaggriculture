@@ -548,3 +548,96 @@ the mirror well is dry.
 
 Best recorded scores are still the two deactivated agents. Gold = 2,923.7 (top 28 of 9,232);
 silver 2,680.3; bronze 2,440.9.
+
+## Iteration 35 — 2026-09-18 (cloud agent, fresh checkout)
+
+**Environment:** first iteration run from a cloud container instead of the Windows box.
+No `KAGGLE_API_TOKEN` in the environment and no replay directories (all gitignored), so
+**steps 1, 2, 6 and 7 of the loop could not run**: no ladder sync, no new-loss forensics,
+no submission, no promote/retire. Ladder state below is unchanged from iteration 33.
+Steps 3-5 ran normally. `lab/submit.py` already prefers `KAGGLE_API_TOKEN`, so setting it
+as a secret is all that is needed to restore the full loop.
+
+### Two infrastructure faults found and fixed (both silent, both fatal to the loop)
+
+**1. Ledger artifact paths are Windows-absolute.** `artifacts.path` holds
+`C:\Zeel Australia\...` strings, so `gate._resolve` / `arena.resolve` / `tournament`
+returned a path that does not exist and every gate invoked by artifact name died before
+playing a game. Added `ledger.artifact_path()`, which falls back to the tracked
+content-addressed copy at `lab/artifacts/<sha8>/main.py`. No ledger rows rewritten.
+Commit `aa11b51`.
+
+**2. Every agent file had been silently re-hashed by git.** Each agent is a *mixed*
+line-ending file: the V43 base (first 3329 lines) was written on Windows with CRLF, every
+overlay was appended by Python with LF. Git normalised `lab/artifacts/` and
+`lab/candidates/` to all-LF on commit, so in this checkout **29 of 40 artifacts and 25 of
+26 candidate sources no longer hashed to their recorded sha256**:
+
+| agent | ledger / submitted tarball | this checkout |
+|---|---|---|
+| `v43_open3_carrot` | `1367897a` | `164f53ee` |
+| `v43_lead8_open3` | `774a7f56` | `f7131cd0` |
+| `v43_open3_cash21` | `871a5888` | `3b5b7a67` |
+
+That sha *is* an agent's identity here: it names the artifact directory, keys all 10,449
+rows in `games`, and goes into the Kaggle message as `sha:<sha8>`. Left alone, every game
+this loop records would be filed under a sha matching nothing in the ledger's history, and
+any submission made off Windows would carry a sha8 the ladder has never seen.
+`lab/packages/*/submission.tar.gz` is gzip, so git never touched it — those archives were
+the ground truth that exposed it (their `main.py` has 3329 CR and hashes to the ledger sha).
+Restored all 40 artifacts and 26 candidates, self-verifying (bytes written only when the
+sha256 prefix equalled the directory name), and pinned the paths in `.gitattributes`.
+Behaviour was never affected — Python ignores line endings — so all recorded results stand.
+Commit `b918935`.
+
+### `v43_open3_cash21` (871a5888): NO-OP, retired without a verdict
+
+Iteration 34 registered it and opened a gate batch that logged **0 games** before the
+session died. Re-ran it here, and the parent block settled it:
+
+| block | n | result | games at margin exactly 0 |
+|---|---|---|---|
+| vs parent `v43_open3_carrot` | 50 | 46 T, 4 L | **46** |
+| parent mirror (carrot vs itself) | 25 | 23 T, 2 L | 23 |
+
+4 losses in 50 both-seat games against 2 in 25 one-seat mirror games is the gate's known
+seat asymmetry, not the candidate. **It is behaviourally identical to its parent.**
+
+**Root cause — a replay-index off-by-one.** Instrumenting the overlay shows the agent emits
+the day-0 fill `['BUY_PRODUCT','WHEAT',5]` when its own clock reads `day*24+hour == 1`, and
+its market list at `== 2` is **empty**. The candidate tested `== 2` because the fill is
+recorded at index 2 of a replay: `steps[i]["action"]` is the action taken from the step
+`i-1` observation, so the action slot sits one index after the observation the agent saw.
+The overlay's loop matched nothing and returned the action untouched.
+
+**Standing lesson:** a replay index is not the agent's clock. Any overlay keyed to a turn
+must be verified firing — one instrumented game, ~20 s — before it is worth a gate.
+Gate stopped early rather than spend 25 more minutes proving a no-op.
+
+### `v43_open3_cash21b` (b0f8a324): the same change, one turn earlier
+
+Parent `v43_open3_carrot`, single change: trim one unit off the day-0 `BUY_PRODUCT WHEAT`
+fill at agent-clock `== 1`. Targets the one lever left standing in iteration 33's
+population analysis — money at the seed-buy turn, where `_r124_seed_budget` shaves the
+WHEAT seed order to fit the cash left after the HIRE reserve (`<20`: n=108, 17.6% wins;
+`80+`: n=121, 87.6%).
+
+Mechanism verified before gating, seed 850000, against the parent on the same seed:
+
+| | carrot (parent) | cash21b |
+|---|---|---|
+| money after the day-0 fill | 1052 | **1080** |
+| money at the seed-buy turn | 42 | **70** |
+| after `BUY_SEED WHEAT 2` | 22 | **50** |
+
+Exactly the +28 coins predicted. Gate running (parent `v43_open3_carrot`, incumbent
+`v43_lead8_open3`, others `v43_lead8_open7`, `v43_lead8`, `opp_v43`).
+
+### Ladder (unchanged — could not sync)
+
+| agent | submission | score | state |
+|---|---|---|---|
+| `v43_open3_carrot` | 56318537 | 863.0 | active, climbing from 600 |
+| `v43_lead8_open3` | 56298354 | 2221.6 | active |
+| `v43_lead8` | 56274046 | 2474.3 | deactivated |
+| `v43_open55` | 56267455 | 2513.9 | deactivated |
