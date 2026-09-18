@@ -1,0 +1,38 @@
+{
+  "zero": {
+    "opp_v41": {
+      "L": 3,
+      "T": 34,
+      "W": 3
+    },
+    "opp_soil": {
+      "W": 40
+    }
+  },
+  "center": {
+    "opp_v41": {
+      "L": 3,
+      "W": 37
+    },
+    "opp_soil": {
+      "W": 40
+    }
+  },
+  "center_bias": {
+    "frac:CARROT": 0.15000000596046448,
+    "frac:TOMATO": 0.0,
+    "frac:STRAWBERRY": 0.0,
+    "frac:MELON": 0.0,
+    "frac:EGG": 0.0,
+    "frac:MILK": 0.0,
+    "frac:WOOL": 0.0,
+    "prio:CARROT": 0.0,
+    "prio:TOMATO": 0.0,
+    "prio:STRAWBERRY": 0.0,
+    "prio:MELON": 0.0,
+    "prio:EGG": 0.0,
+    "prio:MILK": 0.0,
+    "prio:WOOL": 0.0
+  },
+  "wall_s": 1617
+}

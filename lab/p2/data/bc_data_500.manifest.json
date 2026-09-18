@@ -1,0 +1,8035 @@
+{
+  "artifact_shas": {
+    "opp_soil": "02b1fee4b0e48027d4d3baeeb99518346f4fc5a14724cdb202d09a3425b15a79",
+    "opp_salem2900": "3b1cb91feb451b44d075d853f9211be216aea7f85df09d91fa232e4e9dff8fe9",
+    "c94": "7b0e5a7b9d18dc583f5789e50a54dca43561f6d08c1c616b4219bf50bcb8311f",
+    "c95": "489f5d197527f107027626cce79d850fd2ca90edd43d94384b849b6511e27bdb",
+    "opp_v41": "8951ff93742015cba535b125223cf2e541bb7b602080fc4584f30c2613d210f3"
+  },
+  "opponents": [
+    "opp_soil",
+    "opp_salem2900",
+    "c94",
+    "c95",
+    "opp_v41"
+  ],
+  "seed0": 700100,
+  "seeds_per_opponent": 50,
+  "steps": 720,
+  "n_games": 500,
+  "n_rows": 189536,
+  "errors": 0,
+  "wall_s_total": 545.9781627000193,
+  "wall_s_per_game": 1.0919563254000386,
+  "free_items": [
+    "CARROT",
+    "TOMATO",
+    "STRAWBERRY",
+    "MELON",
+    "EGG",
+    "MILK",
+    "WOOL"
+  ],
+  "games": [
+    {
+      "game_id": "opp_soil-seed700100-seat0",
+      "opponent": "opp_soil",
+      "seed": 700100,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        93732.0,
+        84369.0
+      ],
+      "wall_s": 7.689835899975151,
+      "n_rows": 393
+    },
+    {
+      "game_id": "opp_soil-seed700103-seat0",
+      "opponent": "opp_soil",
+      "seed": 700103,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        97574.0,
+        91217.0
+      ],
+      "wall_s": 7.749981300032232,
+      "n_rows": 388
+    },
+    {
+      "game_id": "opp_soil-seed700101-seat1",
+      "opponent": "opp_soil",
+      "seed": 700101,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        117092.0,
+        122069.0
+      ],
+      "wall_s": 7.848666600009892,
+      "n_rows": 386
+    },
+    {
+      "game_id": "opp_soil-seed700102-seat0",
+      "opponent": "opp_soil",
+      "seed": 700102,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        81069.0,
+        71870.0
+      ],
+      "wall_s": 8.049468600016553,
+      "n_rows": 387
+    },
+    {
+      "game_id": "opp_soil-seed700102-seat1",
+      "opponent": "opp_soil",
+      "seed": 700102,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        71870.0,
+        81069.0
+      ],
+      "wall_s": 8.099538700014818,
+      "n_rows": 387
+    },
+    {
+      "game_id": "opp_soil-seed700101-seat0",
+      "opponent": "opp_soil",
+      "seed": 700101,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        122069.0,
+        117092.0
+      ],
+      "wall_s": 8.127360399987083,
+      "n_rows": 386
+    },
+    {
+      "game_id": "opp_soil-seed700103-seat1",
+      "opponent": "opp_soil",
+      "seed": 700103,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        91217.0,
+        97574.0
+      ],
+      "wall_s": 8.294964400003664,
+      "n_rows": 388
+    },
+    {
+      "game_id": "opp_soil-seed700100-seat1",
+      "opponent": "opp_soil",
+      "seed": 700100,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        84369.0,
+        93732.0
+      ],
+      "wall_s": 8.435647600039374,
+      "n_rows": 393
+    },
+    {
+      "game_id": "opp_soil-seed700104-seat0",
+      "opponent": "opp_soil",
+      "seed": 700104,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        116552.0,
+        110335.0
+      ],
+      "wall_s": 7.903208200004883,
+      "n_rows": 378
+    },
+    {
+      "game_id": "opp_soil-seed700104-seat1",
+      "opponent": "opp_soil",
+      "seed": 700104,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        110335.0,
+        116552.0
+      ],
+      "wall_s": 8.140345200023148,
+      "n_rows": 378
+    },
+    {
+      "game_id": "opp_soil-seed700105-seat1",
+      "opponent": "opp_soil",
+      "seed": 700105,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        55914.0,
+        63169.0
+      ],
+      "wall_s": 8.32679449999705,
+      "n_rows": 382
+    },
+    {
+      "game_id": "opp_soil-seed700105-seat0",
+      "opponent": "opp_soil",
+      "seed": 700105,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        63169.0,
+        55914.0
+      ],
+      "wall_s": 8.763111800013576,
+      "n_rows": 382
+    },
+    {
+      "game_id": "opp_soil-seed700106-seat0",
+      "opponent": "opp_soil",
+      "seed": 700106,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        103554.0,
+        87438.0
+      ],
+      "wall_s": 8.393850599997677,
+      "n_rows": 387
+    },
+    {
+      "game_id": "opp_soil-seed700106-seat1",
+      "opponent": "opp_soil",
+      "seed": 700106,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        87438.0,
+        103554.0
+      ],
+      "wall_s": 8.526245300017763,
+      "n_rows": 387
+    },
+    {
+      "game_id": "opp_soil-seed700107-seat1",
+      "opponent": "opp_soil",
+      "seed": 700107,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        86854.0,
+        98446.0
+      ],
+      "wall_s": 8.549037299992051,
+      "n_rows": 436
+    },
+    {
+      "game_id": "opp_soil-seed700107-seat0",
+      "opponent": "opp_soil",
+      "seed": 700107,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        98446.0,
+        86854.0
+      ],
+      "wall_s": 8.853197599994019,
+      "n_rows": 436
+    },
+    {
+      "game_id": "opp_soil-seed700108-seat0",
+      "opponent": "opp_soil",
+      "seed": 700108,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        80649.0,
+        68804.0
+      ],
+      "wall_s": 8.703765999991447,
+      "n_rows": 380
+    },
+    {
+      "game_id": "opp_soil-seed700108-seat1",
+      "opponent": "opp_soil",
+      "seed": 700108,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        68804.0,
+        80649.0
+      ],
+      "wall_s": 8.577966000011656,
+      "n_rows": 380
+    },
+    {
+      "game_id": "opp_soil-seed700110-seat0",
+      "opponent": "opp_soil",
+      "seed": 700110,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        114762.0,
+        108582.0
+      ],
+      "wall_s": 8.508223300043028,
+      "n_rows": 387
+    },
+    {
+      "game_id": "opp_soil-seed700109-seat0",
+      "opponent": "opp_soil",
+      "seed": 700109,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        107656.0,
+        95469.0
+      ],
+      "wall_s": 8.673101199965458,
+      "n_rows": 340
+    },
+    {
+      "game_id": "opp_soil-seed700109-seat1",
+      "opponent": "opp_soil",
+      "seed": 700109,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        95469.0,
+        107656.0
+      ],
+      "wall_s": 8.785046799981501,
+      "n_rows": 340
+    },
+    {
+      "game_id": "opp_soil-seed700110-seat1",
+      "opponent": "opp_soil",
+      "seed": 700110,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        108582.0,
+        114762.0
+      ],
+      "wall_s": 8.756726899999194,
+      "n_rows": 387
+    },
+    {
+      "game_id": "opp_soil-seed700111-seat0",
+      "opponent": "opp_soil",
+      "seed": 700111,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        82904.0,
+        75621.0
+      ],
+      "wall_s": 9.067395300022326,
+      "n_rows": 377
+    },
+    {
+      "game_id": "opp_soil-seed700111-seat1",
+      "opponent": "opp_soil",
+      "seed": 700111,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        75621.0,
+        82904.0
+      ],
+      "wall_s": 9.281002700037789,
+      "n_rows": 377
+    },
+    {
+      "game_id": "opp_soil-seed700112-seat0",
+      "opponent": "opp_soil",
+      "seed": 700112,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        79335.0,
+        70457.0
+      ],
+      "wall_s": 7.988385799981188,
+      "n_rows": 388
+    },
+    {
+      "game_id": "opp_soil-seed700112-seat1",
+      "opponent": "opp_soil",
+      "seed": 700112,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        75764.0,
+        84508.0
+      ],
+      "wall_s": 8.262551399995573,
+      "n_rows": 388
+    },
+    {
+      "game_id": "opp_soil-seed700113-seat0",
+      "opponent": "opp_soil",
+      "seed": 700113,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        92305.0,
+        86514.0
+      ],
+      "wall_s": 8.014843699987978,
+      "n_rows": 379
+    },
+    {
+      "game_id": "opp_soil-seed700114-seat1",
+      "opponent": "opp_soil",
+      "seed": 700114,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        73801.0,
+        81234.0
+      ],
+      "wall_s": 8.232143700006418,
+      "n_rows": 379
+    },
+    {
+      "game_id": "opp_soil-seed700113-seat1",
+      "opponent": "opp_soil",
+      "seed": 700113,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        86514.0,
+        92305.0
+      ],
+      "wall_s": 8.624995200021658,
+      "n_rows": 379
+    },
+    {
+      "game_id": "opp_soil-seed700114-seat0",
+      "opponent": "opp_soil",
+      "seed": 700114,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        81234.0,
+        73801.0
+      ],
+      "wall_s": 8.161448099999689,
+      "n_rows": 379
+    },
+    {
+      "game_id": "opp_soil-seed700115-seat0",
+      "opponent": "opp_soil",
+      "seed": 700115,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        80700.0,
+        72525.0
+      ],
+      "wall_s": 8.447580599982757,
+      "n_rows": 378
+    },
+    {
+      "game_id": "opp_soil-seed700115-seat1",
+      "opponent": "opp_soil",
+      "seed": 700115,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        72525.0,
+        80700.0
+      ],
+      "wall_s": 8.177655300009064,
+      "n_rows": 378
+    },
+    {
+      "game_id": "opp_soil-seed700116-seat0",
+      "opponent": "opp_soil",
+      "seed": 700116,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        129154.0,
+        124609.0
+      ],
+      "wall_s": 8.15232700004708,
+      "n_rows": 375
+    },
+    {
+      "game_id": "opp_soil-seed700116-seat1",
+      "opponent": "opp_soil",
+      "seed": 700116,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        124609.0,
+        129154.0
+      ],
+      "wall_s": 8.482040100032464,
+      "n_rows": 375
+    },
+    {
+      "game_id": "opp_soil-seed700117-seat0",
+      "opponent": "opp_soil",
+      "seed": 700117,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        109900.0,
+        106141.0
+      ],
+      "wall_s": 8.135578299988993,
+      "n_rows": 369
+    },
+    {
+      "game_id": "opp_soil-seed700118-seat1",
+      "opponent": "opp_soil",
+      "seed": 700118,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        60267.0,
+        66687.0
+      ],
+      "wall_s": 8.07548310002312,
+      "n_rows": 380
+    },
+    {
+      "game_id": "opp_soil-seed700117-seat1",
+      "opponent": "opp_soil",
+      "seed": 700117,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        106141.0,
+        109900.0
+      ],
+      "wall_s": 8.196192699950188,
+      "n_rows": 369
+    },
+    {
+      "game_id": "opp_soil-seed700118-seat0",
+      "opponent": "opp_soil",
+      "seed": 700118,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        66687.0,
+        60267.0
+      ],
+      "wall_s": 8.487558699969668,
+      "n_rows": 380
+    },
+    {
+      "game_id": "opp_soil-seed700119-seat0",
+      "opponent": "opp_soil",
+      "seed": 700119,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        137768.0,
+        133276.0
+      ],
+      "wall_s": 8.75307979999343,
+      "n_rows": 376
+    },
+    {
+      "game_id": "opp_soil-seed700119-seat1",
+      "opponent": "opp_soil",
+      "seed": 700119,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        133276.0,
+        137768.0
+      ],
+      "wall_s": 8.673643900023308,
+      "n_rows": 376
+    },
+    {
+      "game_id": "opp_soil-seed700120-seat0",
+      "opponent": "opp_soil",
+      "seed": 700120,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        80892.0,
+        71647.0
+      ],
+      "wall_s": 8.933281699952204,
+      "n_rows": 375
+    },
+    {
+      "game_id": "opp_soil-seed700120-seat1",
+      "opponent": "opp_soil",
+      "seed": 700120,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        71647.0,
+        80892.0
+      ],
+      "wall_s": 9.05563960003201,
+      "n_rows": 375
+    },
+    {
+      "game_id": "opp_soil-seed700121-seat0",
+      "opponent": "opp_soil",
+      "seed": 700121,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        71898.0,
+        63865.0
+      ],
+      "wall_s": 9.215832800022326,
+      "n_rows": 378
+    },
+    {
+      "game_id": "opp_soil-seed700121-seat1",
+      "opponent": "opp_soil",
+      "seed": 700121,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        63865.0,
+        71898.0
+      ],
+      "wall_s": 9.170735499996226,
+      "n_rows": 378
+    },
+    {
+      "game_id": "opp_soil-seed700122-seat0",
+      "opponent": "opp_soil",
+      "seed": 700122,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        140633.0,
+        135966.0
+      ],
+      "wall_s": 9.503678100008983,
+      "n_rows": 375
+    },
+    {
+      "game_id": "opp_soil-seed700122-seat1",
+      "opponent": "opp_soil",
+      "seed": 700122,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        135966.0,
+        140633.0
+      ],
+      "wall_s": 9.539393500017468,
+      "n_rows": 375
+    },
+    {
+      "game_id": "opp_soil-seed700123-seat0",
+      "opponent": "opp_soil",
+      "seed": 700123,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        79714.0,
+        74872.0
+      ],
+      "wall_s": 8.989971700008027,
+      "n_rows": 385
+    },
+    {
+      "game_id": "opp_soil-seed700123-seat1",
+      "opponent": "opp_soil",
+      "seed": 700123,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        74872.0,
+        79714.0
+      ],
+      "wall_s": 8.948071499995422,
+      "n_rows": 385
+    },
+    {
+      "game_id": "opp_soil-seed700124-seat0",
+      "opponent": "opp_soil",
+      "seed": 700124,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        90292.0,
+        84287.0
+      ],
+      "wall_s": 8.65036530001089,
+      "n_rows": 379
+    },
+    {
+      "game_id": "opp_soil-seed700124-seat1",
+      "opponent": "opp_soil",
+      "seed": 700124,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        84287.0,
+        90292.0
+      ],
+      "wall_s": 8.793151499994565,
+      "n_rows": 379
+    },
+    {
+      "game_id": "opp_soil-seed700125-seat0",
+      "opponent": "opp_soil",
+      "seed": 700125,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        80676.0,
+        71430.0
+      ],
+      "wall_s": 9.345306100032758,
+      "n_rows": 436
+    },
+    {
+      "game_id": "opp_soil-seed700126-seat0",
+      "opponent": "opp_soil",
+      "seed": 700126,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        89871.0,
+        79783.0
+      ],
+      "wall_s": 8.658237099996768,
+      "n_rows": 375
+    },
+    {
+      "game_id": "opp_soil-seed700125-seat1",
+      "opponent": "opp_soil",
+      "seed": 700125,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        71430.0,
+        80676.0
+      ],
+      "wall_s": 9.03839409997454,
+      "n_rows": 436
+    },
+    {
+      "game_id": "opp_soil-seed700126-seat1",
+      "opponent": "opp_soil",
+      "seed": 700126,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        79783.0,
+        89871.0
+      ],
+      "wall_s": 8.683087699988391,
+      "n_rows": 375
+    },
+    {
+      "game_id": "opp_soil-seed700127-seat0",
+      "opponent": "opp_soil",
+      "seed": 700127,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        96127.0,
+        89915.0
+      ],
+      "wall_s": 8.849540799972601,
+      "n_rows": 378
+    },
+    {
+      "game_id": "opp_soil-seed700127-seat1",
+      "opponent": "opp_soil",
+      "seed": 700127,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        89915.0,
+        96127.0
+      ],
+      "wall_s": 8.709511600027326,
+      "n_rows": 378
+    },
+    {
+      "game_id": "opp_soil-seed700128-seat0",
+      "opponent": "opp_soil",
+      "seed": 700128,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        143575.0,
+        137676.0
+      ],
+      "wall_s": 8.594595500035211,
+      "n_rows": 387
+    },
+    {
+      "game_id": "opp_soil-seed700128-seat1",
+      "opponent": "opp_soil",
+      "seed": 700128,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        137676.0,
+        143575.0
+      ],
+      "wall_s": 8.416229799971916,
+      "n_rows": 387
+    },
+    {
+      "game_id": "opp_soil-seed700129-seat0",
+      "opponent": "opp_soil",
+      "seed": 700129,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        63293.0,
+        55312.0
+      ],
+      "wall_s": 8.529492599947844,
+      "n_rows": 375
+    },
+    {
+      "game_id": "opp_soil-seed700129-seat1",
+      "opponent": "opp_soil",
+      "seed": 700129,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        55312.0,
+        63293.0
+      ],
+      "wall_s": 8.921630700002424,
+      "n_rows": 375
+    },
+    {
+      "game_id": "opp_soil-seed700130-seat0",
+      "opponent": "opp_soil",
+      "seed": 700130,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        58271.0,
+        50499.0
+      ],
+      "wall_s": 9.025950599985663,
+      "n_rows": 375
+    },
+    {
+      "game_id": "opp_soil-seed700130-seat1",
+      "opponent": "opp_soil",
+      "seed": 700130,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        50499.0,
+        58271.0
+      ],
+      "wall_s": 8.764976100006606,
+      "n_rows": 375
+    },
+    {
+      "game_id": "opp_soil-seed700131-seat0",
+      "opponent": "opp_soil",
+      "seed": 700131,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        123085.0,
+        117495.0
+      ],
+      "wall_s": 8.501222200051416,
+      "n_rows": 379
+    },
+    {
+      "game_id": "opp_soil-seed700131-seat1",
+      "opponent": "opp_soil",
+      "seed": 700131,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        117495.0,
+        123085.0
+      ],
+      "wall_s": 8.682508700003382,
+      "n_rows": 379
+    },
+    {
+      "game_id": "opp_soil-seed700132-seat0",
+      "opponent": "opp_soil",
+      "seed": 700132,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        111976.0,
+        104018.0
+      ],
+      "wall_s": 8.549150899983943,
+      "n_rows": 389
+    },
+    {
+      "game_id": "opp_soil-seed700132-seat1",
+      "opponent": "opp_soil",
+      "seed": 700132,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        104018.0,
+        111976.0
+      ],
+      "wall_s": 8.811914300022181,
+      "n_rows": 389
+    },
+    {
+      "game_id": "opp_soil-seed700133-seat0",
+      "opponent": "opp_soil",
+      "seed": 700133,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        102103.0,
+        95211.0
+      ],
+      "wall_s": 7.89494269998977,
+      "n_rows": 379
+    },
+    {
+      "game_id": "opp_soil-seed700133-seat1",
+      "opponent": "opp_soil",
+      "seed": 700133,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        95211.0,
+        102103.0
+      ],
+      "wall_s": 8.430332899966743,
+      "n_rows": 379
+    },
+    {
+      "game_id": "opp_soil-seed700134-seat0",
+      "opponent": "opp_soil",
+      "seed": 700134,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        100613.0,
+        93555.0
+      ],
+      "wall_s": 8.408981800021138,
+      "n_rows": 378
+    },
+    {
+      "game_id": "opp_soil-seed700134-seat1",
+      "opponent": "opp_soil",
+      "seed": 700134,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        93555.0,
+        100613.0
+      ],
+      "wall_s": 8.396852700039744,
+      "n_rows": 378
+    },
+    {
+      "game_id": "opp_soil-seed700135-seat0",
+      "opponent": "opp_soil",
+      "seed": 700135,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        65323.0,
+        56282.0
+      ],
+      "wall_s": 8.209910699981265,
+      "n_rows": 390
+    },
+    {
+      "game_id": "opp_soil-seed700135-seat1",
+      "opponent": "opp_soil",
+      "seed": 700135,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        56282.0,
+        65323.0
+      ],
+      "wall_s": 8.769270299992058,
+      "n_rows": 390
+    },
+    {
+      "game_id": "opp_soil-seed700136-seat0",
+      "opponent": "opp_soil",
+      "seed": 700136,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        87164.0,
+        78344.0
+      ],
+      "wall_s": 8.413922399980947,
+      "n_rows": 342
+    },
+    {
+      "game_id": "opp_soil-seed700136-seat1",
+      "opponent": "opp_soil",
+      "seed": 700136,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        78344.0,
+        87164.0
+      ],
+      "wall_s": 8.487502799951471,
+      "n_rows": 342
+    },
+    {
+      "game_id": "opp_soil-seed700137-seat0",
+      "opponent": "opp_soil",
+      "seed": 700137,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        106937.0,
+        100058.0
+      ],
+      "wall_s": 8.694635300023947,
+      "n_rows": 372
+    },
+    {
+      "game_id": "opp_soil-seed700138-seat0",
+      "opponent": "opp_soil",
+      "seed": 700138,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        106394.0,
+        99589.0
+      ],
+      "wall_s": 8.798276599962264,
+      "n_rows": 387
+    },
+    {
+      "game_id": "opp_soil-seed700139-seat0",
+      "opponent": "opp_soil",
+      "seed": 700139,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        100402.0,
+        90706.0
+      ],
+      "wall_s": 8.442211900022812,
+      "n_rows": 441
+    },
+    {
+      "game_id": "opp_soil-seed700137-seat1",
+      "opponent": "opp_soil",
+      "seed": 700137,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        100058.0,
+        106937.0
+      ],
+      "wall_s": 9.005448999989312,
+      "n_rows": 372
+    },
+    {
+      "game_id": "opp_soil-seed700138-seat1",
+      "opponent": "opp_soil",
+      "seed": 700138,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        99589.0,
+        106394.0
+      ],
+      "wall_s": 9.225165100011509,
+      "n_rows": 387
+    },
+    {
+      "game_id": "opp_soil-seed700139-seat1",
+      "opponent": "opp_soil",
+      "seed": 700139,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        90706.0,
+        100402.0
+      ],
+      "wall_s": 8.762530900014099,
+      "n_rows": 441
+    },
+    {
+      "game_id": "opp_soil-seed700140-seat0",
+      "opponent": "opp_soil",
+      "seed": 700140,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        78581.0,
+        73628.0
+      ],
+      "wall_s": 9.302538000047207,
+      "n_rows": 378
+    },
+    {
+      "game_id": "opp_soil-seed700140-seat1",
+      "opponent": "opp_soil",
+      "seed": 700140,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        73628.0,
+        78581.0
+      ],
+      "wall_s": 9.449978800024837,
+      "n_rows": 378
+    },
+    {
+      "game_id": "opp_soil-seed700141-seat0",
+      "opponent": "opp_soil",
+      "seed": 700141,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        104391.0,
+        95686.0
+      ],
+      "wall_s": 9.467989100026898,
+      "n_rows": 342
+    },
+    {
+      "game_id": "opp_soil-seed700141-seat1",
+      "opponent": "opp_soil",
+      "seed": 700141,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        95686.0,
+        104391.0
+      ],
+      "wall_s": 9.142936800024472,
+      "n_rows": 342
+    },
+    {
+      "game_id": "opp_soil-seed700142-seat0",
+      "opponent": "opp_soil",
+      "seed": 700142,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        87904.0,
+        81514.0
+      ],
+      "wall_s": 9.511540600040462,
+      "n_rows": 379
+    },
+    {
+      "game_id": "opp_soil-seed700142-seat1",
+      "opponent": "opp_soil",
+      "seed": 700142,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        81514.0,
+        87904.0
+      ],
+      "wall_s": 9.404547400015872,
+      "n_rows": 379
+    },
+    {
+      "game_id": "opp_soil-seed700143-seat0",
+      "opponent": "opp_soil",
+      "seed": 700143,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        95640.0,
+        87939.0
+      ],
+      "wall_s": 9.12926570000127,
+      "n_rows": 386
+    },
+    {
+      "game_id": "opp_soil-seed700143-seat1",
+      "opponent": "opp_soil",
+      "seed": 700143,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        87939.0,
+        95640.0
+      ],
+      "wall_s": 9.3027098000166,
+      "n_rows": 386
+    },
+    {
+      "game_id": "opp_soil-seed700144-seat0",
+      "opponent": "opp_soil",
+      "seed": 700144,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        93003.0,
+        86547.0
+      ],
+      "wall_s": 8.593317300023045,
+      "n_rows": 375
+    },
+    {
+      "game_id": "opp_soil-seed700144-seat1",
+      "opponent": "opp_soil",
+      "seed": 700144,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        86547.0,
+        93003.0
+      ],
+      "wall_s": 8.814510399999563,
+      "n_rows": 375
+    },
+    {
+      "game_id": "opp_soil-seed700145-seat0",
+      "opponent": "opp_soil",
+      "seed": 700145,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        135901.0,
+        132455.0
+      ],
+      "wall_s": 9.00197450001724,
+      "n_rows": 387
+    },
+    {
+      "game_id": "opp_soil-seed700146-seat0",
+      "opponent": "opp_soil",
+      "seed": 700146,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        92715.0,
+        86996.0
+      ],
+      "wall_s": 8.558231399976648,
+      "n_rows": 376
+    },
+    {
+      "game_id": "opp_soil-seed700145-seat1",
+      "opponent": "opp_soil",
+      "seed": 700145,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        132455.0,
+        135901.0
+      ],
+      "wall_s": 9.043761599983554,
+      "n_rows": 387
+    },
+    {
+      "game_id": "opp_soil-seed700146-seat1",
+      "opponent": "opp_soil",
+      "seed": 700146,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        86996.0,
+        92715.0
+      ],
+      "wall_s": 8.717849700013176,
+      "n_rows": 376
+    },
+    {
+      "game_id": "opp_soil-seed700147-seat0",
+      "opponent": "opp_soil",
+      "seed": 700147,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        115454.0,
+        110376.0
+      ],
+      "wall_s": 9.145724599948153,
+      "n_rows": 375
+    },
+    {
+      "game_id": "opp_soil-seed700147-seat1",
+      "opponent": "opp_soil",
+      "seed": 700147,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        110376.0,
+        115454.0
+      ],
+      "wall_s": 8.6689100000076,
+      "n_rows": 375
+    },
+    {
+      "game_id": "opp_soil-seed700148-seat0",
+      "opponent": "opp_soil",
+      "seed": 700148,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        99927.0,
+        95658.0
+      ],
+      "wall_s": 12.475601900019683,
+      "n_rows": 373
+    },
+    {
+      "game_id": "opp_soil-seed700148-seat1",
+      "opponent": "opp_soil",
+      "seed": 700148,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        93739.0,
+        102821.0
+      ],
+      "wall_s": 12.552029200014658,
+      "n_rows": 386
+    },
+    {
+      "game_id": "opp_salem2900-seed700100-seat0",
+      "opponent": "opp_salem2900",
+      "seed": 700100,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        88118.0,
+        49319.0
+      ],
+      "wall_s": 11.789686499978416,
+      "n_rows": 433
+    },
+    {
+      "game_id": "opp_salem2900-seed700100-seat1",
+      "opponent": "opp_salem2900",
+      "seed": 700100,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        48042.0,
+        87901.0
+      ],
+      "wall_s": 11.926026100001764,
+      "n_rows": 436
+    },
+    {
+      "game_id": "opp_soil-seed700149-seat0",
+      "opponent": "opp_soil",
+      "seed": 700149,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        132678.0,
+        127280.0
+      ],
+      "wall_s": 13.1648511000094,
+      "n_rows": 366
+    },
+    {
+      "game_id": "opp_salem2900-seed700101-seat0",
+      "opponent": "opp_salem2900",
+      "seed": 700101,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        127929.0,
+        101971.0
+      ],
+      "wall_s": 12.415506799996365,
+      "n_rows": 385
+    },
+    {
+      "game_id": "opp_soil-seed700149-seat1",
+      "opponent": "opp_soil",
+      "seed": 700149,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        127280.0,
+        132678.0
+      ],
+      "wall_s": 13.40718390000984,
+      "n_rows": 366
+    },
+    {
+      "game_id": "opp_salem2900-seed700101-seat1",
+      "opponent": "opp_salem2900",
+      "seed": 700101,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        101971.0,
+        127929.0
+      ],
+      "wall_s": 12.523153299989644,
+      "n_rows": 385
+    },
+    {
+      "game_id": "opp_salem2900-seed700102-seat0",
+      "opponent": "opp_salem2900",
+      "seed": 700102,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        123006.0,
+        85556.0
+      ],
+      "wall_s": 9.224228300037794,
+      "n_rows": 376
+    },
+    {
+      "game_id": "opp_salem2900-seed700102-seat1",
+      "opponent": "opp_salem2900",
+      "seed": 700102,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        85556.0,
+        123006.0
+      ],
+      "wall_s": 8.850826199981384,
+      "n_rows": 376
+    },
+    {
+      "game_id": "opp_salem2900-seed700103-seat0",
+      "opponent": "opp_salem2900",
+      "seed": 700103,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        93842.0,
+        57582.0
+      ],
+      "wall_s": 8.217601900047157,
+      "n_rows": 387
+    },
+    {
+      "game_id": "opp_salem2900-seed700103-seat1",
+      "opponent": "opp_salem2900",
+      "seed": 700103,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        57582.0,
+        93842.0
+      ],
+      "wall_s": 8.23149709997233,
+      "n_rows": 387
+    },
+    {
+      "game_id": "opp_salem2900-seed700104-seat0",
+      "opponent": "opp_salem2900",
+      "seed": 700104,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        142321.0,
+        122952.0
+      ],
+      "wall_s": 8.328603699977975,
+      "n_rows": 378
+    },
+    {
+      "game_id": "opp_salem2900-seed700104-seat1",
+      "opponent": "opp_salem2900",
+      "seed": 700104,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        122952.0,
+        142321.0
+      ],
+      "wall_s": 7.994297299999744,
+      "n_rows": 378
+    },
+    {
+      "game_id": "opp_salem2900-seed700105-seat0",
+      "opponent": "opp_salem2900",
+      "seed": 700105,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        94412.0,
+        71502.0
+      ],
+      "wall_s": 8.16912279999815,
+      "n_rows": 366
+    },
+    {
+      "game_id": "opp_salem2900-seed700105-seat1",
+      "opponent": "opp_salem2900",
+      "seed": 700105,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        71502.0,
+        94412.0
+      ],
+      "wall_s": 8.280617100012023,
+      "n_rows": 366
+    },
+    {
+      "game_id": "opp_salem2900-seed700106-seat0",
+      "opponent": "opp_salem2900",
+      "seed": 700106,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        114182.0,
+        89031.0
+      ],
+      "wall_s": 8.195459300011862,
+      "n_rows": 375
+    },
+    {
+      "game_id": "opp_salem2900-seed700106-seat1",
+      "opponent": "opp_salem2900",
+      "seed": 700106,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        89031.0,
+        114182.0
+      ],
+      "wall_s": 7.79242339998018,
+      "n_rows": 375
+    },
+    {
+      "game_id": "opp_salem2900-seed700107-seat1",
+      "opponent": "opp_salem2900",
+      "seed": 700107,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        66756.0,
+        108849.0
+      ],
+      "wall_s": 7.831133500032593,
+      "n_rows": 393
+    },
+    {
+      "game_id": "opp_salem2900-seed700107-seat0",
+      "opponent": "opp_salem2900",
+      "seed": 700107,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        108849.0,
+        66756.0
+      ],
+      "wall_s": 8.196104499977082,
+      "n_rows": 393
+    },
+    {
+      "game_id": "opp_salem2900-seed700108-seat0",
+      "opponent": "opp_salem2900",
+      "seed": 700108,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        67705.0,
+        42306.0
+      ],
+      "wall_s": 8.269815899955574,
+      "n_rows": 378
+    },
+    {
+      "game_id": "opp_salem2900-seed700109-seat0",
+      "opponent": "opp_salem2900",
+      "seed": 700109,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        96290.0,
+        71945.0
+      ],
+      "wall_s": 7.738696199958213,
+      "n_rows": 374
+    },
+    {
+      "game_id": "opp_salem2900-seed700108-seat1",
+      "opponent": "opp_salem2900",
+      "seed": 700108,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        42306.0,
+        67705.0
+      ],
+      "wall_s": 8.335514300037175,
+      "n_rows": 378
+    },
+    {
+      "game_id": "opp_salem2900-seed700109-seat1",
+      "opponent": "opp_salem2900",
+      "seed": 700109,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        71945.0,
+        96290.0
+      ],
+      "wall_s": 8.047586700005922,
+      "n_rows": 374
+    },
+    {
+      "game_id": "opp_salem2900-seed700110-seat0",
+      "opponent": "opp_salem2900",
+      "seed": 700110,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        126420.0,
+        100550.0
+      ],
+      "wall_s": 7.760163699975237,
+      "n_rows": 387
+    },
+    {
+      "game_id": "opp_salem2900-seed700110-seat1",
+      "opponent": "opp_salem2900",
+      "seed": 700110,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        100550.0,
+        126420.0
+      ],
+      "wall_s": 7.843843399954494,
+      "n_rows": 387
+    },
+    {
+      "game_id": "opp_salem2900-seed700111-seat1",
+      "opponent": "opp_salem2900",
+      "seed": 700111,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        79978.0,
+        106944.0
+      ],
+      "wall_s": 7.8276613999623805,
+      "n_rows": 380
+    },
+    {
+      "game_id": "opp_salem2900-seed700111-seat0",
+      "opponent": "opp_salem2900",
+      "seed": 700111,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        106944.0,
+        79978.0
+      ],
+      "wall_s": 7.981635899981484,
+      "n_rows": 380
+    },
+    {
+      "game_id": "opp_salem2900-seed700112-seat0",
+      "opponent": "opp_salem2900",
+      "seed": 700112,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        54176.0,
+        29208.0
+      ],
+      "wall_s": 7.965946599957533,
+      "n_rows": 378
+    },
+    {
+      "game_id": "opp_salem2900-seed700112-seat1",
+      "opponent": "opp_salem2900",
+      "seed": 700112,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        30296.0,
+        56549.0
+      ],
+      "wall_s": 7.896184299956076,
+      "n_rows": 374
+    },
+    {
+      "game_id": "opp_salem2900-seed700113-seat0",
+      "opponent": "opp_salem2900",
+      "seed": 700113,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        142314.0,
+        120635.0
+      ],
+      "wall_s": 7.558054100023583,
+      "n_rows": 375
+    },
+    {
+      "game_id": "opp_salem2900-seed700113-seat1",
+      "opponent": "opp_salem2900",
+      "seed": 700113,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        120635.0,
+        142314.0
+      ],
+      "wall_s": 7.646174699999392,
+      "n_rows": 375
+    },
+    {
+      "game_id": "opp_salem2900-seed700114-seat0",
+      "opponent": "opp_salem2900",
+      "seed": 700114,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        92607.0,
+        69044.0
+      ],
+      "wall_s": 8.585681100026704,
+      "n_rows": 379
+    },
+    {
+      "game_id": "opp_salem2900-seed700114-seat1",
+      "opponent": "opp_salem2900",
+      "seed": 700114,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        69044.0,
+        92607.0
+      ],
+      "wall_s": 8.386278400023002,
+      "n_rows": 379
+    },
+    {
+      "game_id": "opp_salem2900-seed700115-seat1",
+      "opponent": "opp_salem2900",
+      "seed": 700115,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        64887.0,
+        108246.0
+      ],
+      "wall_s": 8.6026198999607,
+      "n_rows": 339
+    },
+    {
+      "game_id": "opp_salem2900-seed700115-seat0",
+      "opponent": "opp_salem2900",
+      "seed": 700115,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        108246.0,
+        64887.0
+      ],
+      "wall_s": 8.817812799999956,
+      "n_rows": 339
+    },
+    {
+      "game_id": "opp_salem2900-seed700117-seat0",
+      "opponent": "opp_salem2900",
+      "seed": 700117,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        110789.0,
+        87269.0
+      ],
+      "wall_s": 8.536422099976335,
+      "n_rows": 383
+    },
+    {
+      "game_id": "opp_salem2900-seed700116-seat0",
+      "opponent": "opp_salem2900",
+      "seed": 700116,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        151973.0,
+        131021.0
+      ],
+      "wall_s": 8.64947599999141,
+      "n_rows": 380
+    },
+    {
+      "game_id": "opp_salem2900-seed700116-seat1",
+      "opponent": "opp_salem2900",
+      "seed": 700116,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        131021.0,
+        151973.0
+      ],
+      "wall_s": 8.653689300001133,
+      "n_rows": 380
+    },
+    {
+      "game_id": "opp_salem2900-seed700117-seat1",
+      "opponent": "opp_salem2900",
+      "seed": 700117,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        87269.0,
+        110789.0
+      ],
+      "wall_s": 8.40565799997421,
+      "n_rows": 383
+    },
+    {
+      "game_id": "opp_salem2900-seed700118-seat0",
+      "opponent": "opp_salem2900",
+      "seed": 700118,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        105067.0,
+        64995.0
+      ],
+      "wall_s": 7.925575000001118,
+      "n_rows": 443
+    },
+    {
+      "game_id": "opp_salem2900-seed700118-seat1",
+      "opponent": "opp_salem2900",
+      "seed": 700118,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        62450.0,
+        103001.0
+      ],
+      "wall_s": 7.991280699963681,
+      "n_rows": 443
+    },
+    {
+      "game_id": "opp_salem2900-seed700119-seat0",
+      "opponent": "opp_salem2900",
+      "seed": 700119,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        159406.0,
+        137698.0
+      ],
+      "wall_s": 7.818047899985686,
+      "n_rows": 366
+    },
+    {
+      "game_id": "opp_salem2900-seed700119-seat1",
+      "opponent": "opp_salem2900",
+      "seed": 700119,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        137698.0,
+        159406.0
+      ],
+      "wall_s": 8.133661500003655,
+      "n_rows": 366
+    },
+    {
+      "game_id": "opp_salem2900-seed700120-seat1",
+      "opponent": "opp_salem2900",
+      "seed": 700120,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        82181.0,
+        104871.0
+      ],
+      "wall_s": 7.764011400053278,
+      "n_rows": 381
+    },
+    {
+      "game_id": "opp_salem2900-seed700121-seat1",
+      "opponent": "opp_salem2900",
+      "seed": 700121,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        72199.0,
+        91570.0
+      ],
+      "wall_s": 7.681027800019365,
+      "n_rows": 376
+    },
+    {
+      "game_id": "opp_salem2900-seed700120-seat0",
+      "opponent": "opp_salem2900",
+      "seed": 700120,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        106194.0,
+        82637.0
+      ],
+      "wall_s": 7.936156899959315,
+      "n_rows": 381
+    },
+    {
+      "game_id": "opp_salem2900-seed700121-seat0",
+      "opponent": "opp_salem2900",
+      "seed": 700121,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        91570.0,
+        72199.0
+      ],
+      "wall_s": 7.845469599997159,
+      "n_rows": 376
+    },
+    {
+      "game_id": "opp_salem2900-seed700122-seat0",
+      "opponent": "opp_salem2900",
+      "seed": 700122,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        89214.0,
+        62755.0
+      ],
+      "wall_s": 7.636420700000599,
+      "n_rows": 381
+    },
+    {
+      "game_id": "opp_salem2900-seed700122-seat1",
+      "opponent": "opp_salem2900",
+      "seed": 700122,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        62755.0,
+        89214.0
+      ],
+      "wall_s": 8.142252899997402,
+      "n_rows": 381
+    },
+    {
+      "game_id": "opp_salem2900-seed700123-seat1",
+      "opponent": "opp_salem2900",
+      "seed": 700123,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        59227.0,
+        88860.0
+      ],
+      "wall_s": 7.453275999985635,
+      "n_rows": 382
+    },
+    {
+      "game_id": "opp_salem2900-seed700123-seat0",
+      "opponent": "opp_salem2900",
+      "seed": 700123,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        92963.0,
+        64666.0
+      ],
+      "wall_s": 8.134846700006165,
+      "n_rows": 383
+    },
+    {
+      "game_id": "opp_salem2900-seed700124-seat0",
+      "opponent": "opp_salem2900",
+      "seed": 700124,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        109662.0,
+        93211.0
+      ],
+      "wall_s": 8.051594899967313,
+      "n_rows": 365
+    },
+    {
+      "game_id": "opp_salem2900-seed700124-seat1",
+      "opponent": "opp_salem2900",
+      "seed": 700124,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        95003.0,
+        109681.0
+      ],
+      "wall_s": 8.057412600028329,
+      "n_rows": 365
+    },
+    {
+      "game_id": "opp_salem2900-seed700125-seat0",
+      "opponent": "opp_salem2900",
+      "seed": 700125,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        111689.0,
+        78386.0
+      ],
+      "wall_s": 8.065337800013367,
+      "n_rows": 394
+    },
+    {
+      "game_id": "opp_salem2900-seed700125-seat1",
+      "opponent": "opp_salem2900",
+      "seed": 700125,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        78386.0,
+        111689.0
+      ],
+      "wall_s": 8.140163299976848,
+      "n_rows": 394
+    },
+    {
+      "game_id": "opp_salem2900-seed700126-seat0",
+      "opponent": "opp_salem2900",
+      "seed": 700126,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        127898.0,
+        107765.0
+      ],
+      "wall_s": 7.714399399992544,
+      "n_rows": 375
+    },
+    {
+      "game_id": "opp_salem2900-seed700126-seat1",
+      "opponent": "opp_salem2900",
+      "seed": 700126,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        107765.0,
+        127898.0
+      ],
+      "wall_s": 7.628076699969824,
+      "n_rows": 375
+    },
+    {
+      "game_id": "opp_salem2900-seed700127-seat0",
+      "opponent": "opp_salem2900",
+      "seed": 700127,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        120818.0,
+        87995.0
+      ],
+      "wall_s": 8.194471499999054,
+      "n_rows": 376
+    },
+    {
+      "game_id": "opp_salem2900-seed700127-seat1",
+      "opponent": "opp_salem2900",
+      "seed": 700127,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        87995.0,
+        120818.0
+      ],
+      "wall_s": 8.242389100021683,
+      "n_rows": 376
+    },
+    {
+      "game_id": "opp_salem2900-seed700128-seat0",
+      "opponent": "opp_salem2900",
+      "seed": 700128,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        129489.0,
+        103749.0
+      ],
+      "wall_s": 7.734075399988797,
+      "n_rows": 387
+    },
+    {
+      "game_id": "opp_salem2900-seed700128-seat1",
+      "opponent": "opp_salem2900",
+      "seed": 700128,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        103749.0,
+        129489.0
+      ],
+      "wall_s": 7.717201999970712,
+      "n_rows": 387
+    },
+    {
+      "game_id": "opp_salem2900-seed700129-seat1",
+      "opponent": "opp_salem2900",
+      "seed": 700129,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        53713.0,
+        80755.0
+      ],
+      "wall_s": 7.634746900002938,
+      "n_rows": 378
+    },
+    {
+      "game_id": "opp_salem2900-seed700129-seat0",
+      "opponent": "opp_salem2900",
+      "seed": 700129,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        80755.0,
+        53713.0
+      ],
+      "wall_s": 7.808021800010465,
+      "n_rows": 378
+    },
+    {
+      "game_id": "opp_salem2900-seed700130-seat0",
+      "opponent": "opp_salem2900",
+      "seed": 700130,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        75410.0,
+        31403.0
+      ],
+      "wall_s": 7.6645316000212915,
+      "n_rows": 383
+    },
+    {
+      "game_id": "opp_salem2900-seed700130-seat1",
+      "opponent": "opp_salem2900",
+      "seed": 700130,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        31403.0,
+        75410.0
+      ],
+      "wall_s": 7.7696397000108846,
+      "n_rows": 383
+    },
+    {
+      "game_id": "opp_salem2900-seed700131-seat0",
+      "opponent": "opp_salem2900",
+      "seed": 700131,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        121322.0,
+        106378.0
+      ],
+      "wall_s": 7.715400100045372,
+      "n_rows": 373
+    },
+    {
+      "game_id": "opp_salem2900-seed700132-seat0",
+      "opponent": "opp_salem2900",
+      "seed": 700132,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        92668.0,
+        69862.0
+      ],
+      "wall_s": 7.42970029998105,
+      "n_rows": 375
+    },
+    {
+      "game_id": "opp_salem2900-seed700131-seat1",
+      "opponent": "opp_salem2900",
+      "seed": 700131,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        106378.0,
+        121322.0
+      ],
+      "wall_s": 7.807035300007556,
+      "n_rows": 373
+    },
+    {
+      "game_id": "opp_salem2900-seed700133-seat0",
+      "opponent": "opp_salem2900",
+      "seed": 700133,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        105920.0,
+        88089.0
+      ],
+      "wall_s": 7.7081808999646455,
+      "n_rows": 363
+    },
+    {
+      "game_id": "opp_salem2900-seed700132-seat1",
+      "opponent": "opp_salem2900",
+      "seed": 700132,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        69862.0,
+        92668.0
+      ],
+      "wall_s": 7.841316799982451,
+      "n_rows": 375
+    },
+    {
+      "game_id": "opp_salem2900-seed700133-seat1",
+      "opponent": "opp_salem2900",
+      "seed": 700133,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        88089.0,
+        105920.0
+      ],
+      "wall_s": 8.007629500003532,
+      "n_rows": 363
+    },
+    {
+      "game_id": "opp_salem2900-seed700134-seat0",
+      "opponent": "opp_salem2900",
+      "seed": 700134,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        81675.0,
+        54740.0
+      ],
+      "wall_s": 7.903755700041074,
+      "n_rows": 376
+    },
+    {
+      "game_id": "opp_salem2900-seed700134-seat1",
+      "opponent": "opp_salem2900",
+      "seed": 700134,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        54740.0,
+        81675.0
+      ],
+      "wall_s": 7.358649600006174,
+      "n_rows": 376
+    },
+    {
+      "game_id": "opp_salem2900-seed700135-seat1",
+      "opponent": "opp_salem2900",
+      "seed": 700135,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        106413.0,
+        131957.0
+      ],
+      "wall_s": 7.4802388999960385,
+      "n_rows": 380
+    },
+    {
+      "game_id": "opp_salem2900-seed700135-seat0",
+      "opponent": "opp_salem2900",
+      "seed": 700135,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        131957.0,
+        106413.0
+      ],
+      "wall_s": 8.047133999993093,
+      "n_rows": 380
+    },
+    {
+      "game_id": "opp_salem2900-seed700136-seat1",
+      "opponent": "opp_salem2900",
+      "seed": 700136,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        88920.0,
+        106029.0
+      ],
+      "wall_s": 7.3067198999924585,
+      "n_rows": 375
+    },
+    {
+      "game_id": "opp_salem2900-seed700136-seat0",
+      "opponent": "opp_salem2900",
+      "seed": 700136,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        106095.0,
+        88903.0
+      ],
+      "wall_s": 7.741921700013336,
+      "n_rows": 375
+    },
+    {
+      "game_id": "opp_salem2900-seed700137-seat0",
+      "opponent": "opp_salem2900",
+      "seed": 700137,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        111227.0,
+        97521.0
+      ],
+      "wall_s": 7.339682599995285,
+      "n_rows": 375
+    },
+    {
+      "game_id": "opp_salem2900-seed700137-seat1",
+      "opponent": "opp_salem2900",
+      "seed": 700137,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        97521.0,
+        111227.0
+      ],
+      "wall_s": 7.634982099989429,
+      "n_rows": 375
+    },
+    {
+      "game_id": "opp_salem2900-seed700138-seat0",
+      "opponent": "opp_salem2900",
+      "seed": 700138,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        90762.0,
+        70244.0
+      ],
+      "wall_s": 7.56102289998671,
+      "n_rows": 378
+    },
+    {
+      "game_id": "opp_salem2900-seed700138-seat1",
+      "opponent": "opp_salem2900",
+      "seed": 700138,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        70244.0,
+        90762.0
+      ],
+      "wall_s": 7.458837100013625,
+      "n_rows": 378
+    },
+    {
+      "game_id": "opp_salem2900-seed700140-seat0",
+      "opponent": "opp_salem2900",
+      "seed": 700140,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        77024.0,
+        51999.0
+      ],
+      "wall_s": 6.977576599980239,
+      "n_rows": 383
+    },
+    {
+      "game_id": "opp_salem2900-seed700139-seat0",
+      "opponent": "opp_salem2900",
+      "seed": 700139,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        78756.0,
+        53721.0
+      ],
+      "wall_s": 7.603923899994697,
+      "n_rows": 374
+    },
+    {
+      "game_id": "opp_salem2900-seed700140-seat1",
+      "opponent": "opp_salem2900",
+      "seed": 700140,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        51999.0,
+        77024.0
+      ],
+      "wall_s": 7.422051500005182,
+      "n_rows": 383
+    },
+    {
+      "game_id": "opp_salem2900-seed700141-seat0",
+      "opponent": "opp_salem2900",
+      "seed": 700141,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        80819.0,
+        49054.0
+      ],
+      "wall_s": 7.392816999985371,
+      "n_rows": 375
+    },
+    {
+      "game_id": "opp_salem2900-seed700139-seat1",
+      "opponent": "opp_salem2900",
+      "seed": 700139,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        53721.0,
+        78756.0
+      ],
+      "wall_s": 8.003089200006798,
+      "n_rows": 374
+    },
+    {
+      "game_id": "opp_salem2900-seed700141-seat1",
+      "opponent": "opp_salem2900",
+      "seed": 700141,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        49054.0,
+        80819.0
+      ],
+      "wall_s": 7.906809100008104,
+      "n_rows": 375
+    },
+    {
+      "game_id": "opp_salem2900-seed700142-seat0",
+      "opponent": "opp_salem2900",
+      "seed": 700142,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        117136.0,
+        99390.0
+      ],
+      "wall_s": 7.618197400006466,
+      "n_rows": 374
+    },
+    {
+      "game_id": "opp_salem2900-seed700142-seat1",
+      "opponent": "opp_salem2900",
+      "seed": 700142,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        99390.0,
+        117136.0
+      ],
+      "wall_s": 7.34711850003805,
+      "n_rows": 374
+    },
+    {
+      "game_id": "opp_salem2900-seed700143-seat0",
+      "opponent": "opp_salem2900",
+      "seed": 700143,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        107062.0,
+        75988.0
+      ],
+      "wall_s": 7.8275376000092365,
+      "n_rows": 386
+    },
+    {
+      "game_id": "opp_salem2900-seed700143-seat1",
+      "opponent": "opp_salem2900",
+      "seed": 700143,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        75988.0,
+        107062.0
+      ],
+      "wall_s": 7.5320384000078775,
+      "n_rows": 386
+    },
+    {
+      "game_id": "opp_salem2900-seed700144-seat1",
+      "opponent": "opp_salem2900",
+      "seed": 700144,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        63967.0,
+        91271.0
+      ],
+      "wall_s": 7.52322589996038,
+      "n_rows": 370
+    },
+    {
+      "game_id": "opp_salem2900-seed700144-seat0",
+      "opponent": "opp_salem2900",
+      "seed": 700144,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        91271.0,
+        63967.0
+      ],
+      "wall_s": 7.6876696000108495,
+      "n_rows": 370
+    },
+    {
+      "game_id": "opp_salem2900-seed700145-seat0",
+      "opponent": "opp_salem2900",
+      "seed": 700145,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        151563.0,
+        124562.0
+      ],
+      "wall_s": 7.667354999983218,
+      "n_rows": 387
+    },
+    {
+      "game_id": "opp_salem2900-seed700145-seat1",
+      "opponent": "opp_salem2900",
+      "seed": 700145,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        124562.0,
+        151563.0
+      ],
+      "wall_s": 7.626260099990759,
+      "n_rows": 387
+    },
+    {
+      "game_id": "opp_salem2900-seed700146-seat0",
+      "opponent": "opp_salem2900",
+      "seed": 700146,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        104999.0,
+        56539.0
+      ],
+      "wall_s": 7.912663499999326,
+      "n_rows": 339
+    },
+    {
+      "game_id": "opp_salem2900-seed700146-seat1",
+      "opponent": "opp_salem2900",
+      "seed": 700146,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        56539.0,
+        104999.0
+      ],
+      "wall_s": 8.029968000017107,
+      "n_rows": 339
+    },
+    {
+      "game_id": "opp_salem2900-seed700147-seat1",
+      "opponent": "opp_salem2900",
+      "seed": 700147,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        115478.0,
+        131483.0
+      ],
+      "wall_s": 7.088730199960992,
+      "n_rows": 376
+    },
+    {
+      "game_id": "opp_salem2900-seed700147-seat0",
+      "opponent": "opp_salem2900",
+      "seed": 700147,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        131483.0,
+        115478.0
+      ],
+      "wall_s": 7.592061700008344,
+      "n_rows": 376
+    },
+    {
+      "game_id": "opp_salem2900-seed700148-seat1",
+      "opponent": "opp_salem2900",
+      "seed": 700148,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        92785.0,
+        107978.0
+      ],
+      "wall_s": 7.696918900008313,
+      "n_rows": 366
+    },
+    {
+      "game_id": "opp_salem2900-seed700148-seat0",
+      "opponent": "opp_salem2900",
+      "seed": 700148,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        119371.0,
+        101546.0
+      ],
+      "wall_s": 8.003803500032518,
+      "n_rows": 384
+    },
+    {
+      "game_id": "opp_salem2900-seed700149-seat0",
+      "opponent": "opp_salem2900",
+      "seed": 700149,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        158831.0,
+        138863.0
+      ],
+      "wall_s": 7.589829400007147,
+      "n_rows": 366
+    },
+    {
+      "game_id": "opp_salem2900-seed700149-seat1",
+      "opponent": "opp_salem2900",
+      "seed": 700149,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        138863.0,
+        158831.0
+      ],
+      "wall_s": 7.72327260003658,
+      "n_rows": 366
+    },
+    {
+      "game_id": "c94-seed700100-seat0",
+      "opponent": "c94",
+      "seed": 700100,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        89383.0,
+        52158.0
+      ],
+      "wall_s": 7.769949099980295,
+      "n_rows": 442
+    },
+    {
+      "game_id": "c94-seed700100-seat1",
+      "opponent": "c94",
+      "seed": 700100,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        59703.0,
+        92957.0
+      ],
+      "wall_s": 7.741148600005545,
+      "n_rows": 427
+    },
+    {
+      "game_id": "c94-seed700101-seat0",
+      "opponent": "c94",
+      "seed": 700101,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        102888.0,
+        65437.0
+      ],
+      "wall_s": 7.719547100015916,
+      "n_rows": 384
+    },
+    {
+      "game_id": "c94-seed700101-seat1",
+      "opponent": "c94",
+      "seed": 700101,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        65437.0,
+        102888.0
+      ],
+      "wall_s": 7.533738699974492,
+      "n_rows": 384
+    },
+    {
+      "game_id": "c94-seed700102-seat0",
+      "opponent": "c94",
+      "seed": 700102,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        78216.0,
+        45929.0
+      ],
+      "wall_s": 7.53293439996196,
+      "n_rows": 375
+    },
+    {
+      "game_id": "c94-seed700102-seat1",
+      "opponent": "c94",
+      "seed": 700102,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        45929.0,
+        78216.0
+      ],
+      "wall_s": 7.487893399957102,
+      "n_rows": 375
+    },
+    {
+      "game_id": "c94-seed700103-seat0",
+      "opponent": "c94",
+      "seed": 700103,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        76239.0,
+        44491.0
+      ],
+      "wall_s": 7.566962199984118,
+      "n_rows": 372
+    },
+    {
+      "game_id": "c94-seed700103-seat1",
+      "opponent": "c94",
+      "seed": 700103,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        44491.0,
+        76239.0
+      ],
+      "wall_s": 7.575292899971828,
+      "n_rows": 372
+    },
+    {
+      "game_id": "c94-seed700104-seat0",
+      "opponent": "c94",
+      "seed": 700104,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        116209.0,
+        85572.0
+      ],
+      "wall_s": 7.669759900018107,
+      "n_rows": 373
+    },
+    {
+      "game_id": "c94-seed700104-seat1",
+      "opponent": "c94",
+      "seed": 700104,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        85572.0,
+        116209.0
+      ],
+      "wall_s": 8.170710400037933,
+      "n_rows": 373
+    },
+    {
+      "game_id": "c94-seed700105-seat0",
+      "opponent": "c94",
+      "seed": 700105,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        95015.0,
+        66429.0
+      ],
+      "wall_s": 7.659782400005497,
+      "n_rows": 374
+    },
+    {
+      "game_id": "c94-seed700105-seat1",
+      "opponent": "c94",
+      "seed": 700105,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        89231.0,
+        111221.0
+      ],
+      "wall_s": 7.6098305999767035,
+      "n_rows": 364
+    },
+    {
+      "game_id": "c94-seed700106-seat0",
+      "opponent": "c94",
+      "seed": 700106,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        96303.0,
+        67817.0
+      ],
+      "wall_s": 7.316778599983081,
+      "n_rows": 376
+    },
+    {
+      "game_id": "c94-seed700106-seat1",
+      "opponent": "c94",
+      "seed": 700106,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        67817.0,
+        96303.0
+      ],
+      "wall_s": 7.510875100037083,
+      "n_rows": 376
+    },
+    {
+      "game_id": "c94-seed700107-seat0",
+      "opponent": "c94",
+      "seed": 700107,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        108117.0,
+        62705.0
+      ],
+      "wall_s": 7.785244100028649,
+      "n_rows": 391
+    },
+    {
+      "game_id": "c94-seed700107-seat1",
+      "opponent": "c94",
+      "seed": 700107,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        62705.0,
+        108117.0
+      ],
+      "wall_s": 7.845438499993179,
+      "n_rows": 391
+    },
+    {
+      "game_id": "c94-seed700108-seat0",
+      "opponent": "c94",
+      "seed": 700108,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        65548.0,
+        35828.0
+      ],
+      "wall_s": 7.543249899987131,
+      "n_rows": 377
+    },
+    {
+      "game_id": "c94-seed700108-seat1",
+      "opponent": "c94",
+      "seed": 700108,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        35828.0,
+        65548.0
+      ],
+      "wall_s": 7.475293800001964,
+      "n_rows": 377
+    },
+    {
+      "game_id": "c94-seed700109-seat0",
+      "opponent": "c94",
+      "seed": 700109,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        96628.0,
+        64942.0
+      ],
+      "wall_s": 7.608241700043436,
+      "n_rows": 373
+    },
+    {
+      "game_id": "c94-seed700109-seat1",
+      "opponent": "c94",
+      "seed": 700109,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        64942.0,
+        96628.0
+      ],
+      "wall_s": 7.647964000003412,
+      "n_rows": 373
+    },
+    {
+      "game_id": "c94-seed700110-seat0",
+      "opponent": "c94",
+      "seed": 700110,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        119590.0,
+        87626.0
+      ],
+      "wall_s": 7.61905709997518,
+      "n_rows": 385
+    },
+    {
+      "game_id": "c94-seed700110-seat1",
+      "opponent": "c94",
+      "seed": 700110,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        87626.0,
+        119590.0
+      ],
+      "wall_s": 7.988556199998129,
+      "n_rows": 385
+    },
+    {
+      "game_id": "c94-seed700111-seat0",
+      "opponent": "c94",
+      "seed": 700111,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        111236.0,
+        62464.0
+      ],
+      "wall_s": 7.6489556999877095,
+      "n_rows": 371
+    },
+    {
+      "game_id": "c94-seed700111-seat1",
+      "opponent": "c94",
+      "seed": 700111,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        62464.0,
+        111236.0
+      ],
+      "wall_s": 8.273896600003354,
+      "n_rows": 371
+    },
+    {
+      "game_id": "c94-seed700112-seat0",
+      "opponent": "c94",
+      "seed": 700112,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        76623.0,
+        49555.0
+      ],
+      "wall_s": 7.559162899968214,
+      "n_rows": 363
+    },
+    {
+      "game_id": "c94-seed700113-seat0",
+      "opponent": "c94",
+      "seed": 700113,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        121590.0,
+        99493.0
+      ],
+      "wall_s": 7.7226794000016525,
+      "n_rows": 364
+    },
+    {
+      "game_id": "c94-seed700112-seat1",
+      "opponent": "c94",
+      "seed": 700112,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        40493.0,
+        66969.0
+      ],
+      "wall_s": 8.097172599984333,
+      "n_rows": 371
+    },
+    {
+      "game_id": "c94-seed700113-seat1",
+      "opponent": "c94",
+      "seed": 700113,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        99493.0,
+        121590.0
+      ],
+      "wall_s": 7.677055899985135,
+      "n_rows": 364
+    },
+    {
+      "game_id": "c94-seed700114-seat0",
+      "opponent": "c94",
+      "seed": 700114,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        78018.0,
+        47086.0
+      ],
+      "wall_s": 7.858721699973103,
+      "n_rows": 386
+    },
+    {
+      "game_id": "c94-seed700114-seat1",
+      "opponent": "c94",
+      "seed": 700114,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        47086.0,
+        78018.0
+      ],
+      "wall_s": 7.521207300014794,
+      "n_rows": 386
+    },
+    {
+      "game_id": "c94-seed700115-seat0",
+      "opponent": "c94",
+      "seed": 700115,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        98476.0,
+        77338.0
+      ],
+      "wall_s": 7.958965400001034,
+      "n_rows": 373
+    },
+    {
+      "game_id": "c94-seed700115-seat1",
+      "opponent": "c94",
+      "seed": 700115,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        77338.0,
+        98476.0
+      ],
+      "wall_s": 7.557833099970594,
+      "n_rows": 373
+    },
+    {
+      "game_id": "c94-seed700116-seat0",
+      "opponent": "c94",
+      "seed": 700116,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        87482.0,
+        56842.0
+      ],
+      "wall_s": 7.870586799981538,
+      "n_rows": 388
+    },
+    {
+      "game_id": "c94-seed700116-seat1",
+      "opponent": "c94",
+      "seed": 700116,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        56842.0,
+        87482.0
+      ],
+      "wall_s": 7.420931999979075,
+      "n_rows": 388
+    },
+    {
+      "game_id": "c94-seed700117-seat0",
+      "opponent": "c94",
+      "seed": 700117,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        109898.0,
+        77247.0
+      ],
+      "wall_s": 7.725436800043099,
+      "n_rows": 369
+    },
+    {
+      "game_id": "c94-seed700117-seat1",
+      "opponent": "c94",
+      "seed": 700117,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        77247.0,
+        109898.0
+      ],
+      "wall_s": 8.083049500011839,
+      "n_rows": 369
+    },
+    {
+      "game_id": "c94-seed700118-seat0",
+      "opponent": "c94",
+      "seed": 700118,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        56960.0,
+        30025.0
+      ],
+      "wall_s": 8.195116199960466,
+      "n_rows": 375
+    },
+    {
+      "game_id": "c94-seed700118-seat1",
+      "opponent": "c94",
+      "seed": 700118,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        30025.0,
+        56960.0
+      ],
+      "wall_s": 8.193069899978582,
+      "n_rows": 375
+    },
+    {
+      "game_id": "c94-seed700119-seat0",
+      "opponent": "c94",
+      "seed": 700119,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        147336.0,
+        122832.0
+      ],
+      "wall_s": 8.280604499974288,
+      "n_rows": 373
+    },
+    {
+      "game_id": "c94-seed700119-seat1",
+      "opponent": "c94",
+      "seed": 700119,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        122832.0,
+        147336.0
+      ],
+      "wall_s": 8.562776300008409,
+      "n_rows": 373
+    },
+    {
+      "game_id": "c94-seed700120-seat0",
+      "opponent": "c94",
+      "seed": 700120,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        100002.0,
+        69978.0
+      ],
+      "wall_s": 8.307577600004151,
+      "n_rows": 387
+    },
+    {
+      "game_id": "c94-seed700120-seat1",
+      "opponent": "c94",
+      "seed": 700120,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        69978.0,
+        100002.0
+      ],
+      "wall_s": 7.8971109999693,
+      "n_rows": 387
+    },
+    {
+      "game_id": "c94-seed700121-seat0",
+      "opponent": "c94",
+      "seed": 700121,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        132792.0,
+        86730.0
+      ],
+      "wall_s": 8.320289199997205,
+      "n_rows": 374
+    },
+    {
+      "game_id": "c94-seed700121-seat1",
+      "opponent": "c94",
+      "seed": 700121,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        86730.0,
+        132792.0
+      ],
+      "wall_s": 8.219638500013389,
+      "n_rows": 374
+    },
+    {
+      "game_id": "c94-seed700122-seat0",
+      "opponent": "c94",
+      "seed": 700122,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        70880.0,
+        37889.0
+      ],
+      "wall_s": 7.899916900030803,
+      "n_rows": 387
+    },
+    {
+      "game_id": "c94-seed700122-seat1",
+      "opponent": "c94",
+      "seed": 700122,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        37889.0,
+        70880.0
+      ],
+      "wall_s": 7.922471099998802,
+      "n_rows": 387
+    },
+    {
+      "game_id": "c94-seed700123-seat0",
+      "opponent": "c94",
+      "seed": 700123,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        78425.0,
+        47806.0
+      ],
+      "wall_s": 7.507309999957215,
+      "n_rows": 373
+    },
+    {
+      "game_id": "c94-seed700123-seat1",
+      "opponent": "c94",
+      "seed": 700123,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        43253.0,
+        73330.0
+      ],
+      "wall_s": 7.823677000007592,
+      "n_rows": 373
+    },
+    {
+      "game_id": "c94-seed700124-seat0",
+      "opponent": "c94",
+      "seed": 700124,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        107019.0,
+        87256.0
+      ],
+      "wall_s": 8.251049499958754,
+      "n_rows": 373
+    },
+    {
+      "game_id": "c94-seed700124-seat1",
+      "opponent": "c94",
+      "seed": 700124,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        88000.0,
+        107640.0
+      ],
+      "wall_s": 7.989332899975125,
+      "n_rows": 373
+    },
+    {
+      "game_id": "c94-seed700125-seat0",
+      "opponent": "c94",
+      "seed": 700125,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        116564.0,
+        85404.0
+      ],
+      "wall_s": 8.540114799980074,
+      "n_rows": 394
+    },
+    {
+      "game_id": "c94-seed700125-seat1",
+      "opponent": "c94",
+      "seed": 700125,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        85404.0,
+        116564.0
+      ],
+      "wall_s": 8.494888099958189,
+      "n_rows": 394
+    },
+    {
+      "game_id": "c94-seed700126-seat0",
+      "opponent": "c94",
+      "seed": 700126,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        102297.0,
+        70258.0
+      ],
+      "wall_s": 8.404489600041416,
+      "n_rows": 373
+    },
+    {
+      "game_id": "c94-seed700126-seat1",
+      "opponent": "c94",
+      "seed": 700126,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        70258.0,
+        102297.0
+      ],
+      "wall_s": 8.523943500011228,
+      "n_rows": 373
+    },
+    {
+      "game_id": "c94-seed700127-seat0",
+      "opponent": "c94",
+      "seed": 700127,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        143842.0,
+        93441.0
+      ],
+      "wall_s": 8.591542300011497,
+      "n_rows": 375
+    },
+    {
+      "game_id": "c94-seed700127-seat1",
+      "opponent": "c94",
+      "seed": 700127,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        93441.0,
+        143842.0
+      ],
+      "wall_s": 8.532242099987343,
+      "n_rows": 375
+    },
+    {
+      "game_id": "c94-seed700128-seat0",
+      "opponent": "c94",
+      "seed": 700128,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        104895.0,
+        67125.0
+      ],
+      "wall_s": 7.813022699963767,
+      "n_rows": 386
+    },
+    {
+      "game_id": "c94-seed700128-seat1",
+      "opponent": "c94",
+      "seed": 700128,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        67125.0,
+        104895.0
+      ],
+      "wall_s": 7.595039700041525,
+      "n_rows": 386
+    },
+    {
+      "game_id": "c94-seed700129-seat0",
+      "opponent": "c94",
+      "seed": 700129,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        131757.0,
+        101606.0
+      ],
+      "wall_s": 7.616520400042646,
+      "n_rows": 373
+    },
+    {
+      "game_id": "c94-seed700129-seat1",
+      "opponent": "c94",
+      "seed": 700129,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        101606.0,
+        131757.0
+      ],
+      "wall_s": 7.772377799963579,
+      "n_rows": 373
+    },
+    {
+      "game_id": "c94-seed700130-seat0",
+      "opponent": "c94",
+      "seed": 700130,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        72528.0,
+        38024.0
+      ],
+      "wall_s": 7.6842549000284635,
+      "n_rows": 375
+    },
+    {
+      "game_id": "c94-seed700130-seat1",
+      "opponent": "c94",
+      "seed": 700130,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        38024.0,
+        72528.0
+      ],
+      "wall_s": 8.102670399995986,
+      "n_rows": 375
+    },
+    {
+      "game_id": "c94-seed700131-seat0",
+      "opponent": "c94",
+      "seed": 700131,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        106988.0,
+        83993.0
+      ],
+      "wall_s": 8.023056600010023,
+      "n_rows": 370
+    },
+    {
+      "game_id": "c94-seed700131-seat1",
+      "opponent": "c94",
+      "seed": 700131,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        83993.0,
+        106988.0
+      ],
+      "wall_s": 8.501963199989405,
+      "n_rows": 370
+    },
+    {
+      "game_id": "c94-seed700132-seat0",
+      "opponent": "c94",
+      "seed": 700132,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        74146.0,
+        45863.0
+      ],
+      "wall_s": 8.022879700001795,
+      "n_rows": 380
+    },
+    {
+      "game_id": "c94-seed700132-seat1",
+      "opponent": "c94",
+      "seed": 700132,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        45863.0,
+        74146.0
+      ],
+      "wall_s": 8.157926200015936,
+      "n_rows": 380
+    },
+    {
+      "game_id": "c94-seed700133-seat0",
+      "opponent": "c94",
+      "seed": 700133,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        96376.0,
+        71081.0
+      ],
+      "wall_s": 8.059590199962258,
+      "n_rows": 361
+    },
+    {
+      "game_id": "c94-seed700133-seat1",
+      "opponent": "c94",
+      "seed": 700133,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        71081.0,
+        96376.0
+      ],
+      "wall_s": 8.034293600008823,
+      "n_rows": 361
+    },
+    {
+      "game_id": "c94-seed700134-seat0",
+      "opponent": "c94",
+      "seed": 700134,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        84003.0,
+        51404.0
+      ],
+      "wall_s": 8.104611799994018,
+      "n_rows": 373
+    },
+    {
+      "game_id": "c94-seed700134-seat1",
+      "opponent": "c94",
+      "seed": 700134,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        51404.0,
+        84003.0
+      ],
+      "wall_s": 7.626647399971262,
+      "n_rows": 373
+    },
+    {
+      "game_id": "c94-seed700135-seat0",
+      "opponent": "c94",
+      "seed": 700135,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        144608.0,
+        111619.0
+      ],
+      "wall_s": 8.1872832000372,
+      "n_rows": 381
+    },
+    {
+      "game_id": "c94-seed700135-seat1",
+      "opponent": "c94",
+      "seed": 700135,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        111619.0,
+        144608.0
+      ],
+      "wall_s": 7.671583699993789,
+      "n_rows": 381
+    },
+    {
+      "game_id": "c94-seed700136-seat0",
+      "opponent": "c94",
+      "seed": 700136,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        100809.0,
+        78886.0
+      ],
+      "wall_s": 7.396445899968967,
+      "n_rows": 374
+    },
+    {
+      "game_id": "c94-seed700136-seat1",
+      "opponent": "c94",
+      "seed": 700136,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        78904.0,
+        100747.0
+      ],
+      "wall_s": 7.666433700011112,
+      "n_rows": 374
+    },
+    {
+      "game_id": "c94-seed700138-seat0",
+      "opponent": "c94",
+      "seed": 700138,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        123525.0,
+        87666.0
+      ],
+      "wall_s": 7.353893799998332,
+      "n_rows": 339
+    },
+    {
+      "game_id": "c94-seed700137-seat0",
+      "opponent": "c94",
+      "seed": 700137,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        109851.0,
+        88942.0
+      ],
+      "wall_s": 8.058091600018088,
+      "n_rows": 375
+    },
+    {
+      "game_id": "c94-seed700137-seat1",
+      "opponent": "c94",
+      "seed": 700137,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        88942.0,
+        109851.0
+      ],
+      "wall_s": 7.591393899987452,
+      "n_rows": 375
+    },
+    {
+      "game_id": "c94-seed700138-seat1",
+      "opponent": "c94",
+      "seed": 700138,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        87666.0,
+        123525.0
+      ],
+      "wall_s": 7.64236230001552,
+      "n_rows": 339
+    },
+    {
+      "game_id": "c94-seed700139-seat0",
+      "opponent": "c94",
+      "seed": 700139,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        81732.0,
+        51323.0
+      ],
+      "wall_s": 8.271584000030998,
+      "n_rows": 373
+    },
+    {
+      "game_id": "c94-seed700139-seat1",
+      "opponent": "c94",
+      "seed": 700139,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        51323.0,
+        81732.0
+      ],
+      "wall_s": 7.68966500001261,
+      "n_rows": 373
+    },
+    {
+      "game_id": "c94-seed700140-seat0",
+      "opponent": "c94",
+      "seed": 700140,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        76994.0,
+        48491.0
+      ],
+      "wall_s": 8.174391600012314,
+      "n_rows": 371
+    },
+    {
+      "game_id": "c94-seed700140-seat1",
+      "opponent": "c94",
+      "seed": 700140,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        48491.0,
+        76994.0
+      ],
+      "wall_s": 8.154757700045593,
+      "n_rows": 371
+    },
+    {
+      "game_id": "c94-seed700141-seat0",
+      "opponent": "c94",
+      "seed": 700141,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        89520.0,
+        51709.0
+      ],
+      "wall_s": 8.051655799965374,
+      "n_rows": 386
+    },
+    {
+      "game_id": "c94-seed700141-seat1",
+      "opponent": "c94",
+      "seed": 700141,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        51709.0,
+        89520.0
+      ],
+      "wall_s": 8.036041400046088,
+      "n_rows": 386
+    },
+    {
+      "game_id": "c94-seed700142-seat0",
+      "opponent": "c94",
+      "seed": 700142,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        148693.0,
+        124791.0
+      ],
+      "wall_s": 8.155736800050363,
+      "n_rows": 373
+    },
+    {
+      "game_id": "c94-seed700142-seat1",
+      "opponent": "c94",
+      "seed": 700142,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        124791.0,
+        148693.0
+      ],
+      "wall_s": 8.148680099984631,
+      "n_rows": 373
+    },
+    {
+      "game_id": "c94-seed700143-seat0",
+      "opponent": "c94",
+      "seed": 700143,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        92567.0,
+        65894.0
+      ],
+      "wall_s": 8.267682200006675,
+      "n_rows": 388
+    },
+    {
+      "game_id": "c94-seed700143-seat1",
+      "opponent": "c94",
+      "seed": 700143,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        65894.0,
+        92567.0
+      ],
+      "wall_s": 7.796289599966258,
+      "n_rows": 388
+    },
+    {
+      "game_id": "c94-seed700144-seat0",
+      "opponent": "c94",
+      "seed": 700144,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        81888.0,
+        40963.0
+      ],
+      "wall_s": 7.792208999977447,
+      "n_rows": 385
+    },
+    {
+      "game_id": "c94-seed700144-seat1",
+      "opponent": "c94",
+      "seed": 700144,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        40963.0,
+        81888.0
+      ],
+      "wall_s": 7.791231599985622,
+      "n_rows": 385
+    },
+    {
+      "game_id": "c94-seed700145-seat1",
+      "opponent": "c94",
+      "seed": 700145,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        117449.0,
+        151984.0
+      ],
+      "wall_s": 7.347770199994557,
+      "n_rows": 389
+    },
+    {
+      "game_id": "c94-seed700145-seat0",
+      "opponent": "c94",
+      "seed": 700145,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        151984.0,
+        117449.0
+      ],
+      "wall_s": 7.673283499956597,
+      "n_rows": 389
+    },
+    {
+      "game_id": "c94-seed700146-seat0",
+      "opponent": "c94",
+      "seed": 700146,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        104425.0,
+        54696.0
+      ],
+      "wall_s": 7.515019899990875,
+      "n_rows": 339
+    },
+    {
+      "game_id": "c94-seed700146-seat1",
+      "opponent": "c94",
+      "seed": 700146,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        54696.0,
+        104425.0
+      ],
+      "wall_s": 7.839491500053555,
+      "n_rows": 339
+    },
+    {
+      "game_id": "c94-seed700147-seat0",
+      "opponent": "c94",
+      "seed": 700147,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        136171.0,
+        114506.0
+      ],
+      "wall_s": 7.415477600006852,
+      "n_rows": 376
+    },
+    {
+      "game_id": "c94-seed700147-seat1",
+      "opponent": "c94",
+      "seed": 700147,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        114506.0,
+        136171.0
+      ],
+      "wall_s": 7.76720010000281,
+      "n_rows": 376
+    },
+    {
+      "game_id": "c94-seed700148-seat0",
+      "opponent": "c94",
+      "seed": 700148,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        104684.0,
+        76980.0
+      ],
+      "wall_s": 8.070282700005919,
+      "n_rows": 385
+    },
+    {
+      "game_id": "c94-seed700148-seat1",
+      "opponent": "c94",
+      "seed": 700148,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        87505.0,
+        109357.0
+      ],
+      "wall_s": 7.9918712000362575,
+      "n_rows": 374
+    },
+    {
+      "game_id": "c94-seed700149-seat0",
+      "opponent": "c94",
+      "seed": 700149,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        114570.0,
+        94768.0
+      ],
+      "wall_s": 7.7492848000256345,
+      "n_rows": 371
+    },
+    {
+      "game_id": "c94-seed700149-seat1",
+      "opponent": "c94",
+      "seed": 700149,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        94768.0,
+        114570.0
+      ],
+      "wall_s": 8.13885270000901,
+      "n_rows": 371
+    },
+    {
+      "game_id": "c95-seed700100-seat0",
+      "opponent": "c95",
+      "seed": 700100,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        89421.0,
+        52120.0
+      ],
+      "wall_s": 8.211318499990739,
+      "n_rows": 442
+    },
+    {
+      "game_id": "c95-seed700100-seat1",
+      "opponent": "c95",
+      "seed": 700100,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        59673.0,
+        92981.0
+      ],
+      "wall_s": 8.197849399992265,
+      "n_rows": 427
+    },
+    {
+      "game_id": "c95-seed700101-seat0",
+      "opponent": "c95",
+      "seed": 700101,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        102922.0,
+        65402.0
+      ],
+      "wall_s": 8.068367700034287,
+      "n_rows": 384
+    },
+    {
+      "game_id": "c95-seed700101-seat1",
+      "opponent": "c95",
+      "seed": 700101,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        65402.0,
+        102922.0
+      ],
+      "wall_s": 8.376560500008054,
+      "n_rows": 384
+    },
+    {
+      "game_id": "c95-seed700102-seat0",
+      "opponent": "c95",
+      "seed": 700102,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        78247.0,
+        45895.0
+      ],
+      "wall_s": 8.180962099984754,
+      "n_rows": 375
+    },
+    {
+      "game_id": "c95-seed700102-seat1",
+      "opponent": "c95",
+      "seed": 700102,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        45895.0,
+        78247.0
+      ],
+      "wall_s": 8.301022699975874,
+      "n_rows": 375
+    },
+    {
+      "game_id": "c95-seed700103-seat0",
+      "opponent": "c95",
+      "seed": 700103,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        76281.0,
+        44451.0
+      ],
+      "wall_s": 8.180884399975184,
+      "n_rows": 372
+    },
+    {
+      "game_id": "c95-seed700103-seat1",
+      "opponent": "c95",
+      "seed": 700103,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        44451.0,
+        76281.0
+      ],
+      "wall_s": 8.28930969996145,
+      "n_rows": 372
+    },
+    {
+      "game_id": "c95-seed700104-seat0",
+      "opponent": "c95",
+      "seed": 700104,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        116249.0,
+        85534.0
+      ],
+      "wall_s": 8.37518709996948,
+      "n_rows": 373
+    },
+    {
+      "game_id": "c95-seed700104-seat1",
+      "opponent": "c95",
+      "seed": 700104,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        85534.0,
+        116249.0
+      ],
+      "wall_s": 8.528709900041576,
+      "n_rows": 373
+    },
+    {
+      "game_id": "c95-seed700105-seat0",
+      "opponent": "c95",
+      "seed": 700105,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        95058.0,
+        66385.0
+      ],
+      "wall_s": 8.342285400023684,
+      "n_rows": 374
+    },
+    {
+      "game_id": "c95-seed700105-seat1",
+      "opponent": "c95",
+      "seed": 700105,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        89195.0,
+        111259.0
+      ],
+      "wall_s": 8.41075700003421,
+      "n_rows": 364
+    },
+    {
+      "game_id": "c95-seed700106-seat0",
+      "opponent": "c95",
+      "seed": 700106,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        96341.0,
+        67779.0
+      ],
+      "wall_s": 8.400004299997818,
+      "n_rows": 376
+    },
+    {
+      "game_id": "c95-seed700106-seat1",
+      "opponent": "c95",
+      "seed": 700106,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        67779.0,
+        96341.0
+      ],
+      "wall_s": 8.341676499985624,
+      "n_rows": 376
+    },
+    {
+      "game_id": "c95-seed700107-seat0",
+      "opponent": "c95",
+      "seed": 700107,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        108146.0,
+        62677.0
+      ],
+      "wall_s": 8.08088859997224,
+      "n_rows": 391
+    },
+    {
+      "game_id": "c95-seed700107-seat1",
+      "opponent": "c95",
+      "seed": 700107,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        62677.0,
+        108146.0
+      ],
+      "wall_s": 8.239592300029472,
+      "n_rows": 391
+    },
+    {
+      "game_id": "c95-seed700108-seat0",
+      "opponent": "c95",
+      "seed": 700108,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        65583.0,
+        35795.0
+      ],
+      "wall_s": 8.282317099976353,
+      "n_rows": 377
+    },
+    {
+      "game_id": "c95-seed700108-seat1",
+      "opponent": "c95",
+      "seed": 700108,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        35795.0,
+        65583.0
+      ],
+      "wall_s": 8.075162799970713,
+      "n_rows": 377
+    },
+    {
+      "game_id": "c95-seed700109-seat0",
+      "opponent": "c95",
+      "seed": 700109,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        96670.0,
+        64902.0
+      ],
+      "wall_s": 8.402400400023907,
+      "n_rows": 373
+    },
+    {
+      "game_id": "c95-seed700109-seat1",
+      "opponent": "c95",
+      "seed": 700109,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        64902.0,
+        96670.0
+      ],
+      "wall_s": 8.237588100018911,
+      "n_rows": 373
+    },
+    {
+      "game_id": "c95-seed700110-seat0",
+      "opponent": "c95",
+      "seed": 700110,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        119622.0,
+        87597.0
+      ],
+      "wall_s": 8.285341500013601,
+      "n_rows": 385
+    },
+    {
+      "game_id": "c95-seed700110-seat1",
+      "opponent": "c95",
+      "seed": 700110,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        87597.0,
+        119622.0
+      ],
+      "wall_s": 8.265251600008924,
+      "n_rows": 385
+    },
+    {
+      "game_id": "c95-seed700111-seat0",
+      "opponent": "c95",
+      "seed": 700111,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        111275.0,
+        62428.0
+      ],
+      "wall_s": 8.474454599956516,
+      "n_rows": 371
+    },
+    {
+      "game_id": "c95-seed700111-seat1",
+      "opponent": "c95",
+      "seed": 700111,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        62428.0,
+        111275.0
+      ],
+      "wall_s": 8.240541499981191,
+      "n_rows": 371
+    },
+    {
+      "game_id": "c95-seed700112-seat0",
+      "opponent": "c95",
+      "seed": 700112,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        76666.0,
+        49512.0
+      ],
+      "wall_s": 8.116184999991674,
+      "n_rows": 363
+    },
+    {
+      "game_id": "c95-seed700112-seat1",
+      "opponent": "c95",
+      "seed": 700112,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        40452.0,
+        67010.0
+      ],
+      "wall_s": 8.383537699992303,
+      "n_rows": 371
+    },
+    {
+      "game_id": "c95-seed700113-seat0",
+      "opponent": "c95",
+      "seed": 700113,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        121627.0,
+        99454.0
+      ],
+      "wall_s": 8.016959999979008,
+      "n_rows": 364
+    },
+    {
+      "game_id": "c95-seed700113-seat1",
+      "opponent": "c95",
+      "seed": 700113,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        99454.0,
+        121627.0
+      ],
+      "wall_s": 8.340856799972244,
+      "n_rows": 364
+    },
+    {
+      "game_id": "c95-seed700114-seat0",
+      "opponent": "c95",
+      "seed": 700114,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        78064.0,
+        47039.0
+      ],
+      "wall_s": 8.479504899994936,
+      "n_rows": 386
+    },
+    {
+      "game_id": "c95-seed700114-seat1",
+      "opponent": "c95",
+      "seed": 700114,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        47039.0,
+        78064.0
+      ],
+      "wall_s": 8.475700499955565,
+      "n_rows": 386
+    },
+    {
+      "game_id": "c95-seed700115-seat0",
+      "opponent": "c95",
+      "seed": 700115,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        98517.0,
+        77297.0
+      ],
+      "wall_s": 7.823698499996681,
+      "n_rows": 373
+    },
+    {
+      "game_id": "c95-seed700115-seat1",
+      "opponent": "c95",
+      "seed": 700115,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        77297.0,
+        98517.0
+      ],
+      "wall_s": 8.292118799989112,
+      "n_rows": 373
+    },
+    {
+      "game_id": "c95-seed700116-seat0",
+      "opponent": "c95",
+      "seed": 700116,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        87519.0,
+        56806.0
+      ],
+      "wall_s": 8.074226500000805,
+      "n_rows": 388
+    },
+    {
+      "game_id": "c95-seed700116-seat1",
+      "opponent": "c95",
+      "seed": 700116,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        56806.0,
+        87519.0
+      ],
+      "wall_s": 8.394274800026324,
+      "n_rows": 388
+    },
+    {
+      "game_id": "c95-seed700117-seat0",
+      "opponent": "c95",
+      "seed": 700117,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        109944.0,
+        77200.0
+      ],
+      "wall_s": 8.364813300024252,
+      "n_rows": 369
+    },
+    {
+      "game_id": "c95-seed700117-seat1",
+      "opponent": "c95",
+      "seed": 700117,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        77200.0,
+        109944.0
+      ],
+      "wall_s": 8.473529500013683,
+      "n_rows": 369
+    },
+    {
+      "game_id": "c95-seed700118-seat0",
+      "opponent": "c95",
+      "seed": 700118,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        56997.0,
+        29990.0
+      ],
+      "wall_s": 8.309368500020355,
+      "n_rows": 375
+    },
+    {
+      "game_id": "c95-seed700118-seat1",
+      "opponent": "c95",
+      "seed": 700118,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        29990.0,
+        56997.0
+      ],
+      "wall_s": 8.226826300029643,
+      "n_rows": 375
+    },
+    {
+      "game_id": "c95-seed700119-seat0",
+      "opponent": "c95",
+      "seed": 700119,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        147372.0,
+        122795.0
+      ],
+      "wall_s": 8.603584699972998,
+      "n_rows": 373
+    },
+    {
+      "game_id": "c95-seed700119-seat1",
+      "opponent": "c95",
+      "seed": 700119,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        122795.0,
+        147372.0
+      ],
+      "wall_s": 8.469872399989981,
+      "n_rows": 373
+    },
+    {
+      "game_id": "c95-seed700120-seat0",
+      "opponent": "c95",
+      "seed": 700120,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        100046.0,
+        69932.0
+      ],
+      "wall_s": 8.548457800003234,
+      "n_rows": 387
+    },
+    {
+      "game_id": "c95-seed700120-seat1",
+      "opponent": "c95",
+      "seed": 700120,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        69932.0,
+        100046.0
+      ],
+      "wall_s": 8.425934099999722,
+      "n_rows": 387
+    },
+    {
+      "game_id": "c95-seed700121-seat0",
+      "opponent": "c95",
+      "seed": 700121,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        132832.0,
+        86691.0
+      ],
+      "wall_s": 8.609789699956309,
+      "n_rows": 374
+    },
+    {
+      "game_id": "c95-seed700121-seat1",
+      "opponent": "c95",
+      "seed": 700121,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        86691.0,
+        132832.0
+      ],
+      "wall_s": 8.567380200023763,
+      "n_rows": 374
+    },
+    {
+      "game_id": "c95-seed700122-seat0",
+      "opponent": "c95",
+      "seed": 700122,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        70918.0,
+        37853.0
+      ],
+      "wall_s": 8.31106539996108,
+      "n_rows": 387
+    },
+    {
+      "game_id": "c95-seed700122-seat1",
+      "opponent": "c95",
+      "seed": 700122,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        37853.0,
+        70918.0
+      ],
+      "wall_s": 8.346322000026703,
+      "n_rows": 387
+    },
+    {
+      "game_id": "c95-seed700123-seat0",
+      "opponent": "c95",
+      "seed": 700123,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        78453.0,
+        47778.0
+      ],
+      "wall_s": 8.228929799981415,
+      "n_rows": 373
+    },
+    {
+      "game_id": "c95-seed700123-seat1",
+      "opponent": "c95",
+      "seed": 700123,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        43216.0,
+        73367.0
+      ],
+      "wall_s": 8.250274899997748,
+      "n_rows": 373
+    },
+    {
+      "game_id": "c95-seed700124-seat0",
+      "opponent": "c95",
+      "seed": 700124,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        107065.0,
+        87208.0
+      ],
+      "wall_s": 8.491002199996728,
+      "n_rows": 373
+    },
+    {
+      "game_id": "c95-seed700124-seat1",
+      "opponent": "c95",
+      "seed": 700124,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        87963.0,
+        107679.0
+      ],
+      "wall_s": 8.312954099965282,
+      "n_rows": 373
+    },
+    {
+      "game_id": "c95-seed700125-seat0",
+      "opponent": "c95",
+      "seed": 700125,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        116597.0,
+        85370.0
+      ],
+      "wall_s": 8.352945899998304,
+      "n_rows": 394
+    },
+    {
+      "game_id": "c95-seed700125-seat1",
+      "opponent": "c95",
+      "seed": 700125,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        85370.0,
+        116597.0
+      ],
+      "wall_s": 8.35344299999997,
+      "n_rows": 394
+    },
+    {
+      "game_id": "c95-seed700126-seat0",
+      "opponent": "c95",
+      "seed": 700126,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        102334.0,
+        70220.0
+      ],
+      "wall_s": 8.333845699962694,
+      "n_rows": 373
+    },
+    {
+      "game_id": "c95-seed700126-seat1",
+      "opponent": "c95",
+      "seed": 700126,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        70220.0,
+        102334.0
+      ],
+      "wall_s": 8.270114699960686,
+      "n_rows": 373
+    },
+    {
+      "game_id": "c95-seed700127-seat0",
+      "opponent": "c95",
+      "seed": 700127,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        143888.0,
+        93393.0
+      ],
+      "wall_s": 8.585213800019119,
+      "n_rows": 375
+    },
+    {
+      "game_id": "c95-seed700128-seat0",
+      "opponent": "c95",
+      "seed": 700128,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        104931.0,
+        67092.0
+      ],
+      "wall_s": 7.888701200019568,
+      "n_rows": 386
+    },
+    {
+      "game_id": "c95-seed700127-seat1",
+      "opponent": "c95",
+      "seed": 700127,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        93393.0,
+        143888.0
+      ],
+      "wall_s": 8.497659900051076,
+      "n_rows": 375
+    },
+    {
+      "game_id": "c95-seed700128-seat1",
+      "opponent": "c95",
+      "seed": 700128,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        67092.0,
+        104931.0
+      ],
+      "wall_s": 8.207812000007834,
+      "n_rows": 386
+    },
+    {
+      "game_id": "c95-seed700129-seat0",
+      "opponent": "c95",
+      "seed": 700129,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        131800.0,
+        101563.0
+      ],
+      "wall_s": 8.267263799963985,
+      "n_rows": 373
+    },
+    {
+      "game_id": "c95-seed700129-seat1",
+      "opponent": "c95",
+      "seed": 700129,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        101563.0,
+        131800.0
+      ],
+      "wall_s": 8.16426740004681,
+      "n_rows": 373
+    },
+    {
+      "game_id": "c95-seed700130-seat0",
+      "opponent": "c95",
+      "seed": 700130,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        72561.0,
+        37993.0
+      ],
+      "wall_s": 8.202027899969835,
+      "n_rows": 375
+    },
+    {
+      "game_id": "c95-seed700130-seat1",
+      "opponent": "c95",
+      "seed": 700130,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        37993.0,
+        72561.0
+      ],
+      "wall_s": 8.486520499980543,
+      "n_rows": 375
+    },
+    {
+      "game_id": "c95-seed700131-seat0",
+      "opponent": "c95",
+      "seed": 700131,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        107031.0,
+        83952.0
+      ],
+      "wall_s": 8.097583600028884,
+      "n_rows": 370
+    },
+    {
+      "game_id": "c95-seed700131-seat1",
+      "opponent": "c95",
+      "seed": 700131,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        83952.0,
+        107031.0
+      ],
+      "wall_s": 8.197323100001086,
+      "n_rows": 370
+    },
+    {
+      "game_id": "c95-seed700132-seat0",
+      "opponent": "c95",
+      "seed": 700132,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        74184.0,
+        45828.0
+      ],
+      "wall_s": 8.467921999981627,
+      "n_rows": 380
+    },
+    {
+      "game_id": "c95-seed700132-seat1",
+      "opponent": "c95",
+      "seed": 700132,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        45828.0,
+        74184.0
+      ],
+      "wall_s": 8.189882299979217,
+      "n_rows": 380
+    },
+    {
+      "game_id": "c95-seed700133-seat0",
+      "opponent": "c95",
+      "seed": 700133,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        96411.0,
+        71043.0
+      ],
+      "wall_s": 8.3008541999734,
+      "n_rows": 361
+    },
+    {
+      "game_id": "c95-seed700133-seat1",
+      "opponent": "c95",
+      "seed": 700133,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        71043.0,
+        96411.0
+      ],
+      "wall_s": 8.426008500042371,
+      "n_rows": 361
+    },
+    {
+      "game_id": "c95-seed700134-seat0",
+      "opponent": "c95",
+      "seed": 700134,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        84036.0,
+        51373.0
+      ],
+      "wall_s": 8.003205899964087,
+      "n_rows": 373
+    },
+    {
+      "game_id": "c95-seed700134-seat1",
+      "opponent": "c95",
+      "seed": 700134,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        51373.0,
+        84036.0
+      ],
+      "wall_s": 8.45343530003447,
+      "n_rows": 373
+    },
+    {
+      "game_id": "c95-seed700135-seat0",
+      "opponent": "c95",
+      "seed": 700135,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        144654.0,
+        111575.0
+      ],
+      "wall_s": 8.72335220000241,
+      "n_rows": 381
+    },
+    {
+      "game_id": "c95-seed700135-seat1",
+      "opponent": "c95",
+      "seed": 700135,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        111575.0,
+        144654.0
+      ],
+      "wall_s": 8.462901899998542,
+      "n_rows": 381
+    },
+    {
+      "game_id": "c95-seed700136-seat0",
+      "opponent": "c95",
+      "seed": 700136,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        100855.0,
+        78842.0
+      ],
+      "wall_s": 8.270390700025018,
+      "n_rows": 374
+    },
+    {
+      "game_id": "c95-seed700136-seat1",
+      "opponent": "c95",
+      "seed": 700136,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        78859.0,
+        100793.0
+      ],
+      "wall_s": 8.261815300036687,
+      "n_rows": 374
+    },
+    {
+      "game_id": "c95-seed700137-seat0",
+      "opponent": "c95",
+      "seed": 700137,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        109889.0,
+        88905.0
+      ],
+      "wall_s": 8.48918610002147,
+      "n_rows": 375
+    },
+    {
+      "game_id": "c95-seed700137-seat1",
+      "opponent": "c95",
+      "seed": 700137,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        88905.0,
+        109889.0
+      ],
+      "wall_s": 8.273378300014883,
+      "n_rows": 375
+    },
+    {
+      "game_id": "c95-seed700138-seat0",
+      "opponent": "c95",
+      "seed": 700138,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        123573.0,
+        87615.0
+      ],
+      "wall_s": 8.242295200005174,
+      "n_rows": 339
+    },
+    {
+      "game_id": "c95-seed700138-seat1",
+      "opponent": "c95",
+      "seed": 700138,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        87615.0,
+        123573.0
+      ],
+      "wall_s": 8.266341700043995,
+      "n_rows": 339
+    },
+    {
+      "game_id": "c95-seed700139-seat0",
+      "opponent": "c95",
+      "seed": 700139,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        81775.0,
+        51281.0
+      ],
+      "wall_s": 8.075928100035526,
+      "n_rows": 373
+    },
+    {
+      "game_id": "c95-seed700139-seat1",
+      "opponent": "c95",
+      "seed": 700139,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        51281.0,
+        81775.0
+      ],
+      "wall_s": 8.079078899987508,
+      "n_rows": 373
+    },
+    {
+      "game_id": "c95-seed700140-seat0",
+      "opponent": "c95",
+      "seed": 700140,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        77039.0,
+        48448.0
+      ],
+      "wall_s": 8.116798000002746,
+      "n_rows": 371
+    },
+    {
+      "game_id": "c95-seed700140-seat1",
+      "opponent": "c95",
+      "seed": 700140,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        48448.0,
+        77039.0
+      ],
+      "wall_s": 8.237407199980225,
+      "n_rows": 371
+    },
+    {
+      "game_id": "c95-seed700141-seat0",
+      "opponent": "c95",
+      "seed": 700141,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        89548.0,
+        51681.0
+      ],
+      "wall_s": 8.388115199981257,
+      "n_rows": 386
+    },
+    {
+      "game_id": "c95-seed700141-seat1",
+      "opponent": "c95",
+      "seed": 700141,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        51681.0,
+        89548.0
+      ],
+      "wall_s": 8.35555789998034,
+      "n_rows": 386
+    },
+    {
+      "game_id": "c95-seed700142-seat0",
+      "opponent": "c95",
+      "seed": 700142,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        148731.0,
+        124750.0
+      ],
+      "wall_s": 8.269666700041853,
+      "n_rows": 373
+    },
+    {
+      "game_id": "c95-seed700142-seat1",
+      "opponent": "c95",
+      "seed": 700142,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        124750.0,
+        148731.0
+      ],
+      "wall_s": 8.288089000037871,
+      "n_rows": 373
+    },
+    {
+      "game_id": "c95-seed700143-seat0",
+      "opponent": "c95",
+      "seed": 700143,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        92602.0,
+        65859.0
+      ],
+      "wall_s": 8.288614700024482,
+      "n_rows": 388
+    },
+    {
+      "game_id": "c95-seed700143-seat1",
+      "opponent": "c95",
+      "seed": 700143,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        65859.0,
+        92602.0
+      ],
+      "wall_s": 8.485907699970994,
+      "n_rows": 388
+    },
+    {
+      "game_id": "c95-seed700144-seat0",
+      "opponent": "c95",
+      "seed": 700144,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        81922.0,
+        40933.0
+      ],
+      "wall_s": 8.532251299999189,
+      "n_rows": 385
+    },
+    {
+      "game_id": "c95-seed700144-seat1",
+      "opponent": "c95",
+      "seed": 700144,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        40933.0,
+        81922.0
+      ],
+      "wall_s": 8.432783299998846,
+      "n_rows": 385
+    },
+    {
+      "game_id": "c95-seed700145-seat0",
+      "opponent": "c95",
+      "seed": 700145,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        152026.0,
+        117409.0
+      ],
+      "wall_s": 8.582092299999204,
+      "n_rows": 389
+    },
+    {
+      "game_id": "c95-seed700145-seat1",
+      "opponent": "c95",
+      "seed": 700145,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        117409.0,
+        152026.0
+      ],
+      "wall_s": 8.515539399988484,
+      "n_rows": 389
+    },
+    {
+      "game_id": "c95-seed700146-seat0",
+      "opponent": "c95",
+      "seed": 700146,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        104479.0,
+        54640.0
+      ],
+      "wall_s": 8.477935599978082,
+      "n_rows": 339
+    },
+    {
+      "game_id": "c95-seed700146-seat1",
+      "opponent": "c95",
+      "seed": 700146,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        54640.0,
+        104479.0
+      ],
+      "wall_s": 8.390108999970835,
+      "n_rows": 339
+    },
+    {
+      "game_id": "c95-seed700147-seat0",
+      "opponent": "c95",
+      "seed": 700147,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        136206.0,
+        114472.0
+      ],
+      "wall_s": 8.612339200044516,
+      "n_rows": 376
+    },
+    {
+      "game_id": "c95-seed700147-seat1",
+      "opponent": "c95",
+      "seed": 700147,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        114472.0,
+        136206.0
+      ],
+      "wall_s": 8.324954800016712,
+      "n_rows": 376
+    },
+    {
+      "game_id": "c95-seed700148-seat0",
+      "opponent": "c95",
+      "seed": 700148,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        104721.0,
+        76943.0
+      ],
+      "wall_s": 8.634493999998085,
+      "n_rows": 385
+    },
+    {
+      "game_id": "c95-seed700148-seat1",
+      "opponent": "c95",
+      "seed": 700148,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        87462.0,
+        109402.0
+      ],
+      "wall_s": 8.361372099956498,
+      "n_rows": 374
+    },
+    {
+      "game_id": "c95-seed700149-seat0",
+      "opponent": "c95",
+      "seed": 700149,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        114611.0,
+        94729.0
+      ],
+      "wall_s": 8.544407800014596,
+      "n_rows": 371
+    },
+    {
+      "game_id": "c95-seed700149-seat1",
+      "opponent": "c95",
+      "seed": 700149,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        94729.0,
+        114611.0
+      ],
+      "wall_s": 8.714128400024492,
+      "n_rows": 371
+    },
+    {
+      "game_id": "opp_v41-seed700100-seat0",
+      "opponent": "opp_v41",
+      "seed": 700100,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        90638.0,
+        90638.0
+      ],
+      "wall_s": 9.373632300004829,
+      "n_rows": 395
+    },
+    {
+      "game_id": "opp_v41-seed700100-seat1",
+      "opponent": "opp_v41",
+      "seed": 700100,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        90638.0,
+        90638.0
+      ],
+      "wall_s": 9.062626600032672,
+      "n_rows": 395
+    },
+    {
+      "game_id": "opp_v41-seed700101-seat0",
+      "opponent": "opp_v41",
+      "seed": 700101,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        121443.0,
+        121443.0
+      ],
+      "wall_s": 9.137292500003241,
+      "n_rows": 385
+    },
+    {
+      "game_id": "opp_v41-seed700101-seat1",
+      "opponent": "opp_v41",
+      "seed": 700101,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        121443.0,
+        121443.0
+      ],
+      "wall_s": 9.22313319996465,
+      "n_rows": 385
+    },
+    {
+      "game_id": "opp_v41-seed700102-seat0",
+      "opponent": "opp_v41",
+      "seed": 700102,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        79045.0,
+        79045.0
+      ],
+      "wall_s": 8.987837199994829,
+      "n_rows": 385
+    },
+    {
+      "game_id": "opp_v41-seed700102-seat1",
+      "opponent": "opp_v41",
+      "seed": 700102,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        79045.0,
+        79045.0
+      ],
+      "wall_s": 9.152463300037198,
+      "n_rows": 385
+    },
+    {
+      "game_id": "opp_v41-seed700103-seat0",
+      "opponent": "opp_v41",
+      "seed": 700103,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        95898.0,
+        95898.0
+      ],
+      "wall_s": 9.044133199960925,
+      "n_rows": 388
+    },
+    {
+      "game_id": "opp_v41-seed700103-seat1",
+      "opponent": "opp_v41",
+      "seed": 700103,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        95898.0,
+        95898.0
+      ],
+      "wall_s": 9.197124199999962,
+      "n_rows": 388
+    },
+    {
+      "game_id": "opp_v41-seed700104-seat0",
+      "opponent": "opp_v41",
+      "seed": 700104,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        113737.0,
+        113737.0
+      ],
+      "wall_s": 9.165561800007708,
+      "n_rows": 378
+    },
+    {
+      "game_id": "opp_v41-seed700104-seat1",
+      "opponent": "opp_v41",
+      "seed": 700104,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        113737.0,
+        113737.0
+      ],
+      "wall_s": 9.302338299981784,
+      "n_rows": 378
+    },
+    {
+      "game_id": "opp_v41-seed700105-seat0",
+      "opponent": "opp_v41",
+      "seed": 700105,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        61743.0,
+        61743.0
+      ],
+      "wall_s": 9.085626900021452,
+      "n_rows": 386
+    },
+    {
+      "game_id": "opp_v41-seed700105-seat1",
+      "opponent": "opp_v41",
+      "seed": 700105,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        61743.0,
+        61743.0
+      ],
+      "wall_s": 9.445049300033133,
+      "n_rows": 386
+    },
+    {
+      "game_id": "opp_v41-seed700106-seat0",
+      "opponent": "opp_v41",
+      "seed": 700106,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        100028.0,
+        100028.0
+      ],
+      "wall_s": 9.062021300022025,
+      "n_rows": 387
+    },
+    {
+      "game_id": "opp_v41-seed700106-seat1",
+      "opponent": "opp_v41",
+      "seed": 700106,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        100028.0,
+        100028.0
+      ],
+      "wall_s": 9.197713400004432,
+      "n_rows": 387
+    },
+    {
+      "game_id": "opp_v41-seed700107-seat0",
+      "opponent": "opp_v41",
+      "seed": 700107,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        77712.0,
+        77712.0
+      ],
+      "wall_s": 9.777245200006291,
+      "n_rows": 438
+    },
+    {
+      "game_id": "opp_v41-seed700107-seat1",
+      "opponent": "opp_v41",
+      "seed": 700107,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        77712.0,
+        77712.0
+      ],
+      "wall_s": 9.872528999985661,
+      "n_rows": 438
+    },
+    {
+      "game_id": "opp_v41-seed700108-seat0",
+      "opponent": "opp_v41",
+      "seed": 700108,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        77598.0,
+        77598.0
+      ],
+      "wall_s": 9.37255729996832,
+      "n_rows": 382
+    },
+    {
+      "game_id": "opp_v41-seed700108-seat1",
+      "opponent": "opp_v41",
+      "seed": 700108,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        77598.0,
+        77598.0
+      ],
+      "wall_s": 9.337440600036643,
+      "n_rows": 382
+    },
+    {
+      "game_id": "opp_v41-seed700109-seat0",
+      "opponent": "opp_v41",
+      "seed": 700109,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        73333.0,
+        73333.0
+      ],
+      "wall_s": 9.79332749999594,
+      "n_rows": 338
+    },
+    {
+      "game_id": "opp_v41-seed700110-seat0",
+      "opponent": "opp_v41",
+      "seed": 700110,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        112071.0,
+        112071.0
+      ],
+      "wall_s": 9.06171760003781,
+      "n_rows": 387
+    },
+    {
+      "game_id": "opp_v41-seed700109-seat1",
+      "opponent": "opp_v41",
+      "seed": 700109,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        73333.0,
+        73333.0
+      ],
+      "wall_s": 10.150989899993874,
+      "n_rows": 338
+    },
+    {
+      "game_id": "opp_v41-seed700110-seat1",
+      "opponent": "opp_v41",
+      "seed": 700110,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        112071.0,
+        112071.0
+      ],
+      "wall_s": 9.283092800003942,
+      "n_rows": 387
+    },
+    {
+      "game_id": "opp_v41-seed700111-seat0",
+      "opponent": "opp_v41",
+      "seed": 700111,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        82602.0,
+        82602.0
+      ],
+      "wall_s": 9.404626000032295,
+      "n_rows": 380
+    },
+    {
+      "game_id": "opp_v41-seed700111-seat1",
+      "opponent": "opp_v41",
+      "seed": 700111,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        82602.0,
+        82602.0
+      ],
+      "wall_s": 9.597939700004645,
+      "n_rows": 380
+    },
+    {
+      "game_id": "opp_v41-seed700112-seat0",
+      "opponent": "opp_v41",
+      "seed": 700112,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        77324.0,
+        77447.0
+      ],
+      "wall_s": 9.196948700002395,
+      "n_rows": 383
+    },
+    {
+      "game_id": "opp_v41-seed700112-seat1",
+      "opponent": "opp_v41",
+      "seed": 700112,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        77324.0,
+        77447.0
+      ],
+      "wall_s": 9.134488000010606,
+      "n_rows": 383
+    },
+    {
+      "game_id": "opp_v41-seed700113-seat0",
+      "opponent": "opp_v41",
+      "seed": 700113,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        92566.0,
+        92566.0
+      ],
+      "wall_s": 9.055813500017393,
+      "n_rows": 372
+    },
+    {
+      "game_id": "opp_v41-seed700113-seat1",
+      "opponent": "opp_v41",
+      "seed": 700113,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        92566.0,
+        92566.0
+      ],
+      "wall_s": 9.176535799982958,
+      "n_rows": 372
+    },
+    {
+      "game_id": "opp_v41-seed700114-seat0",
+      "opponent": "opp_v41",
+      "seed": 700114,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        79379.0,
+        79379.0
+      ],
+      "wall_s": 9.193738300004043,
+      "n_rows": 382
+    },
+    {
+      "game_id": "opp_v41-seed700114-seat1",
+      "opponent": "opp_v41",
+      "seed": 700114,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        79379.0,
+        79379.0
+      ],
+      "wall_s": 9.324109699984547,
+      "n_rows": 382
+    },
+    {
+      "game_id": "opp_v41-seed700115-seat0",
+      "opponent": "opp_v41",
+      "seed": 700115,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        78415.0,
+        78415.0
+      ],
+      "wall_s": 9.282217300031334,
+      "n_rows": 368
+    },
+    {
+      "game_id": "opp_v41-seed700115-seat1",
+      "opponent": "opp_v41",
+      "seed": 700115,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        78415.0,
+        78415.0
+      ],
+      "wall_s": 9.044739300035872,
+      "n_rows": 368
+    },
+    {
+      "game_id": "opp_v41-seed700116-seat0",
+      "opponent": "opp_v41",
+      "seed": 700116,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        127219.0,
+        127219.0
+      ],
+      "wall_s": 9.333822000015061,
+      "n_rows": 378
+    },
+    {
+      "game_id": "opp_v41-seed700116-seat1",
+      "opponent": "opp_v41",
+      "seed": 700116,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        127219.0,
+        127219.0
+      ],
+      "wall_s": 9.156947200011928,
+      "n_rows": 378
+    },
+    {
+      "game_id": "opp_v41-seed700117-seat0",
+      "opponent": "opp_v41",
+      "seed": 700117,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        111331.0,
+        111331.0
+      ],
+      "wall_s": 9.16082670004107,
+      "n_rows": 372
+    },
+    {
+      "game_id": "opp_v41-seed700117-seat1",
+      "opponent": "opp_v41",
+      "seed": 700117,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        111331.0,
+        111331.0
+      ],
+      "wall_s": 8.958354800008237,
+      "n_rows": 372
+    },
+    {
+      "game_id": "opp_v41-seed700118-seat0",
+      "opponent": "opp_v41",
+      "seed": 700118,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        67451.0,
+        67451.0
+      ],
+      "wall_s": 9.240939300041646,
+      "n_rows": 383
+    },
+    {
+      "game_id": "opp_v41-seed700118-seat1",
+      "opponent": "opp_v41",
+      "seed": 700118,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        67451.0,
+        67451.0
+      ],
+      "wall_s": 9.127829599950928,
+      "n_rows": 383
+    },
+    {
+      "game_id": "opp_v41-seed700119-seat0",
+      "opponent": "opp_v41",
+      "seed": 700119,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        138283.0,
+        138283.0
+      ],
+      "wall_s": 9.226805099984631,
+      "n_rows": 375
+    },
+    {
+      "game_id": "opp_v41-seed700119-seat1",
+      "opponent": "opp_v41",
+      "seed": 700119,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        138283.0,
+        138283.0
+      ],
+      "wall_s": 9.411130400025286,
+      "n_rows": 375
+    },
+    {
+      "game_id": "opp_v41-seed700120-seat0",
+      "opponent": "opp_v41",
+      "seed": 700120,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        77154.0,
+        77154.0
+      ],
+      "wall_s": 9.38576330000069,
+      "n_rows": 378
+    },
+    {
+      "game_id": "opp_v41-seed700120-seat1",
+      "opponent": "opp_v41",
+      "seed": 700120,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        77154.0,
+        77154.0
+      ],
+      "wall_s": 9.26206470001489,
+      "n_rows": 378
+    },
+    {
+      "game_id": "opp_v41-seed700121-seat0",
+      "opponent": "opp_v41",
+      "seed": 700121,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        71468.0,
+        71468.0
+      ],
+      "wall_s": 9.28481839998858,
+      "n_rows": 376
+    },
+    {
+      "game_id": "opp_v41-seed700121-seat1",
+      "opponent": "opp_v41",
+      "seed": 700121,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        71468.0,
+        71468.0
+      ],
+      "wall_s": 9.27273409999907,
+      "n_rows": 376
+    },
+    {
+      "game_id": "opp_v41-seed700122-seat1",
+      "opponent": "opp_v41",
+      "seed": 700122,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        139549.0,
+        139549.0
+      ],
+      "wall_s": 9.709726699977182,
+      "n_rows": 380
+    },
+    {
+      "game_id": "opp_v41-seed700122-seat0",
+      "opponent": "opp_v41",
+      "seed": 700122,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        139549.0,
+        139549.0
+      ],
+      "wall_s": 9.963958500011358,
+      "n_rows": 380
+    },
+    {
+      "game_id": "opp_v41-seed700123-seat0",
+      "opponent": "opp_v41",
+      "seed": 700123,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        78592.0,
+        78592.0
+      ],
+      "wall_s": 9.313470799999777,
+      "n_rows": 385
+    },
+    {
+      "game_id": "opp_v41-seed700123-seat1",
+      "opponent": "opp_v41",
+      "seed": 700123,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        78592.0,
+        78592.0
+      ],
+      "wall_s": 9.336594799999148,
+      "n_rows": 385
+    },
+    {
+      "game_id": "opp_v41-seed700124-seat0",
+      "opponent": "opp_v41",
+      "seed": 700124,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        87973.0,
+        87973.0
+      ],
+      "wall_s": 9.236077300040051,
+      "n_rows": 382
+    },
+    {
+      "game_id": "opp_v41-seed700124-seat1",
+      "opponent": "opp_v41",
+      "seed": 700124,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        87973.0,
+        87973.0
+      ],
+      "wall_s": 9.406220100005157,
+      "n_rows": 382
+    },
+    {
+      "game_id": "opp_v41-seed700125-seat0",
+      "opponent": "opp_v41",
+      "seed": 700125,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        67165.0,
+        67165.0
+      ],
+      "wall_s": 9.901650899962988,
+      "n_rows": 438
+    },
+    {
+      "game_id": "opp_v41-seed700125-seat1",
+      "opponent": "opp_v41",
+      "seed": 700125,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        67165.0,
+        67165.0
+      ],
+      "wall_s": 10.206895600014832,
+      "n_rows": 438
+    },
+    {
+      "game_id": "opp_v41-seed700126-seat0",
+      "opponent": "opp_v41",
+      "seed": 700126,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        87171.0,
+        87171.0
+      ],
+      "wall_s": 9.352999499998987,
+      "n_rows": 376
+    },
+    {
+      "game_id": "opp_v41-seed700126-seat1",
+      "opponent": "opp_v41",
+      "seed": 700126,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        87171.0,
+        87171.0
+      ],
+      "wall_s": 9.420798900013324,
+      "n_rows": 376
+    },
+    {
+      "game_id": "opp_v41-seed700127-seat0",
+      "opponent": "opp_v41",
+      "seed": 700127,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        94209.0,
+        94209.0
+      ],
+      "wall_s": 9.174605400010478,
+      "n_rows": 378
+    },
+    {
+      "game_id": "opp_v41-seed700127-seat1",
+      "opponent": "opp_v41",
+      "seed": 700127,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        94209.0,
+        94209.0
+      ],
+      "wall_s": 9.217171800031792,
+      "n_rows": 378
+    },
+    {
+      "game_id": "opp_v41-seed700128-seat0",
+      "opponent": "opp_v41",
+      "seed": 700128,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        140517.0,
+        140517.0
+      ],
+      "wall_s": 9.358093699964229,
+      "n_rows": 387
+    },
+    {
+      "game_id": "opp_v41-seed700128-seat1",
+      "opponent": "opp_v41",
+      "seed": 700128,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        140517.0,
+        140517.0
+      ],
+      "wall_s": 9.210953900008462,
+      "n_rows": 387
+    },
+    {
+      "game_id": "opp_v41-seed700129-seat0",
+      "opponent": "opp_v41",
+      "seed": 700129,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        62017.0,
+        62017.0
+      ],
+      "wall_s": 9.597323999973014,
+      "n_rows": 377
+    },
+    {
+      "game_id": "opp_v41-seed700129-seat1",
+      "opponent": "opp_v41",
+      "seed": 700129,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        62017.0,
+        62017.0
+      ],
+      "wall_s": 9.391393499972764,
+      "n_rows": 377
+    },
+    {
+      "game_id": "opp_v41-seed700130-seat0",
+      "opponent": "opp_v41",
+      "seed": 700130,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        58163.0,
+        58163.0
+      ],
+      "wall_s": 9.44643220002763,
+      "n_rows": 377
+    },
+    {
+      "game_id": "opp_v41-seed700130-seat1",
+      "opponent": "opp_v41",
+      "seed": 700130,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        58163.0,
+        58163.0
+      ],
+      "wall_s": 9.336843999975827,
+      "n_rows": 377
+    },
+    {
+      "game_id": "opp_v41-seed700131-seat0",
+      "opponent": "opp_v41",
+      "seed": 700131,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        122582.0,
+        122582.0
+      ],
+      "wall_s": 9.31341970001813,
+      "n_rows": 379
+    },
+    {
+      "game_id": "opp_v41-seed700131-seat1",
+      "opponent": "opp_v41",
+      "seed": 700131,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        122582.0,
+        122582.0
+      ],
+      "wall_s": 9.458847399975639,
+      "n_rows": 379
+    },
+    {
+      "game_id": "opp_v41-seed700132-seat0",
+      "opponent": "opp_v41",
+      "seed": 700132,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        109134.0,
+        109134.0
+      ],
+      "wall_s": 9.282107900013216,
+      "n_rows": 389
+    },
+    {
+      "game_id": "opp_v41-seed700132-seat1",
+      "opponent": "opp_v41",
+      "seed": 700132,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        109134.0,
+        109134.0
+      ],
+      "wall_s": 9.408332299964968,
+      "n_rows": 389
+    },
+    {
+      "game_id": "opp_v41-seed700133-seat0",
+      "opponent": "opp_v41",
+      "seed": 700133,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        101377.0,
+        101377.0
+      ],
+      "wall_s": 9.572170400002506,
+      "n_rows": 379
+    },
+    {
+      "game_id": "opp_v41-seed700133-seat1",
+      "opponent": "opp_v41",
+      "seed": 700133,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        101377.0,
+        101377.0
+      ],
+      "wall_s": 9.46346410003025,
+      "n_rows": 379
+    },
+    {
+      "game_id": "opp_v41-seed700134-seat0",
+      "opponent": "opp_v41",
+      "seed": 700134,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        98717.0,
+        98717.0
+      ],
+      "wall_s": 9.410667599993758,
+      "n_rows": 379
+    },
+    {
+      "game_id": "opp_v41-seed700134-seat1",
+      "opponent": "opp_v41",
+      "seed": 700134,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        98717.0,
+        98717.0
+      ],
+      "wall_s": 9.450413200014737,
+      "n_rows": 379
+    },
+    {
+      "game_id": "opp_v41-seed700135-seat0",
+      "opponent": "opp_v41",
+      "seed": 700135,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        62809.0,
+        62809.0
+      ],
+      "wall_s": 9.27424840000458,
+      "n_rows": 391
+    },
+    {
+      "game_id": "opp_v41-seed700135-seat1",
+      "opponent": "opp_v41",
+      "seed": 700135,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        62809.0,
+        62809.0
+      ],
+      "wall_s": 9.54656009998871,
+      "n_rows": 391
+    },
+    {
+      "game_id": "opp_v41-seed700136-seat0",
+      "opponent": "opp_v41",
+      "seed": 700136,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        85170.0,
+        85170.0
+      ],
+      "wall_s": 9.457784600032028,
+      "n_rows": 345
+    },
+    {
+      "game_id": "opp_v41-seed700136-seat1",
+      "opponent": "opp_v41",
+      "seed": 700136,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        85170.0,
+        85170.0
+      ],
+      "wall_s": 9.637627600051928,
+      "n_rows": 345
+    },
+    {
+      "game_id": "opp_v41-seed700137-seat0",
+      "opponent": "opp_v41",
+      "seed": 700137,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        107299.0,
+        107299.0
+      ],
+      "wall_s": 9.936104300024454,
+      "n_rows": 375
+    },
+    {
+      "game_id": "opp_v41-seed700137-seat1",
+      "opponent": "opp_v41",
+      "seed": 700137,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        107299.0,
+        107299.0
+      ],
+      "wall_s": 9.756262700015213,
+      "n_rows": 375
+    },
+    {
+      "game_id": "opp_v41-seed700138-seat0",
+      "opponent": "opp_v41",
+      "seed": 700138,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        106745.0,
+        106745.0
+      ],
+      "wall_s": 10.162661399983335,
+      "n_rows": 386
+    },
+    {
+      "game_id": "opp_v41-seed700138-seat1",
+      "opponent": "opp_v41",
+      "seed": 700138,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        106745.0,
+        106745.0
+      ],
+      "wall_s": 10.196909100050107,
+      "n_rows": 386
+    },
+    {
+      "game_id": "opp_v41-seed700139-seat0",
+      "opponent": "opp_v41",
+      "seed": 700139,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        101105.0,
+        101105.0
+      ],
+      "wall_s": 9.42621429997962,
+      "n_rows": 443
+    },
+    {
+      "game_id": "opp_v41-seed700139-seat1",
+      "opponent": "opp_v41",
+      "seed": 700139,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        101105.0,
+        101105.0
+      ],
+      "wall_s": 9.224241600022651,
+      "n_rows": 443
+    },
+    {
+      "game_id": "opp_v41-seed700140-seat0",
+      "opponent": "opp_v41",
+      "seed": 700140,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        79059.0,
+        79059.0
+      ],
+      "wall_s": 9.476732200011611,
+      "n_rows": 378
+    },
+    {
+      "game_id": "opp_v41-seed700140-seat1",
+      "opponent": "opp_v41",
+      "seed": 700140,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        79059.0,
+        79059.0
+      ],
+      "wall_s": 9.855923699971754,
+      "n_rows": 378
+    },
+    {
+      "game_id": "opp_v41-seed700141-seat0",
+      "opponent": "opp_v41",
+      "seed": 700141,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        102185.0,
+        102185.0
+      ],
+      "wall_s": 9.286431199987419,
+      "n_rows": 342
+    },
+    {
+      "game_id": "opp_v41-seed700141-seat1",
+      "opponent": "opp_v41",
+      "seed": 700141,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        102185.0,
+        102185.0
+      ],
+      "wall_s": 9.424884299980476,
+      "n_rows": 342
+    },
+    {
+      "game_id": "opp_v41-seed700142-seat0",
+      "opponent": "opp_v41",
+      "seed": 700142,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        86869.0,
+        86869.0
+      ],
+      "wall_s": 9.398267100041267,
+      "n_rows": 379
+    },
+    {
+      "game_id": "opp_v41-seed700142-seat1",
+      "opponent": "opp_v41",
+      "seed": 700142,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        86869.0,
+        86869.0
+      ],
+      "wall_s": 9.238084300013725,
+      "n_rows": 379
+    },
+    {
+      "game_id": "opp_v41-seed700143-seat0",
+      "opponent": "opp_v41",
+      "seed": 700143,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        93765.0,
+        93765.0
+      ],
+      "wall_s": 9.039430900011212,
+      "n_rows": 386
+    },
+    {
+      "game_id": "opp_v41-seed700143-seat1",
+      "opponent": "opp_v41",
+      "seed": 700143,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        93765.0,
+        93765.0
+      ],
+      "wall_s": 9.241441899968777,
+      "n_rows": 386
+    },
+    {
+      "game_id": "opp_v41-seed700144-seat0",
+      "opponent": "opp_v41",
+      "seed": 700144,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        90823.0,
+        90823.0
+      ],
+      "wall_s": 9.449406899977475,
+      "n_rows": 377
+    },
+    {
+      "game_id": "opp_v41-seed700144-seat1",
+      "opponent": "opp_v41",
+      "seed": 700144,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        90823.0,
+        90823.0
+      ],
+      "wall_s": 9.132328700041398,
+      "n_rows": 377
+    },
+    {
+      "game_id": "opp_v41-seed700145-seat1",
+      "opponent": "opp_v41",
+      "seed": 700145,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        135537.0,
+        135537.0
+      ],
+      "wall_s": 9.790897099999711,
+      "n_rows": 387
+    },
+    {
+      "game_id": "opp_v41-seed700145-seat0",
+      "opponent": "opp_v41",
+      "seed": 700145,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        135537.0,
+        135537.0
+      ],
+      "wall_s": 10.107601399999112,
+      "n_rows": 387
+    },
+    {
+      "game_id": "opp_v41-seed700146-seat1",
+      "opponent": "opp_v41",
+      "seed": 700146,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        89870.0,
+        89870.0
+      ],
+      "wall_s": 9.343209900020156,
+      "n_rows": 383
+    },
+    {
+      "game_id": "opp_v41-seed700146-seat0",
+      "opponent": "opp_v41",
+      "seed": 700146,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        89870.0,
+        89870.0
+      ],
+      "wall_s": 9.544676599965896,
+      "n_rows": 383
+    },
+    {
+      "game_id": "opp_v41-seed700147-seat0",
+      "opponent": "opp_v41",
+      "seed": 700147,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        117939.0,
+        117939.0
+      ],
+      "wall_s": 9.766074699989986,
+      "n_rows": 383
+    },
+    {
+      "game_id": "opp_v41-seed700147-seat1",
+      "opponent": "opp_v41",
+      "seed": 700147,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        117939.0,
+        117939.0
+      ],
+      "wall_s": 9.311274799983948,
+      "n_rows": 383
+    },
+    {
+      "game_id": "opp_v41-seed700148-seat0",
+      "opponent": "opp_v41",
+      "seed": 700148,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        99245.0,
+        100618.0
+      ],
+      "wall_s": 8.621221699984744,
+      "n_rows": 376
+    },
+    {
+      "game_id": "opp_v41-seed700148-seat1",
+      "opponent": "opp_v41",
+      "seed": 700148,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        99245.0,
+        100618.0
+      ],
+      "wall_s": 8.400461099983659,
+      "n_rows": 379
+    },
+    {
+      "game_id": "opp_v41-seed700149-seat0",
+      "opponent": "opp_v41",
+      "seed": 700149,
+      "seat": 0,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        131424.0,
+        131424.0
+      ],
+      "wall_s": 7.590170599985868,
+      "n_rows": 379
+    },
+    {
+      "game_id": "opp_v41-seed700149-seat1",
+      "opponent": "opp_v41",
+      "seed": 700149,
+      "seat": 1,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "reward": [
+        131424.0,
+        131424.0
+      ],
+      "wall_s": 7.4630184000125155,
+      "n_rows": 379
+    }
+  ]
+}

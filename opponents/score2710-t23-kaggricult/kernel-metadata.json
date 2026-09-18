@@ -1,0 +1,21 @@
+{
+  "id": "lime0001/score2710-t23-kaggriculture-smart-harvest",
+  "id_no": 134271210,
+  "title": "Score2710 t23 Kaggriculture Smart Harvest ",
+  "code_file": "score2710-t23-kaggriculture-smart-harvest.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": false,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "keywords": [],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [
+    "kaggriculture"
+  ],
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-images/python@sha256:dafd4ce5668bbf1ad422e4c109e0f18c9623c3a7c7f48b0235f13142755c40b9",
+  "machine_shape": "None"
+}

@@ -1,0 +1,36 @@
+{
+  "baseline_val_v41": {
+    "W": 0,
+    "L": 0,
+    "T": 2
+  },
+  "baseline_val_soil": {
+    "W": 2,
+    "L": 0,
+    "T": 0
+  },
+  "current_sigma": 0.003,
+  "best_ckpt": "lab\\p2\\data\\rl_smoke2\\ckpt_iter0001.pt",
+  "best_iter": 1,
+  "best_val_wl_v41": 2,
+  "best_val_soil": {
+    "W": 2,
+    "L": 0,
+    "T": 0
+  },
+  "total_games": 376,
+  "best_val_detail": {
+    "vs_v41": {
+      "W": 2,
+      "L": 0,
+      "T": 0
+    },
+    "vs_soil": {
+      "W": 2,
+      "L": 0,
+      "T": 0
+    },
+    "batch_id": "p2-rl-val-1"
+  },
+  "last_iter": 1
+}

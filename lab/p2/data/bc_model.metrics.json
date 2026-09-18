@@ -1,0 +1,37 @@
+{
+  "CARROT": {
+    "held_out_frac_mse": 0.008142626844346523,
+    "held_out_prio_mse": 0.49627143144607544,
+    "n_active_rows": 512
+  },
+  "TOMATO": {
+    "held_out_frac_mse": 0.0007799240993335843,
+    "held_out_prio_mse": 0.04177449643611908,
+    "n_active_rows": 132
+  },
+  "STRAWBERRY": {
+    "held_out_frac_mse": 0.017893310636281967,
+    "held_out_prio_mse": 1.4598677158355713,
+    "n_active_rows": 1031
+  },
+  "MELON": {
+    "held_out_frac_mse": 0.0014300558250397444,
+    "held_out_prio_mse": 0.13644765317440033,
+    "n_active_rows": 269
+  },
+  "EGG": {
+    "held_out_frac_mse": 0.019667677581310272,
+    "held_out_prio_mse": 0.9457346200942993,
+    "n_active_rows": 483
+  },
+  "MILK": {
+    "held_out_frac_mse": 0.025226149708032608,
+    "held_out_prio_mse": 1.677146553993225,
+    "n_active_rows": 1326
+  },
+  "WOOL": {
+    "held_out_frac_mse": 0.022391434758901596,
+    "held_out_prio_mse": 1.4808677434921265,
+    "n_active_rows": 1290
+  }
+}

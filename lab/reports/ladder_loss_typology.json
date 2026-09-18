@@ -1,0 +1,8681 @@
+[
+ {
+  "episode_id": 109604331,
+  "path": "episode-109604331-replay.json.gz",
+  "opponent": "Ademola Arigbabuwo",
+  "our_reward": 87832.0,
+  "opp_reward": 33073.0,
+  "margin": 54759.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 92,
+  "market_match": 227,
+  "t0_opp_market": [
+   [
+    "HIRE"
+   ],
+   [
+    "HIRE"
+   ],
+   [
+    "HIRE"
+   ],
+   [
+    "HIRE"
+   ],
+   [
+    "BUY_ANIMAL",
+    "COW",
+    1
+   ],
+   [
+    "BUY_ANIMAL",
+    "SHEEP",
+    1
+   ],
+   [
+    "BUY_SEED",
+    "MELON",
+    4
+   ],
+   [
+    "BUY_SEED",
+    "WHEAT",
+    11
+   ],
+   [
+    "BUY_LAND"
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 0,
+  "t0_buy_animal": true,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 7,
+   "sheep": 5,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109605444,
+  "path": "episode-109605444-replay.json.gz",
+  "opponent": "AI老爸",
+  "our_reward": 152481.0,
+  "opp_reward": 55662.0,
+  "margin": 96819.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 96,
+  "market_match": 215,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    5
+   ],
+   [
+    "BUY_ANIMAL",
+    "COW",
+    3
+   ],
+   [
+    "BUY_ANIMAL",
+    "SHEEP",
+    2
+   ],
+   [
+    "BUY_SEED",
+    "MELON",
+    5
+   ],
+   [
+    "HIRE"
+   ],
+   [
+    "HIRE"
+   ],
+   [
+    "HIRE"
+   ],
+   [
+    "HIRE"
+   ],
+   [
+    "HIRE"
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 5,
+  "t0_buy_animal": true,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 9,
+   "sheep": 2,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 13
+  }
+ },
+ {
+  "episode_id": 109606481,
+  "path": "episode-109606481-replay.json.gz",
+  "opponent": "Gordeev Max",
+  "our_reward": 165252.0,
+  "opp_reward": 64904.0,
+  "margin": 100348.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 181,
+  "market_match": 236,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    13
+   ],
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    5
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    13
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 18,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 4,
+   "sheep": 0,
+   "geese": 0,
+   "quadrants": 2,
+   "hands": 10
+  }
+ },
+ {
+  "episode_id": 109607533,
+  "path": "episode-109607533-replay.json.gz",
+  "opponent": "Sophie and Yanna",
+  "our_reward": 133519.0,
+  "opp_reward": 104338.0,
+  "margin": 29181.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 116,
+  "market_match": 188,
+  "t0_opp_market": [
+   [
+    "BUY_ANIMAL",
+    "COW",
+    2
+   ],
+   [
+    "BUY_ANIMAL",
+    "SHEEP",
+    1
+   ],
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    9
+   ],
+   [
+    "BUY_SEED",
+    "MELON",
+    10
+   ],
+   [
+    "HIRE"
+   ],
+   [
+    "HIRE"
+   ],
+   [
+    "HIRE"
+   ],
+   [
+    "HIRE"
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 9,
+  "t0_buy_animal": true,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 3,
+   "sheep": 11,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 8
+  }
+ },
+ {
+  "episode_id": 109608647,
+  "path": "episode-109608647-replay.json.gz",
+  "opponent": "maximo lorenzo y losada",
+  "our_reward": 138947.0,
+  "opp_reward": 109020.0,
+  "margin": 29927.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 105,
+  "market_match": 197,
+  "t0_opp_market": [
+   [
+    "HIRE"
+   ],
+   [
+    "HIRE"
+   ],
+   [
+    "HIRE"
+   ],
+   [
+    "HIRE"
+   ],
+   [
+    "BUY_ANIMAL",
+    "COW",
+    1
+   ],
+   [
+    "BUY_ANIMAL",
+    "SHEEP",
+    4
+   ],
+   [
+    "BUY_SEED",
+    "WHEAT",
+    5
+   ],
+   [
+    "BUY_SEED",
+    "MELON",
+    5
+   ],
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    5
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 5,
+  "t0_buy_animal": true,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 9,
+   "sheep": 4,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 10
+  }
+ },
+ {
+  "episode_id": 109609616,
+  "path": "episode-109609616-replay.json.gz",
+  "opponent": "与君作田",
+  "our_reward": 101749.0,
+  "opp_reward": 63980.0,
+  "margin": 37769.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 80,
+  "market_match": 189,
+  "t0_opp_market": [
+   [
+    "HIRE"
+   ],
+   [
+    "HIRE"
+   ],
+   [
+    "HIRE"
+   ],
+   [
+    "HIRE"
+   ],
+   [
+    "HIRE"
+   ],
+   [
+    "BUY_ANIMAL",
+    "COW",
+    2
+   ],
+   [
+    "BUY_ANIMAL",
+    "SHEEP",
+    2
+   ],
+   [
+    "BUY_SEED",
+    "WHEAT",
+    7
+   ],
+   [
+    "BUY_SEED",
+    "MELON",
+    12
+   ],
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    6
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 6,
+  "t0_buy_animal": true,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 8,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 8
+  }
+ },
+ {
+  "episode_id": 109610651,
+  "path": "episode-109610651-replay.json.gz",
+  "opponent": "tomo11111",
+  "our_reward": 85432.0,
+  "opp_reward": 75834.0,
+  "margin": 9598.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 284,
+  "market_match": 274,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    45
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 45,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 8,
+   "sheep": 9,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109611755,
+  "path": "episode-109611755-replay.json.gz",
+  "opponent": "Ricky RTG",
+  "our_reward": 91815.0,
+  "opp_reward": 83288.0,
+  "margin": 8527.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 205,
+  "market_match": 270,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    13
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 13,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 8,
+   "sheep": 8,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 10
+  }
+ },
+ {
+  "episode_id": 109612751,
+  "path": "episode-109612751-replay.json.gz",
+  "opponent": "Sasan Nazari",
+  "our_reward": 73269.0,
+  "opp_reward": 64040.0,
+  "margin": 9229.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 168,
+  "market_match": 195,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    13
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 13,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 10
+  }
+ },
+ {
+  "episode_id": 109613807,
+  "path": "episode-109613807-replay.json.gz",
+  "opponent": "straw hats",
+  "our_reward": 89939.0,
+  "opp_reward": 77624.0,
+  "margin": 12315.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 217,
+  "market_match": 258,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    13
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 13,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 8,
+   "sheep": 8,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109614869,
+  "path": "episode-109614869-replay.json.gz",
+  "opponent": "Vladimir Galatenko",
+  "our_reward": 118263.0,
+  "opp_reward": 100296.0,
+  "margin": 17967.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 219,
+  "market_match": 268,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    13
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 13,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 7,
+   "sheep": 10,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 7
+  }
+ },
+ {
+  "episode_id": 109615919,
+  "path": "episode-109615919-replay.json.gz",
+  "opponent": "probably6767",
+  "our_reward": 97396.0,
+  "opp_reward": 78685.0,
+  "margin": 18711.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 283,
+  "market_match": 355,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    13
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 13,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 11,
+   "sheep": 1,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109616980,
+  "path": "episode-109616980-replay.json.gz",
+  "opponent": "yurunougyou!",
+  "our_reward": 175424.0,
+  "opp_reward": 71208.0,
+  "margin": 104216.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 678,
+  "market_match": 462,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    13
+   ],
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    60
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    60
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 73,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 3,
+   "sheep": 3,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109618043,
+  "path": "episode-109618043-replay.json.gz",
+  "opponent": "Nguyễn Mạnh",
+  "our_reward": 105362.0,
+  "opp_reward": 84210.0,
+  "margin": 21152.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 204,
+  "market_match": 285,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    13
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    6
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 13,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 8,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 10
+  }
+ },
+ {
+  "episode_id": 109619100,
+  "path": "episode-109619100-replay.json.gz",
+  "opponent": "agentic",
+  "our_reward": 74053.0,
+  "opp_reward": 69531.0,
+  "margin": 4522.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 689,
+  "market_match": 553,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    13
+   ],
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    30
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    30
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 43,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 8,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109620201,
+  "path": "episode-109620201-replay.json.gz",
+  "opponent": "east",
+  "our_reward": 109650.0,
+  "opp_reward": 97215.0,
+  "margin": 12435.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 688,
+  "market_match": 414,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    13
+   ],
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    30
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    30
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 43,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 8,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109620830,
+  "path": "episode-109620830-replay.json.gz",
+  "opponent": "Elvern Neylmav Tanny",
+  "our_reward": 82539.0,
+  "opp_reward": 77708.0,
+  "margin": 4831.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 715,
+  "market_match": 635,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    13
+   ],
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    30
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    30
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 43,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 17,
+   "geese": 0,
+   "quadrants": 4,
+   "hands": 13
+  }
+ },
+ {
+  "episode_id": 109621268,
+  "path": "episode-109621268-replay.json.gz",
+  "opponent": "copasta",
+  "our_reward": 104862.0,
+  "opp_reward": 100503.0,
+  "margin": 4359.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 694,
+  "market_match": 554,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    13
+   ],
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    30
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    30
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 43,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 8,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109622381,
+  "path": "episode-109622381-replay.json.gz",
+  "opponent": "Raihan Ramadistra",
+  "our_reward": 87181.0,
+  "opp_reward": 82647.0,
+  "margin": 4534.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 716,
+  "market_match": 560,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    12
+   ],
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    30
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    30
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 42,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 8,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109622511,
+  "path": "episode-109622511-replay.json.gz",
+  "opponent": "Top 1 🏆",
+  "our_reward": 115665.0,
+  "opp_reward": 114182.0,
+  "margin": 1483.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 627,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    5
+   ],
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    10
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    60
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 15,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 9,
+   "sheep": 5,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109623430,
+  "path": "episode-109623430-replay.json.gz",
+  "opponent": "borealisalastor",
+  "our_reward": 79404.0,
+  "opp_reward": 77698.0,
+  "margin": 1706.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 568,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    5
+   ],
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    10
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    60
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 15,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 8,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 4,
+   "hands": 13
+  }
+ },
+ {
+  "episode_id": 109624538,
+  "path": "episode-109624538-replay.json.gz",
+  "opponent": "CCG",
+  "our_reward": 70453.0,
+  "opp_reward": 71641.0,
+  "margin": -1188.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 695,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    16
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    30
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 16,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109625613,
+  "path": "episode-109625613-replay.json.gz",
+  "opponent": "那个男人",
+  "our_reward": 159793.0,
+  "opp_reward": 118728.0,
+  "margin": 41065.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 596,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    5
+   ],
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    10
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    60
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 15,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 4,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109626675,
+  "path": "episode-109626675-replay.json.gz",
+  "opponent": "Peng Wang",
+  "our_reward": 145969.0,
+  "opp_reward": 146223.0,
+  "margin": -254.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 715,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    20
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    15
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 20,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 9,
+   "sheep": 5,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109627742,
+  "path": "episode-109627742-replay.json.gz",
+  "opponent": "AQiDA19",
+  "our_reward": 84999.0,
+  "opp_reward": 82944.0,
+  "margin": 2055.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 695,
+  "market_match": 557,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    3
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 3,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 8,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109628811,
+  "path": "episode-109628811-replay.json.gz",
+  "opponent": "Randy",
+  "our_reward": 103593.0,
+  "opp_reward": 101188.0,
+  "margin": 2405.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 714,
+  "market_match": 544,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    5
+   ],
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    10
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    60
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 15,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 11,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109629882,
+  "path": "episode-109629882-replay.json.gz",
+  "opponent": "Kembang Melon",
+  "our_reward": 144702.0,
+  "opp_reward": 140952.0,
+  "margin": 3750.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 695,
+  "market_match": 551,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    5
+   ],
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    10
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    60
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 15,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 8,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109630951,
+  "path": "episode-109630951-replay.json.gz",
+  "opponent": "Grzegorz Sionkowski",
+  "our_reward": 84710.0,
+  "opp_reward": 82550.0,
+  "margin": 2160.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 718,
+  "market_match": 640,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    5
+   ],
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    10
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    60
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 15,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 8,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 4,
+   "hands": 13
+  }
+ },
+ {
+  "episode_id": 109632016,
+  "path": "episode-109632016-replay.json.gz",
+  "opponent": "Hangyu Yu",
+  "our_reward": 82356.0,
+  "opp_reward": 81137.0,
+  "margin": 1219.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 626,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    5
+   ],
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    10
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    60
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 15,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109633090,
+  "path": "episode-109633090-replay.json.gz",
+  "opponent": "Ian lin",
+  "our_reward": 100488.0,
+  "opp_reward": 97420.0,
+  "margin": 3068.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 661,
+  "market_match": 491,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    85
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    85
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 85,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 8,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 8
+  }
+ },
+ {
+  "episode_id": 109634146,
+  "path": "episode-109634146-replay.json.gz",
+  "opponent": "Raster0x2a",
+  "our_reward": 94365.0,
+  "opp_reward": 91632.0,
+  "margin": 2733.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 637,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    5
+   ],
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    10
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    60
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 15,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 8,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109635207,
+  "path": "episode-109635207-replay.json.gz",
+  "opponent": "Weverton Guedes",
+  "our_reward": 63670.0,
+  "opp_reward": 59440.0,
+  "margin": 4230.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 695,
+  "market_match": 558,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    5
+   ],
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    10
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    60
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 15,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 8,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109636271,
+  "path": "episode-109636271-replay.json.gz",
+  "opponent": "RuiFSPinto",
+  "our_reward": 136783.0,
+  "opp_reward": 134893.0,
+  "margin": 1890.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 631,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    5
+   ],
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    10
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    60
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 15,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 8,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109637343,
+  "path": "episode-109637343-replay.json.gz",
+  "opponent": "hemloock ",
+  "our_reward": 109887.0,
+  "opp_reward": 104742.0,
+  "margin": 5145.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 652,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    5
+   ],
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    10
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    60
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 15,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 11,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109638404,
+  "path": "episode-109638404-replay.json.gz",
+  "opponent": "Ioannis Tzachristas",
+  "our_reward": 95113.0,
+  "opp_reward": 93833.0,
+  "margin": 1280.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 717,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    5
+   ],
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    10
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    60
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 15,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109639469,
+  "path": "episode-109639469-replay.json.gz",
+  "opponent": "Gagan Deep",
+  "our_reward": 94492.0,
+  "opp_reward": 93274.0,
+  "margin": 1218.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 635,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    5
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 5,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 8,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109640544,
+  "path": "episode-109640544-replay.json.gz",
+  "opponent": "GUOHAOYANG",
+  "our_reward": 106537.0,
+  "opp_reward": 105234.0,
+  "margin": 1303.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 717,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    70
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    70
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 70,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109641614,
+  "path": "episode-109641614-replay.json.gz",
+  "opponent": "Setu Chokshi",
+  "our_reward": 63126.0,
+  "opp_reward": 64264.0,
+  "margin": -1138.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 690,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    29
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    29
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    0
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 29,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109642687,
+  "path": "episode-109642687-replay.json.gz",
+  "opponent": "alban",
+  "our_reward": 109694.0,
+  "opp_reward": 108308.0,
+  "margin": 1386.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 717,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    70
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    70
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 70,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 11,
+   "geese": 0,
+   "quadrants": 4,
+   "hands": 13
+  }
+ },
+ {
+  "episode_id": 109643775,
+  "path": "episode-109643775-replay.json.gz",
+  "opponent": "ShionMatsuoka",
+  "our_reward": 103397.0,
+  "opp_reward": 102117.0,
+  "margin": 1280.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 717,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    5
+   ],
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    10
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    60
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 15,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 11,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109644845,
+  "path": "episode-109644845-replay.json.gz",
+  "opponent": "Kirderf",
+  "our_reward": 57300.0,
+  "opp_reward": 58636.0,
+  "margin": -1336.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 714,
+  "market_match": 560,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    5
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 5,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 4,
+   "hands": 13
+  }
+ },
+ {
+  "episode_id": 109645238,
+  "path": "episode-109645238-replay.json.gz",
+  "opponent": "Ramazan Turan",
+  "our_reward": 66945.0,
+  "opp_reward": 66604.0,
+  "margin": 341.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 652,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    5
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 5,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109645907,
+  "path": "episode-109645907-replay.json.gz",
+  "opponent": "kusui26",
+  "our_reward": 115627.0,
+  "opp_reward": 114324.0,
+  "margin": 1303.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 717,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    70
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    70
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 70,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 9,
+   "sheep": 5,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109646975,
+  "path": "episode-109646975-replay.json.gz",
+  "opponent": "yuxuan",
+  "our_reward": 61722.0,
+  "opp_reward": 60419.0,
+  "margin": 1303.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 717,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    70
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    70
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 70,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109648052,
+  "path": "episode-109648052-replay.json.gz",
+  "opponent": "Jane Street Farmers",
+  "our_reward": 111266.0,
+  "opp_reward": 109810.0,
+  "margin": 1456.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 689,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    5
+   ],
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    10
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    60
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 15,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109649113,
+  "path": "episode-109649113-replay.json.gz",
+  "opponent": "kamranahmmed",
+  "our_reward": 114678.0,
+  "opp_reward": 113977.0,
+  "margin": 701.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 717,
+  "market_match": 597,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    5
+   ],
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    10
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    15
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 15,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109650178,
+  "path": "episode-109650178-replay.json.gz",
+  "opponent": "lihaha.36",
+  "our_reward": 103018.0,
+  "opp_reward": 101715.0,
+  "margin": 1303.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 717,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    70
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    70
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 70,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109651249,
+  "path": "episode-109651249-replay.json.gz",
+  "opponent": "ysd1110",
+  "our_reward": 117419.0,
+  "opp_reward": 114966.0,
+  "margin": 2453.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 621,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    5
+   ],
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    10
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    60
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 15,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 8,
+   "sheep": 12,
+   "geese": 0,
+   "quadrants": 4,
+   "hands": 13
+  }
+ },
+ {
+  "episode_id": 109652319,
+  "path": "episode-109652319-replay.json.gz",
+  "opponent": "cqupt_sdq",
+  "our_reward": 118009.0,
+  "opp_reward": 116706.0,
+  "margin": 1303.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 717,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    70
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    70
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 70,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 11,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109653367,
+  "path": "episode-109653367-replay.json.gz",
+  "opponent": "Xiaoyong Zhu",
+  "our_reward": 120066.0,
+  "opp_reward": 119106.0,
+  "margin": 960.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 693,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    30
+   ],
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    13
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    30
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 43,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 8,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109654473,
+  "path": "episode-109654473-replay.json.gz",
+  "opponent": "Makhmudov_1602",
+  "our_reward": 107534.0,
+  "opp_reward": 106231.0,
+  "margin": 1303.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 717,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    70
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    70
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 70,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 17,
+   "geese": 0,
+   "quadrants": 4,
+   "hands": 13
+  }
+ },
+ {
+  "episode_id": 109655540,
+  "path": "episode-109655540-replay.json.gz",
+  "opponent": "Dennis HT",
+  "our_reward": 122300.0,
+  "opp_reward": 120240.0,
+  "margin": 2060.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 586,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    70
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    70
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 70,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 8,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109656536,
+  "path": "episode-109656536-replay.json.gz",
+  "opponent": "Follow Me Gradient",
+  "our_reward": 85983.0,
+  "opp_reward": 84680.0,
+  "margin": 1303.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 717,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    70
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    70
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 70,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 8,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109657680,
+  "path": "episode-109657680-replay.json.gz",
+  "opponent": "Sakthei",
+  "our_reward": 118810.0,
+  "opp_reward": 117887.0,
+  "margin": 923.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 714,
+  "market_match": 674,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    5
+   ],
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    10
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    60
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 15,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 4,
+   "hands": 13
+  }
+ },
+ {
+  "episode_id": 109658743,
+  "path": "episode-109658743-replay.json.gz",
+  "opponent": "neuro168",
+  "our_reward": 93284.0,
+  "opp_reward": 91981.0,
+  "margin": 1303.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 717,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    70
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    70
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 70,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 11,
+   "geese": 0,
+   "quadrants": 4,
+   "hands": 13
+  }
+ },
+ {
+  "episode_id": 109659674,
+  "path": "episode-109659674-replay.json.gz",
+  "opponent": "Joyal",
+  "our_reward": 107129.0,
+  "opp_reward": 106948.0,
+  "margin": 181.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 666,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    70
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    70
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 70,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 10,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109659811,
+  "path": "episode-109659811-replay.json.gz",
+  "opponent": "c_fxy",
+  "our_reward": 86814.0,
+  "opp_reward": 86857.0,
+  "margin": -43.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 718,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    50
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    50
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 50,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 4,
+   "hands": 13
+  }
+ },
+ {
+  "episode_id": 109660877,
+  "path": "episode-109660877-replay.json.gz",
+  "opponent": "Utkarsh #2",
+  "our_reward": 67914.0,
+  "opp_reward": 69448.0,
+  "margin": -1534.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 697,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    28
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    100
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 28,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109661895,
+  "path": "episode-109661895-replay.json.gz",
+  "opponent": "RicardoLópez",
+  "our_reward": 157966.0,
+  "opp_reward": 156663.0,
+  "margin": 1303.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 718,
+  "market_match": 716,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    70
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    70
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 70,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 9,
+   "sheep": 5,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109661963,
+  "path": "episode-109661963-replay.json.gz",
+  "opponent": "MioValentine",
+  "our_reward": 79957.0,
+  "opp_reward": 75520.0,
+  "margin": 4437.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 691,
+  "market_match": 455,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    70
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    70
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 70,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 8,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109663040,
+  "path": "episode-109663040-replay.json.gz",
+  "opponent": "Subin An",
+  "our_reward": 102517.0,
+  "opp_reward": 104563.0,
+  "margin": -2046.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 646,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    13
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    13
+   ],
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    13
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 26,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109664113,
+  "path": "episode-109664113-replay.json.gz",
+  "opponent": "Sergei Fironov",
+  "our_reward": 102226.0,
+  "opp_reward": 103532.0,
+  "margin": -1306.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 717,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    30
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    30
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 30,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 8,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109665187,
+  "path": "episode-109665187-replay.json.gz",
+  "opponent": "Mathurin Ache",
+  "our_reward": 100550.0,
+  "opp_reward": 99247.0,
+  "margin": 1303.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 717,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    70
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    70
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 70,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 8,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109666258,
+  "path": "episode-109666258-replay.json.gz",
+  "opponent": "Kirderf",
+  "our_reward": 80190.0,
+  "opp_reward": 86279.0,
+  "margin": -6089.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 573,
+  "market_match": 496,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    5
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 5,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 17,
+   "geese": 0,
+   "quadrants": 4,
+   "hands": 13
+  }
+ },
+ {
+  "episode_id": 109667337,
+  "path": "episode-109667337-replay.json.gz",
+  "opponent": "KongKongDe",
+  "our_reward": 95520.0,
+  "opp_reward": 95760.0,
+  "margin": -240.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 714,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    43
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    38
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 43,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 8,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109668408,
+  "path": "episode-109668408-replay.json.gz",
+  "opponent": "Bryan Pauze",
+  "our_reward": 127278.0,
+  "opp_reward": 121048.0,
+  "margin": 6230.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 626,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    3
+   ],
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    7
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    60
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 10,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 7,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 4,
+   "hands": 13
+  }
+ },
+ {
+  "episode_id": 109669497,
+  "path": "episode-109669497-replay.json.gz",
+  "opponent": "Kamma",
+  "our_reward": 93847.0,
+  "opp_reward": 92544.0,
+  "margin": 1303.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 717,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    70
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    70
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 70,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 9,
+   "sheep": 5,
+   "geese": 0,
+   "quadrants": 4,
+   "hands": 13
+  }
+ },
+ {
+  "episode_id": 109669964,
+  "path": "episode-109669964-replay.json.gz",
+  "opponent": "Madiyar Khamzanov",
+  "our_reward": 80850.0,
+  "opp_reward": 81093.0,
+  "margin": -243.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 715,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    7
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    7
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 7,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 9,
+   "sheep": 5,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109670574,
+  "path": "episode-109670574-replay.json.gz",
+  "opponent": "Hack2Publish",
+  "our_reward": 68436.0,
+  "opp_reward": 69796.0,
+  "margin": -1360.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 714,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    30
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    30
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 30,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 11,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109671659,
+  "path": "episode-109671659-replay.json.gz",
+  "opponent": "momohuhu_kkkkkarrot",
+  "our_reward": 69181.0,
+  "opp_reward": 67896.0,
+  "margin": 1285.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 715,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    70
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    70
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 70,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 11,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109672733,
+  "path": "episode-109672733-replay.json.gz",
+  "opponent": "doubao",
+  "our_reward": 106882.0,
+  "opp_reward": 109113.0,
+  "margin": -2231.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 717,
+  "market_match": 624,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    18
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    15
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 18,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 8,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109673800,
+  "path": "episode-109673800-replay.json.gz",
+  "opponent": "Sakthei",
+  "our_reward": 153270.0,
+  "opp_reward": 154664.0,
+  "margin": -1394.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 621,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    70
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    70
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 70,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 9,
+   "sheep": 5,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109674164,
+  "path": "episode-109674164-replay.json.gz",
+  "opponent": "YoungDSML [dsml.kz]",
+  "our_reward": 104436.0,
+  "opp_reward": 103133.0,
+  "margin": 1303.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 717,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    70
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    70
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 70,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 10,
+   "geese": 0,
+   "quadrants": 4,
+   "hands": 13
+  }
+ },
+ {
+  "episode_id": 109674878,
+  "path": "episode-109674878-replay.json.gz",
+  "opponent": "인공저능연구소( Artificial Idiocy Lab )",
+  "our_reward": 132222.0,
+  "opp_reward": 132506.0,
+  "margin": -284.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 629,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    45
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    45
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 45,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 8,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109675958,
+  "path": "episode-109675958-replay.json.gz",
+  "opponent": "Me & myself",
+  "our_reward": 80713.0,
+  "opp_reward": 79410.0,
+  "margin": 1303.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 717,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    70
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    70
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 70,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109677028,
+  "path": "episode-109677028-replay.json.gz",
+  "opponent": "ChengxuGu",
+  "our_reward": 80980.0,
+  "opp_reward": 81518.0,
+  "margin": -538.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 713,
+  "market_match": 703,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    50
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    50
+   ],
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    13
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 63,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109677219,
+  "path": "episode-109677219-replay.json.gz",
+  "opponent": "Một hai ba bốn 5 sáu bảy tám 9",
+  "our_reward": 101392.0,
+  "opp_reward": 109065.0,
+  "margin": -7673.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 706,
+  "market_match": 380,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    8
+   ],
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    0
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    0
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 8,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 9,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109678106,
+  "path": "episode-109678106-replay.json.gz",
+  "opponent": "Yuta Yamazaki",
+  "our_reward": 125373.0,
+  "opp_reward": 126824.0,
+  "margin": -1451.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 704,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    40
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    40
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 40,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 9,
+   "sheep": 5,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109679225,
+  "path": "episode-109679225-replay.json.gz",
+  "opponent": "Taeyang",
+  "our_reward": 99689.0,
+  "opp_reward": 99447.0,
+  "margin": 242.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 717,
+  "market_match": 635,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    70
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    70
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 70,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 8,
+   "sheep": 4,
+   "geese": 0,
+   "quadrants": 4,
+   "hands": 13
+  }
+ },
+ {
+  "episode_id": 109685699,
+  "path": "episode-109685699-replay.json.gz",
+  "opponent": "YYC3",
+  "our_reward": 74943.0,
+  "opp_reward": 73640.0,
+  "margin": 1303.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 717,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    70
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    70
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 70,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109692116,
+  "path": "episode-109692116-replay.json.gz",
+  "opponent": "curiosity",
+  "our_reward": 91521.0,
+  "opp_reward": 90963.0,
+  "margin": 558.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 680,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    70
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    70
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 70,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109698646,
+  "path": "episode-109698646-replay.json.gz",
+  "opponent": "Mark Astrid",
+  "our_reward": 70974.0,
+  "opp_reward": 71326.0,
+  "margin": -352.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 710,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    40
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    40
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 40,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 11,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109706091,
+  "path": "episode-109706091-replay.json.gz",
+  "opponent": "Saravanan Jaichandaran",
+  "our_reward": 86460.0,
+  "opp_reward": 86382.0,
+  "margin": 78.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 567,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    70
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    70
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 70,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 11,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109713358,
+  "path": "episode-109713358-replay.json.gz",
+  "opponent": "hiroshi murakami",
+  "our_reward": 76079.0,
+  "opp_reward": 78045.0,
+  "margin": -1966.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 718,
+  "market_match": 609,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    5
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 5,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 8,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109713640,
+  "path": "episode-109713640-replay.json.gz",
+  "opponent": "Ryoya Tsuruoka",
+  "our_reward": 138091.0,
+  "opp_reward": 136705.0,
+  "margin": 1386.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 717,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    70
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    70
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 70,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 11,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109722046,
+  "path": "episode-109722046-replay.json.gz",
+  "opponent": "Ugnė Miklovaitė",
+  "our_reward": 85155.0,
+  "opp_reward": 86486.0,
+  "margin": -1331.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 640,
+  "market_match": 522,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    5
+   ],
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    2
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    52
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 7,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109724298,
+  "path": "episode-109724298-replay.json.gz",
+  "opponent": "Xiangyu Liu",
+  "our_reward": 94659.0,
+  "opp_reward": 100875.0,
+  "margin": -6216.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 73,
+  "market_match": 188,
+  "t0_opp_market": [
+   [
+    "HIRE"
+   ],
+   [
+    "HIRE"
+   ],
+   [
+    "HIRE"
+   ],
+   [
+    "HIRE"
+   ],
+   [
+    "HIRE"
+   ],
+   [
+    "HIRE"
+   ],
+   [
+    "BUY_SEED",
+    "WHEAT",
+    15
+   ],
+   [
+    "BUY_SEED",
+    "CARROT",
+    2
+   ],
+   [
+    "BUY_SEED",
+    "MELON",
+    2
+   ],
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    2
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 2,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 4,
+   "sheep": 10,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 12
+  }
+ },
+ {
+  "episode_id": 109725974,
+  "path": "episode-109725974-replay.json.gz",
+  "opponent": "haodou092",
+  "our_reward": 88744.0,
+  "opp_reward": 89069.0,
+  "margin": -325.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 714,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    40
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    40
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 40,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 8,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109733505,
+  "path": "episode-109733505-replay.json.gz",
+  "opponent": "Vernon Campbell",
+  "our_reward": 102791.0,
+  "opp_reward": 102818.0,
+  "margin": -27.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 718,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    52
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    100
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 52,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 9,
+   "sheep": 5,
+   "geese": 0,
+   "quadrants": 4,
+   "hands": 13
+  }
+ },
+ {
+  "episode_id": 109733844,
+  "path": "episode-109733844-replay.json.gz",
+  "opponent": "Yuta Yamazaki",
+  "our_reward": 76750.0,
+  "opp_reward": 77066.0,
+  "margin": -316.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 707,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    40
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    40
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 40,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109734907,
+  "path": "episode-109734907-replay.json.gz",
+  "opponent": "Dariush Afshar",
+  "our_reward": 61477.0,
+  "opp_reward": 60174.0,
+  "margin": 1303.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 717,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    70
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    70
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 70,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 8,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109742445,
+  "path": "episode-109742445-replay.json.gz",
+  "opponent": "Deniz",
+  "our_reward": 102040.0,
+  "opp_reward": 102182.0,
+  "margin": -142.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 716,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    5
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    5
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 5,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 11,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109750739,
+  "path": "episode-109750739-replay.json.gz",
+  "opponent": "Dmytro Maliarenko",
+  "our_reward": 109946.0,
+  "opp_reward": 108605.0,
+  "margin": 1341.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 639,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    70
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    70
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 70,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 9,
+   "sheep": 5,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109754641,
+  "path": "episode-109754641-replay.json.gz",
+  "opponent": "Taimo",
+  "our_reward": 78100.0,
+  "opp_reward": 78236.0,
+  "margin": -136.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 715,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    5
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    5
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 5,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109761521,
+  "path": "episode-109761521-replay.json.gz",
+  "opponent": "sonny_01",
+  "our_reward": 99344.0,
+  "opp_reward": 99269.0,
+  "margin": 75.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 657,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    13
+   ],
+   [],
+   []
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 13,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 8,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109768729,
+  "path": "episode-109768729-replay.json.gz",
+  "opponent": "farmhouse",
+  "our_reward": 78320.0,
+  "opp_reward": 77385.0,
+  "margin": 935.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 694,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    70
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    70
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 70,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 8,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109769363,
+  "path": "episode-109769363-replay.json.gz",
+  "opponent": "Kerem çelik",
+  "our_reward": 92606.0,
+  "opp_reward": 92902.0,
+  "margin": -296.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 630,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    50
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    50
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 50,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 8,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109769517,
+  "path": "episode-109769517-replay.json.gz",
+  "opponent": "Oriol Pi Morell",
+  "our_reward": 109599.0,
+  "opp_reward": 110507.0,
+  "margin": -908.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 648,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    50
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    50
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 50,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 8,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109775410,
+  "path": "episode-109775410-replay.json.gz",
+  "opponent": "farmhouse",
+  "our_reward": 108998.0,
+  "opp_reward": 107800.0,
+  "margin": 1198.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 683,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    70
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    70
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 70,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 8,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109781496,
+  "path": "episode-109781496-replay.json.gz",
+  "opponent": "Ray Roberts",
+  "our_reward": 94388.0,
+  "opp_reward": 96300.0,
+  "margin": -1912.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 715,
+  "market_match": 614,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    70
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    70
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 70,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 11,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109782691,
+  "path": "episode-109782691-replay.json.gz",
+  "opponent": "Alan",
+  "our_reward": 85407.0,
+  "opp_reward": 85539.0,
+  "margin": -132.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 715,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    5
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    5
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 5,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 8,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109783259,
+  "path": "episode-109783259-replay.json.gz",
+  "opponent": "Hajime Tamura",
+  "our_reward": 97715.0,
+  "opp_reward": 98529.0,
+  "margin": -814.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 580,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    5
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    5
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 5,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109787600,
+  "path": "episode-109787600-replay.json.gz",
+  "opponent": "Justin Yang",
+  "our_reward": 110640.0,
+  "opp_reward": 110199.0,
+  "margin": 441.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 718,
+  "market_match": 605,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    5
+   ],
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    10
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    60
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 15,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109790973,
+  "path": "episode-109790973-replay.json.gz",
+  "opponent": "kyosan",
+  "our_reward": 112134.0,
+  "opp_reward": 112398.0,
+  "margin": -264.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 565,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    5
+   ],
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    10
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    15
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 15,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 9,
+   "sheep": 5,
+   "geese": 0,
+   "quadrants": 4,
+   "hands": 13
+  }
+ },
+ {
+  "episode_id": 109791966,
+  "path": "episode-109791966-replay.json.gz",
+  "opponent": "hidenov",
+  "our_reward": 85985.0,
+  "opp_reward": 85491.0,
+  "margin": 494.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 693,
+  "market_match": 561,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    43
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    20
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    22
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 43,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 11,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109792071,
+  "path": "episode-109792071-replay.json.gz",
+  "opponent": "Masashi Nishimoto",
+  "our_reward": 110430.0,
+  "opp_reward": 109583.0,
+  "margin": 847.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 656,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    70
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    70
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 70,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 8,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109793340,
+  "path": "episode-109793340-replay.json.gz",
+  "opponent": "Yiyang Xu",
+  "our_reward": 92895.0,
+  "opp_reward": 95902.0,
+  "margin": -3007.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 677,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    70
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    70
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 70,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 8,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109798475,
+  "path": "episode-109798475-replay.json.gz",
+  "opponent": "Kilupy",
+  "our_reward": 103200.0,
+  "opp_reward": 106043.0,
+  "margin": -2843.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 657,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    70
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    70
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 70,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 17,
+   "geese": 0,
+   "quadrants": 4,
+   "hands": 13
+  }
+ },
+ {
+  "episode_id": 109800503,
+  "path": "episode-109800503-replay.json.gz",
+  "opponent": "Pablo César Ruíz",
+  "our_reward": 102892.0,
+  "opp_reward": 101898.0,
+  "margin": 994.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 667,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    70
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    70
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 70,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 8,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109801748,
+  "path": "episode-109801748-replay.json.gz",
+  "opponent": "nofreewill42",
+  "our_reward": 106798.0,
+  "opp_reward": 106865.0,
+  "margin": -67.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 673,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    43
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    20
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    22
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 43,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 8,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109806771,
+  "path": "episode-109806771-replay.json.gz",
+  "opponent": "Roxy",
+  "our_reward": 100536.0,
+  "opp_reward": 101844.0,
+  "margin": -1308.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 717,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    29
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    29
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 29,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 8,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109807454,
+  "path": "episode-109807454-replay.json.gz",
+  "opponent": "Dude and Destroy",
+  "our_reward": 92462.0,
+  "opp_reward": 94845.0,
+  "margin": -2383.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 631,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    30
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    30
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 30,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 8,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109811788,
+  "path": "episode-109811788-replay.json.gz",
+  "opponent": "shoryakumar mishra",
+  "our_reward": 72174.0,
+  "opp_reward": 72175.0,
+  "margin": -1.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 716,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    5
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 5,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 11,
+   "geese": 0,
+   "quadrants": 4,
+   "hands": 13
+  }
+ },
+ {
+  "episode_id": 109812363,
+  "path": "episode-109812363-replay.json.gz",
+  "opponent": "by",
+  "our_reward": 90281.0,
+  "opp_reward": 91254.0,
+  "margin": -973.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 633,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    50
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    50
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 50,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 8,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 4,
+   "hands": 13
+  }
+ },
+ {
+  "episode_id": 109817323,
+  "path": "episode-109817323-replay.json.gz",
+  "opponent": "Raghav Agrawal",
+  "our_reward": 76153.0,
+  "opp_reward": 79875.0,
+  "margin": -3722.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 619,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    13
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    13
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 13,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 17,
+   "geese": 0,
+   "quadrants": 4,
+   "hands": 13
+  }
+ },
+ {
+  "episode_id": 109821759,
+  "path": "episode-109821759-replay.json.gz",
+  "opponent": "张志浩1",
+  "our_reward": 90558.0,
+  "opp_reward": 89255.0,
+  "margin": 1303.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 717,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    70
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    70
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 70,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109825975,
+  "path": "episode-109825975-replay.json.gz",
+  "opponent": "abozten",
+  "our_reward": 110022.0,
+  "opp_reward": 108996.0,
+  "margin": 1026.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 695,
+  "market_match": 449,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    5
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 5,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 9,
+   "sheep": 5,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109826125,
+  "path": "episode-109826125-replay.json.gz",
+  "opponent": "Dubnium",
+  "our_reward": 122807.0,
+  "opp_reward": 122951.0,
+  "margin": -144.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 715,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    5
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    5
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 5,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 9,
+   "sheep": 5,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109827345,
+  "path": "episode-109827345-replay.json.gz",
+  "opponent": "tera358",
+  "our_reward": 125985.0,
+  "opp_reward": 124700.0,
+  "margin": 1285.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 701,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    70
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    70
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 70,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 9,
+   "sheep": 5,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109828760,
+  "path": "episode-109828760-replay.json.gz",
+  "opponent": "Sergey Shcherbakov",
+  "our_reward": 85339.0,
+  "opp_reward": 111026.0,
+  "margin": -25687.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 716,
+  "market_match": 562,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    5
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 5,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 11,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109831883,
+  "path": "episode-109831883-replay.json.gz",
+  "opponent": "Rairo Mukamuri",
+  "our_reward": 111631.0,
+  "opp_reward": 111045.0,
+  "margin": 586.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 716,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    69
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    69
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 69,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 8,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109832279,
+  "path": "episode-109832279-replay.json.gz",
+  "opponent": "TheMightiestMan",
+  "our_reward": 78466.0,
+  "opp_reward": 78939.0,
+  "margin": -473.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 649,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    50
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    50
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 50,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 8,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109836624,
+  "path": "episode-109836624-replay.json.gz",
+  "opponent": "dre",
+  "our_reward": 121550.0,
+  "opp_reward": 120184.0,
+  "margin": 1366.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 718,
+  "market_match": 690,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    70
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    70
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 70,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 9,
+   "sheep": 5,
+   "geese": 0,
+   "quadrants": 4,
+   "hands": 13
+  }
+ },
+ {
+  "episode_id": 109839976,
+  "path": "episode-109839976-replay.json.gz",
+  "opponent": "HanFish",
+  "our_reward": 63816.0,
+  "opp_reward": 64213.0,
+  "margin": -397.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 718,
+  "market_match": 569,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    1
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    1
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 1,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 8,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109843241,
+  "path": "episode-109843241-replay.json.gz",
+  "opponent": "BobtheBot369",
+  "our_reward": 68465.0,
+  "opp_reward": 68601.0,
+  "margin": -136.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 715,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    5
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    5
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 5,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 8,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109844172,
+  "path": "episode-109844172-replay.json.gz",
+  "opponent": "sonny_01",
+  "our_reward": 85421.0,
+  "opp_reward": 85164.0,
+  "margin": 257.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 700,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    13
+   ],
+   [],
+   []
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 13,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109848543,
+  "path": "episode-109848543-replay.json.gz",
+  "opponent": "sam_the_rice_cake",
+  "our_reward": 100069.0,
+  "opp_reward": 98766.0,
+  "margin": 1303.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 717,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    70
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    70
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 70,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109849949,
+  "path": "episode-109849949-replay.json.gz",
+  "opponent": "Ryosei Hara",
+  "our_reward": 108024.0,
+  "opp_reward": 109350.0,
+  "margin": -1326.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 659,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    5
+   ],
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    10
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    60
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 15,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 4,
+   "hands": 13
+  }
+ },
+ {
+  "episode_id": 109850315,
+  "path": "episode-109850315-replay.json.gz",
+  "opponent": "Vasilii Buzmakov",
+  "our_reward": 81343.0,
+  "opp_reward": 80556.0,
+  "margin": 787.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 716,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    69
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    69
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 69,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 8,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109852665,
+  "path": "episode-109852665-replay.json.gz",
+  "opponent": "lllleeeo",
+  "our_reward": 137765.0,
+  "opp_reward": 138008.0,
+  "margin": -243.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 634,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    50
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    50
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 50,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 9,
+   "sheep": 5,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109854856,
+  "path": "episode-109854856-replay.json.gz",
+  "opponent": "MaxChen303",
+  "our_reward": 120553.0,
+  "opp_reward": 120565.0,
+  "margin": -12.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 718,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    1
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    1
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 1,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 17,
+   "geese": 0,
+   "quadrants": 4,
+   "hands": 13
+  }
+ },
+ {
+  "episode_id": 109854858,
+  "path": "episode-109854858-replay.json.gz",
+  "opponent": "hidenov",
+  "our_reward": 122527.0,
+  "opp_reward": 122312.0,
+  "margin": 215.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 717,
+  "market_match": 577,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    43
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    20
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    22
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 43,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 9,
+   "sheep": 4,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109859237,
+  "path": "episode-109859237-replay.json.gz",
+  "opponent": "Taeyang",
+  "our_reward": 88108.0,
+  "opp_reward": 87684.0,
+  "margin": 424.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 717,
+  "market_match": 645,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    70
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    70
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 70,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 16,
+   "geese": 0,
+   "quadrants": 4,
+   "hands": 13
+  }
+ },
+ {
+  "episode_id": 109861278,
+  "path": "episode-109861278-replay.json.gz",
+  "opponent": "Subin An",
+  "our_reward": 121940.0,
+  "opp_reward": 121800.0,
+  "margin": 140.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 645,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    13
+   ],
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    9
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    9
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 22,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 9,
+   "sheep": 5,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109864167,
+  "path": "episode-109864167-replay.json.gz",
+  "opponent": "David Wang",
+  "our_reward": 156969.0,
+  "opp_reward": 155666.0,
+  "margin": 1303.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 717,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    70
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    70
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 70,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 9,
+   "sheep": 5,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109866593,
+  "path": "episode-109866593-replay.json.gz",
+  "opponent": "tetsu2131",
+  "our_reward": 83239.0,
+  "opp_reward": 81853.0,
+  "margin": 1386.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 717,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    70
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    70
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 70,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 11,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109870552,
+  "path": "episode-109870552-replay.json.gz",
+  "opponent": "porply",
+  "our_reward": 63827.0,
+  "opp_reward": 63732.0,
+  "margin": 95.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 670,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    45
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    45
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 45,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 7,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109871351,
+  "path": "episode-109871351-replay.json.gz",
+  "opponent": "YieldCurve",
+  "our_reward": 102692.0,
+  "opp_reward": 103724.0,
+  "margin": -1032.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 651,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    7
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    2
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 7,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 9,
+   "sheep": 5,
+   "geese": 0,
+   "quadrants": 4,
+   "hands": 13
+  }
+ },
+ {
+  "episode_id": 109875906,
+  "path": "episode-109875906-replay.json.gz",
+  "opponent": "Hack2Publish",
+  "our_reward": 69055.0,
+  "opp_reward": 67752.0,
+  "margin": 1303.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 717,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    70
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    70
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 70,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 16,
+   "geese": 0,
+   "quadrants": 4,
+   "hands": 13
+  }
+ },
+ {
+  "episode_id": 109876248,
+  "path": "episode-109876248-replay.json.gz",
+  "opponent": "Leonardo Viola10",
+  "our_reward": 155621.0,
+  "opp_reward": 154365.0,
+  "margin": 1256.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 718,
+  "market_match": 616,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    70
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    70
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 70,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 9,
+   "sheep": 5,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109881406,
+  "path": "episode-109881406-replay.json.gz",
+  "opponent": "Tagir Eminov",
+  "our_reward": 88975.0,
+  "opp_reward": 90160.0,
+  "margin": -1185.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 636,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    50
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    50
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 50,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 8,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 4,
+   "hands": 13
+  }
+ },
+ {
+  "episode_id": 109886669,
+  "path": "episode-109886669-replay.json.gz",
+  "opponent": "Ryo Takaki",
+  "our_reward": 85964.0,
+  "opp_reward": 86882.0,
+  "margin": -918.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 647,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    5
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 5,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 11,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109888735,
+  "path": "episode-109888735-replay.json.gz",
+  "opponent": "alcanta",
+  "our_reward": 75770.0,
+  "opp_reward": 77489.0,
+  "margin": -1719.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 583,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    5
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 5,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109889647,
+  "path": "episode-109889647-replay.json.gz",
+  "opponent": "Canon",
+  "our_reward": 72202.0,
+  "opp_reward": 72346.0,
+  "margin": -144.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 715,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    5
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    5
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 5,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 8,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109889825,
+  "path": "episode-109889825-replay.json.gz",
+  "opponent": "The Grower",
+  "our_reward": 103380.0,
+  "opp_reward": 101963.0,
+  "margin": 1417.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 717,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    70
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    70
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 70,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 16,
+   "geese": 0,
+   "quadrants": 4,
+   "hands": 13
+  }
+ },
+ {
+  "episode_id": 109891790,
+  "path": "episode-109891790-replay.json.gz",
+  "opponent": "Horatio Eversfield",
+  "our_reward": 96225.0,
+  "opp_reward": 95832.0,
+  "margin": 393.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 646,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    70
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    70
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 70,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109893922,
+  "path": "episode-109893922-replay.json.gz",
+  "opponent": "tizawa3",
+  "our_reward": 104221.0,
+  "opp_reward": 105236.0,
+  "margin": -1015.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 671,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    7
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    2
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 7,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 10,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109899116,
+  "path": "episode-109899116-replay.json.gz",
+  "opponent": "hatakazu93",
+  "our_reward": 116595.0,
+  "opp_reward": 116813.0,
+  "margin": -218.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 647,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    7
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    2
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 7,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 8,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 4,
+   "hands": 13
+  }
+ },
+ {
+  "episode_id": 109899501,
+  "path": "episode-109899501-replay.json.gz",
+  "opponent": "automatylicza",
+  "our_reward": 106056.0,
+  "opp_reward": 105043.0,
+  "margin": 1013.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 711,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    70
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    70
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 70,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 8,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109902298,
+  "path": "episode-109902298-replay.json.gz",
+  "opponent": "que la cuenten como quieran",
+  "our_reward": 93839.0,
+  "opp_reward": 95208.0,
+  "margin": -1369.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 718,
+  "market_match": 663,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    13
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 13,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 8,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109908192,
+  "path": "episode-109908192-replay.json.gz",
+  "opponent": "fog flower",
+  "our_reward": 101682.0,
+  "opp_reward": 101236.0,
+  "margin": 446.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 656,
+  "market_match": 467,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    5
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 5,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 10,
+   "sheep": 4,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 8
+  }
+ },
+ {
+  "episode_id": 109908220,
+  "path": "episode-109908220-replay.json.gz",
+  "opponent": "qhapaq49",
+  "our_reward": 79173.0,
+  "opp_reward": 80815.0,
+  "margin": -1642.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 639,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    50
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    50
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 50,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 8,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109913315,
+  "path": "episode-109913315-replay.json.gz",
+  "opponent": "Kabir Potdar",
+  "our_reward": 112045.0,
+  "opp_reward": 112177.0,
+  "margin": -132.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 716,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    5
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    5
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 5,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 17,
+   "geese": 0,
+   "quadrants": 4,
+   "hands": 13
+  }
+ },
+ {
+  "episode_id": 109918393,
+  "path": "episode-109918393-replay.json.gz",
+  "opponent": "Paing",
+  "our_reward": 73429.0,
+  "opp_reward": 75045.0,
+  "margin": -1616.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 716,
+  "market_match": 693,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    69
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    69
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 69,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 10,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109918859,
+  "path": "episode-109918859-replay.json.gz",
+  "opponent": "Szymon Miłosz",
+  "our_reward": 105247.0,
+  "opp_reward": 102342.0,
+  "margin": 2905.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 694,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    35
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    35
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 35,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 5,
+   "sheep": 11,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109925061,
+  "path": "episode-109925061-replay.json.gz",
+  "opponent": "Yichi",
+  "our_reward": 61064.0,
+  "opp_reward": 67889.0,
+  "margin": -6825.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 714,
+  "market_match": 581,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    20
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    20
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 20,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 4,
+   "sheep": 13,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109927825,
+  "path": "episode-109927825-replay.json.gz",
+  "opponent": "张菠",
+  "our_reward": 89374.0,
+  "opp_reward": 89946.0,
+  "margin": -572.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 678,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    10
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    10
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 10,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 8,
+   "sheep": 4,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109932218,
+  "path": "episode-109932218-replay.json.gz",
+  "opponent": "mraz1006",
+  "our_reward": 72964.0,
+  "opp_reward": 73917.0,
+  "margin": -953.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 652,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    5
+   ],
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    10
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    60
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 15,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109936427,
+  "path": "episode-109936427-replay.json.gz",
+  "opponent": "张菠",
+  "our_reward": 90905.0,
+  "opp_reward": 91755.0,
+  "margin": -850.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 649,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    10
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    10
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 10,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 8,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109941430,
+  "path": "episode-109941430-replay.json.gz",
+  "opponent": "Thomas Deng",
+  "our_reward": 159999.0,
+  "opp_reward": 161847.0,
+  "margin": -1848.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 641,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    43
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    30
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 43,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 9,
+   "sheep": 5,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109943310,
+  "path": "episode-109943310-replay.json.gz",
+  "opponent": "Ivan Vorfolomeev",
+  "our_reward": 94778.0,
+  "opp_reward": 93482.0,
+  "margin": 1296.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 716,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    70
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    65
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 70,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109949681,
+  "path": "episode-109949681-replay.json.gz",
+  "opponent": "Sam-wiz",
+  "our_reward": 77426.0,
+  "opp_reward": 76123.0,
+  "margin": 1303.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 717,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    70
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    70
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 70,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 8,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109950422,
+  "path": "episode-109950422-replay.json.gz",
+  "opponent": "mraz1006",
+  "our_reward": 131385.0,
+  "opp_reward": 132705.0,
+  "margin": -1320.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 604,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    10
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    10
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 10,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 8,
+   "sheep": 12,
+   "geese": 0,
+   "quadrants": 4,
+   "hands": 13
+  }
+ },
+ {
+  "episode_id": 109956309,
+  "path": "episode-109956309-replay.json.gz",
+  "opponent": "KuziJA",
+  "our_reward": 137462.0,
+  "opp_reward": 138444.0,
+  "margin": -982.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 629,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    1
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    1
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 1,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 8,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109956798,
+  "path": "episode-109956798-replay.json.gz",
+  "opponent": "Shawn404",
+  "our_reward": 123525.0,
+  "opp_reward": 124913.0,
+  "margin": -1388.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 620,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    7
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    2
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 7,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 9,
+   "sheep": 5,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109961972,
+  "path": "episode-109961972-replay.json.gz",
+  "opponent": "Kazuta MIZUTA",
+  "our_reward": 105895.0,
+  "opp_reward": 106891.0,
+  "margin": -996.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 656,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    1
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    1
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 1,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109962743,
+  "path": "episode-109962743-replay.json.gz",
+  "opponent": "kigasudayooo",
+  "our_reward": 50568.0,
+  "opp_reward": 51145.0,
+  "margin": -577.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 653,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    7
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    2
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 7,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 8,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109963089,
+  "path": "episode-109963089-replay.json.gz",
+  "opponent": "kyosan",
+  "our_reward": 85400.0,
+  "opp_reward": 87435.0,
+  "margin": -2035.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 644,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    10
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    10
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 10,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 8,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109964307,
+  "path": "episode-109964307-replay.json.gz",
+  "opponent": "Ryosei Hara",
+  "our_reward": 79524.0,
+  "opp_reward": 79709.0,
+  "margin": -185.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 671,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    7
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    2
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 7,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 4,
+   "hands": 13
+  }
+ },
+ {
+  "episode_id": 109970250,
+  "path": "episode-109970250-replay.json.gz",
+  "opponent": "Paing",
+  "our_reward": 65881.0,
+  "opp_reward": 64779.0,
+  "margin": 1102.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 715,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    69
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    69
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 69,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109971731,
+  "path": "episode-109971731-replay.json.gz",
+  "opponent": "MOHAMMADJAFAR ZAMANI",
+  "our_reward": 101661.0,
+  "opp_reward": 102385.0,
+  "margin": -724.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 621,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    5
+   ],
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    10
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    60
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 15,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 10,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109972844,
+  "path": "episode-109972844-replay.json.gz",
+  "opponent": "9Hash",
+  "our_reward": 53735.0,
+  "opp_reward": 56091.0,
+  "margin": -2356.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 655,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    10
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    10
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 10,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109976154,
+  "path": "episode-109976154-replay.json.gz",
+  "opponent": "FinalSunFlower",
+  "our_reward": 102670.0,
+  "opp_reward": 103014.0,
+  "margin": -344.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 662,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    7
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    2
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 7,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 8,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109982784,
+  "path": "episode-109982784-replay.json.gz",
+  "opponent": "jiazepin",
+  "our_reward": 100737.0,
+  "opp_reward": 99352.0,
+  "margin": 1385.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 717,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    70
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    70
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 70,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 10,
+   "geese": 0,
+   "quadrants": 4,
+   "hands": 13
+  }
+ },
+ {
+  "episode_id": 109983522,
+  "path": "episode-109983522-replay.json.gz",
+  "opponent": "Farhat Pachisa",
+  "our_reward": 101498.0,
+  "opp_reward": 102632.0,
+  "margin": -1134.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 654,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    50
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    50
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 50,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 7,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 4,
+   "hands": 13
+  }
+ },
+ {
+  "episode_id": 109984482,
+  "path": "episode-109984482-replay.json.gz",
+  "opponent": "Yassine Chritt",
+  "our_reward": 75833.0,
+  "opp_reward": 76255.0,
+  "margin": -422.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 620,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    5
+   ],
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    10
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    60
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 15,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 8,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109985573,
+  "path": "episode-109985573-replay.json.gz",
+  "opponent": "Silhouette",
+  "our_reward": 94229.0,
+  "opp_reward": 97747.0,
+  "margin": -3518.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 713,
+  "market_match": 636,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    20
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    20
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 20,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109989743,
+  "path": "episode-109989743-replay.json.gz",
+  "opponent": "RuiFSPinto",
+  "our_reward": 65825.0,
+  "opp_reward": 66025.0,
+  "margin": -200.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 651,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    7
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    2
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 7,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109990263,
+  "path": "episode-109990263-replay.json.gz",
+  "opponent": "dp23334",
+  "our_reward": 98888.0,
+  "opp_reward": 97603.0,
+  "margin": 1285.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 715,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    70
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    70
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 70,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 6,
+   "sheep": 17,
+   "geese": 0,
+   "quadrants": 4,
+   "hands": 13
+  }
+ },
+ {
+  "episode_id": 109990361,
+  "path": "episode-109990361-replay.json.gz",
+  "opponent": "Alan",
+  "our_reward": 115289.0,
+  "opp_reward": 119919.0,
+  "margin": -4630.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 718,
+  "market_match": 688,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    5
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    5
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 5,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 8,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109996680,
+  "path": "episode-109996680-replay.json.gz",
+  "opponent": "Suzuki Yuto - W",
+  "our_reward": 112889.0,
+  "opp_reward": 113927.0,
+  "margin": -1038.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 632,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    10
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    10
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 10,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 8,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ },
+ {
+  "episode_id": 109999845,
+  "path": "episode-109999845-replay.json.gz",
+  "opponent": "Teddy Tennant",
+  "our_reward": 89885.0,
+  "opp_reward": 89898.0,
+  "margin": -13.0,
+  "is_loss": true,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 718,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    1
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    1
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 1,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 8,
+   "sheep": 6,
+   "geese": 0,
+   "quadrants": 4,
+   "hands": 13
+  }
+ },
+ {
+  "episode_id": 110004465,
+  "path": "episode-110004465-replay.json.gz",
+  "opponent": "automatylicza",
+  "our_reward": 139053.0,
+  "opp_reward": 138304.0,
+  "margin": 749.0,
+  "is_loss": false,
+  "n_steps_compared": 719,
+  "farmer_match": 719,
+  "market_match": 711,
+  "t0_opp_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    70
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    70
+   ]
+  ],
+  "t0_our_market": [
+   [
+    "BUY_PRODUCT",
+    "WHEAT",
+    55
+   ],
+   [
+    "SELL",
+    "WHEAT",
+    55
+   ]
+  ],
+  "t0_wheat_buy_qty": 70,
+  "t0_buy_animal": false,
+  "ever_buy_land": true,
+  "final_farm": {
+   "cows": 9,
+   "sheep": 5,
+   "geese": 0,
+   "quadrants": 3,
+   "hands": 11
+  }
+ }
+]

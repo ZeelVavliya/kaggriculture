@@ -1,0 +1,30 @@
+# secrets
+.env
+kaggle.json
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# replay / episode dumps (GBs of .json.gz)
+*.json.gz
+replays/
+ladder_replays/
+top_replays/
+kaggle_eps/
+
+# training artifacts
+*.pt
+*.npz
+*.log
+*.err
+*.zip
+*.db
+*.env
+# submission bundles
+kaggleagriculture/lab/artifacts/
+kaggleagriculture/lab/candidates/
+
+.claude/scheduled_tasks.lock

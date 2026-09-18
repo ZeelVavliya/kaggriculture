@@ -1,0 +1,25 @@
+{
+  "best_iter": 8,
+  "best_val_wl_v41": -12,
+  "best_val_soil": {
+    "W": 27,
+    "L": 13,
+    "T": 0
+  },
+  "best_ckpt": "lab\\p2\\data\\rl\\ckpt_iter0008.pt",
+  "last_iter": 8,
+  "total_games": 352,
+  "best_val_detail": {
+    "vs_v41": {
+      "W": 14,
+      "L": 26,
+      "T": 0
+    },
+    "vs_soil": {
+      "W": 27,
+      "L": 13,
+      "T": 0
+    },
+    "batch_id": "p2-rl-val-8"
+  }
+}
