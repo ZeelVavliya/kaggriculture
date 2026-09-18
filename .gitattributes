@@ -1,0 +1,8 @@
+# The lab ran on Windows: every artifact/candidate is a mixed-ending file (CRLF base
+# + LF overlays appended by Python) and its sha256 IS its identity -- it names the
+# lab/artifacts/<sha8>/ directory, keys 10,000+ ledger rows and goes into the Kaggle
+# submission message as sha:<sha8>. Any end-of-line normalisation silently changes
+# that hash, so keep these byte-exact.
+lab/artifacts/**/main.py -text
+lab/candidates/*.py      -text
+lab/packages/**          binary
