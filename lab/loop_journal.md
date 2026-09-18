@@ -641,3 +641,49 @@ Exactly the +28 coins predicted. Gate running (parent `v43_open3_carrot`, incumb
 | `v43_lead8_open3` | 56298354 | 2221.6 | active |
 | `v43_lead8` | 56274046 | 2474.3 | deactivated |
 | `v43_open55` | 56267455 | 2513.9 | deactivated |
+
+### `v43_open3_cash21b` (b0f8a324): VETO — and the cash-at-21 lead is dead
+
+The corrected overlay fires, and the result is decisive in the wrong direction.
+
+| block | candidate record | median margin | games at margin 0 |
+|---|---|---|---|
+| vs incumbent `v43_lead8_open3` | **0-50** | −7,926 | 0 |
+| vs parent `v43_open3_carrot` | **0-50** | −7,014 | 0 |
+
+Contrast with `871a5888`, which tied 46 of 50 at margin exactly 0: this one changes every
+single game, so the no-op diagnosis above is confirmed from the other side too.
+
+**Why it loses — wheat at day 0 is not slack cash, it is the seed capital of the animal
+economy.** Animals must be fed wheat every day, and two consecutive missed feedings lose
+them permanently. One unit trimmed from the day-0 fill starves the early herd, and the gap
+compounds for the rest of the season. Same seed (860000), candidate vs parent, p0's herd:
+
+| step | cash21b | carrot |
+|---|---|---|
+| 48 | 3 | 4 |
+| 72 | 4 | 5 |
+| 120 | 5 | 6 |
+| 240 | **10** | **13** |
+
+Three fewer producing animals across the last ~480 turns. Carrot against itself on that seed
+ties exactly (93,164 vs 93,164), so this is the change, not variance.
+
+**Consequence for the finding queue — "money at the seed-buy turn" is closed.** Iteration 33
+found it monotone (`<20`: 17.6% wins, `80+`: 87.6%) and flagged it as not yet causal. It is
+not causal: buying cash with wheat costs far more than the seed it buys. That makes four
+leads from the same cluster that were all thermometers rather than fevers — the step-21 seed
+count, the step-171/195 top-ups, and now cash at the seed turn. **They are all downstream of
+the same thing: how much wheat the day-0 draw lets us hold.** Any future candidate that tries
+to move cash early must add wheat, not spend less of it.
+
+**Do not retry:** trimming the day-0 `BUY_PRODUCT WHEAT` fill, in any amount. The direction is
+wrong, and the mechanism (herd starvation) says a smaller trim only scales the loss down.
+
+**Next finding to try.** The mirror well is not dry, but this cluster is. The remaining
+untested items from the gold plan's Phase B are the terminal liquidation order and the
+contested late-game market turns; Phase C (the rank-1 cow-heavy farm) is still parked at 3.4%
+of losses. Given that the herd size is what this iteration showed to drive the margin, the
+most promising untried single change is on the other side of the same lever: **buy *more*
+wheat on day 0 and see whether the herd compounds further ahead**, gated against
+`v43_open3_carrot`. That is the natural next candidate and it is cheap to build.
