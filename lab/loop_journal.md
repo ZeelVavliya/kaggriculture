@@ -754,3 +754,86 @@ the opening is spent. There is also no "open3 behaviour" after step 0 to switch 
 open55 differ in exactly one line, the step-0 wash size.
 
 User's call: skip the adaptive framing and measure the big-opening branch directly instead.
+
+## Iteration 37 — 2026-09-18 (cloud agent) — full opening x carrot matrix, and a reopened dead end
+
+User asked for the complete P&C of opening size x carrot plus a round robin against every
+previous agent, run through a subagent. Six missing crosses were built
+(`v43_lead8_open{0,12,15,20,43,50}_carrot`), each its plain opening's artifact with the carrot
+overlay appended byte-exact, and registered.
+
+### Tournament results
+
+**`tourney-369e8b5a`** (5 agents, 1000000-1000009, 200 games) — the user's open55 measurement:
+
+| agent | BT elo | W-L-T | mean margin |
+|---|---|---|---|
+| v43_open3_carrot | 2054 | 75-3-2 | +456 |
+| v43_lead8_open7_carrot | 1712 | 52-24-4 | +372 |
+| v43_lead8_open3 | 1595 | 43-33-4 | +446 |
+| v43_lead8_open7 | 1282 | 22-56-2 | +359 |
+| **v43_open55_carrot** | **857** | **2-78-0** | **-1633** |
+
+**`tourney-75ceebf3`** (31 agents, 1010000-1010001, 1860 games, both seats, 0 harness errors):
+
+| # | agent | open | carrot | BT elo | W-L-T |
+|---|---|---|---|---|---|
+| 1 | **v43_open3_lead12** | 3 | yes | **3258** | **120-0-0** |
+| 2 | v43_open3_carrot | 3 | yes | 2598 | 104-8-8 |
+| 3 | v43_open3_notopup | 3 | yes | 2598 | 104-8-8 |
+| 4 | **v43_lead12** | **55** | no | 2508 | 104-16-0 |
+| 5 | v43_lead8_open7_carrot | 7 | yes | 2467 | 100-16-4 |
+| 24 | v43_open55_carrot | 55 | yes | 740 | 28-92-0 |
+| 31 | c95 | - | - | -799 | 0-120-0 |
+
+Three settled facts:
+1. **The opening curve holds in both series**, plain and carrot: 3 > 7 > 12 > 15 > 20 > 43 > 50 > 55.
+2. **The carrot tie-break is base-independent**: 4-0 at every one of the nine openings, median and
+   mean margin exactly +11.0 in all nine cells, 36 paired games, zero regressions.
+3. **The big-opening branch is closed twice over.** `v43_open55_carrot` is 2-78 in tournament A and
+   24th of 31 in B. Carrot cannot rescue a large opening.
+
+### The finding that matters: the horizon-12 veto was wrong
+
+`v43_lead12` carries the **worst opening in the field** (55) and still ranks 4th, ahead of every
+opening-3 and opening-7 agent that lacks the sell-reservation horizon knob. The lever hierarchy is
+**horizon 12 >> opening size > carrot**, not what iterations 25-32 assumed.
+
+Iteration 32 vetoed `v43_open3_lead12` on 2 paired regressions and wrote "the horizon search is
+closed for good". Re-reading that gate's own 25-seed blocks:
+
+| block | record | median | the losses |
+|---|---|---|---|
+| vs incumbent v43_lead8_open3 | 46-4 | +881 | - |
+| vs parent v43_open3_carrot | 46-4 | +1026 | **-3223, -25, -25, -13** |
+| vs v43_lead8 / vs V43 | 48-2 | +1147 / +907 | - |
+
+Three of the four losses to its parent are under 25 coins. **Ladder rating moves on win/loss only,
+never on margin** (goal.md), so the number that decides is a 92% win rate over the champion base.
+
+**Fresh-block confirmation** (`h2h-5b37959e-vs-1367897a-2e885c`, seeds 1020000-1020039, never used
+for tuning, both seats):
+
+```
+77-3-0 over 80 games   win rate 96.25%   Wilson 95% CI [0.8955, 0.9872]
+median margin +763.5   mean +993.9   worst loss -46
+losses: only 2 seeds of 40 -- (1020000 p1, -46), (1020001 p1, -24), (1020000 p0, -46)
+```
+
+The -3223 outlier does not recur. **Combined against the champion base: 123-7 over 130 games.**
+goal.md's Wilson test (95% lower bound > 50% on >=20 both-seat games) is met with enormous room.
+
+**Status: still VETOED, and therefore still unsubmittable.** The hard rule is "Nothing is submitted
+that has not passed `python -m lab.gate`. VETO means stop." The gold plan's relaxed rule (<=1 paired
+regression, >=40/50 better, clean final block) also fails it at 2 regressions. The gate's fixed seed
+blocks are deterministic, so re-running it changes nothing. This is a rule-calibration question and
+it is the user's to decide, not something to work around. Put to the user with the numbers above.
+
+**Note on the matrix's own weight:** tournament B ran only 2 seeds per pair, so `120-0-0` is 30
+opponents across 2 seeds and is much weaker evidence than it reads. The 40-seed confirmation above is
+what carries this result, not the sweep.
+
+**Secondary finding, unresolved:** `v43_lead8_open0` drew all 32 games against the other eight plain
+matrix agents at exactly 0.0 margin, and `v43_lead8_open0_carrot` ties the champion 0-0-4 at margin 0.
+A zero-size wash is evidently dropped rather than executed, so open0 is a null, not a strategy. Its
+BT rating is meaningless for the opening question. Flagged for a replay-level look, not pursued.
