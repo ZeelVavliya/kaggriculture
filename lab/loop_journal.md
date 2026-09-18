@@ -881,3 +881,60 @@ regressions are not a property of "12 is too far", they are seed-specific.
 Screen running on the gate's own decision blocks (850000-850024 and 860000-860024), replicating
 `gate.paired_regressions` exactly but computing each block's mirror once, to get the paired
 regression count for 9/10/11 — the single number that decides a VETO.
+
+### The sweep's answer: no horizon passes, and the final block is why
+
+`v43_open3_lead9` looked like the clean one on the two development blocks, and it is not.
+
+| block | raw W-L | better than mirror | paired regressions |
+|---|---|---|---|
+| incumbent 850000-850024 | 46-4 | 43 | 1 (seed 850014) |
+| parent 860000-860024 | 48-2 | 46 | **0** |
+| **final untouched 910000-910024** | 47-3 | 46 | **2 (seed 910019, both seats)** |
+
+**FAILS.** goal.md's gold-plan rule requires zero regressions on the final untouched block, and
+`lab/gate.py` as written vetoes on any regression at all. `lead9` is a VETO under both rules, as
+are 10, 11 and 12. **Every horizon tested regresses somewhere. The knob cannot pass the gate at
+any value.**
+
+The reserved block did exactly the job it exists for: it caught an agent that looked clean on the
+two blocks used for development. `lead9`'s advantage on 850000/860000 was seed luck, which
+confirms the read from the sweep — the regressions are seed-specific, not a property of reaching
+further ahead. Regression rate is roughly one seed in 25 for every horizon value.
+
+### What the horizon knob is actually worth, measured across every block
+
+`v43_open3_lead9` vs the champion base `v43_open3_carrot`, 180 games, four independent blocks:
+
+| block | record | median margin |
+|---|---|---|
+| 1030000-1030014 | 29-1 | +678.0 |
+| 850000-850024 | 46-4 | +758.0 |
+| 860000-860024 | 48-2 | +994.5 |
+| 910000-910024 | 47-3 | +780.0 |
+| **TOTAL** | **170-10-0 (94.4%)** | **+836.0** |
+
+Its three losses on the final block are **-121, -121 and -123 coins** — trivial beside a +780
+median. And the ladder scores win/loss only, never margin, so those three games count exactly as
+much as three of the 47 wins.
+
+### The structural problem this exposes (for the user to decide)
+
+The gate's final-block criterion is **zero paired regressions over 25 seeds**. A change with a ~4%
+per-seed downside clears that only about `0.96^25 ~= 36%` of the time. So the gate does not reject
+the horizon knob for being weak — it rejects it for having any tail at all, and it would reject it
+again on a re-roll of the seeds roughly two times in three. Meanwhile the knob is the largest lever
+ever measured in this lab: 170-10 against the champion, where the carrot tie-break is worth 11
+coins and the whole opening curve spans 35.
+
+This is a protocol question, not an agent question, and it is the user's to settle. Recorded
+without acting on it. Three coherent options:
+1. **Leave it.** The horizon knob is permanently unavailable; champion stays `v43_open3_carrot`.
+   Defensible if the -121 tail is believed to matter more on the ladder than locally.
+2. **Relax the final-block clause** to match the other two (<=1 paired regression), which would
+   pass `lead9` and nothing else tested.
+3. **Replace "zero regressions" with a win-rate test** (e.g. Wilson 95% lower bound over the
+   block), which is what the ladder actually rewards. `lead9` is at 170-10; a Wilson LB on that is
+   ~0.90. This is the principled fix but the largest change to the protocol.
+
+**No rule was changed and no agent was promoted.** `lab/gate.py` is untouched.
