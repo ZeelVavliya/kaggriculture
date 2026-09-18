@@ -687,3 +687,27 @@ of losses. Given that the herd size is what this iteration showed to drive the m
 most promising untried single change is on the other side of the same lever: **buy *more*
 wheat on day 0 and see whether the herd compounds further ahead**, gated against
 `v43_open3_carrot`. That is the natural next candidate and it is cheap to build.
+
+**Formal gate line (tourney reports `h2h-b0f8a324-vs-*`):**
+
+```
+GATE VERDICT: VETO (lost to incumbent in 46/50 games (seed_block=850000-850024))
+  [VETO ] vs_incumbent_paired: 0 games better than the incumbent mirror, 46 worse (raw losses 50)
+  [VETO ] vs_parent_paired:    0 games better than the parent mirror,    48 worse (raw losses 50)
+  [INFO ] vs_other:v43_lead8_open7: 0-50   [INFO ] vs_other:v43_lead8: 0-50
+  [INFO ] vs_other:opp_v43:         0-50   [PASS ] audit: 3352 findings, 0 critical
+```
+
+**0-50 against every opponent in the pool, `opp_v43` included** — which the parent beats 50-0.
+So this is an absolute degradation, not a matchup effect, exactly as the herd-starvation
+mechanism predicts. Zero games better than the mirror in any block; the gate's relaxed gold-plan
+rule (≤1 regression, ≥40/50 better) would not have changed this verdict either.
+
+### Iteration 35 close-out
+
+- Champion base unchanged: **`v43_open3_carrot` (1367897a)**, the best gated agent.
+- Nothing was submittable this iteration, so the missing `KAGGLE_API_TOKEN` cost nothing yet.
+- `lab/gate.py` still enforces the strict "any paired regression = VETO" rule; the gold plan's
+  relaxed rule is still only plan text. Left unimplemented on purpose — changing the gate and
+  testing a candidate in one iteration would confound both. Worth doing in an iteration of its
+  own, since it is what vetoed `v43_lead8_open7` on a single regression back in iteration 26.
