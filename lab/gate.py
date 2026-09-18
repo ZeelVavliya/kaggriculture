@@ -1,11 +1,22 @@
 """The promotion protocol: compile/import -> self-play both-DONE -> play incumbent
-AND parent on disjoint seeds, both seats -> any loss to either is a VETO (even if
-aggregate wins look strong) -> play structurally different opponents -> report
-per-opponent records -> audit -> keep every result file.
+AND parent on disjoint seeds, both seats -> each block must clear a win-rate test ->
+play structurally different opponents -> report per-opponent records -> audit ->
+keep every result file.
 
 Only a candidate that clears every step is eligible to be packaged.
+
+Win-rate test (2026-09-18, gold-plan option 3; see lab/loop_journal.md iteration 38):
+replaces the original "any single paired-regression game = veto" rule, which rejected
+a change for having any per-seed tail at all, however strong its overall record. A
+candidate with roughly a 4%-per-seed downside cleared the old rule on a 25-seed block
+only ~36% of the time by chance (0.96**25) -- it was measuring bad luck on 25 rolls of
+the dice, not agent quality. v43_open3_lead12 (horizon 8->12) was vetoed under the old
+rule on 2/50 games despite a measured 123-7 record against the champion base; horizons
+9-11 were swept afterwards and every one of them regressed somewhere too, confirming
+the regressions are seed-specific rather than a property of any one setting.
 """
 import argparse
+import math
 from pathlib import Path
 
 from lab import arena, audit, ledger, registry
@@ -17,6 +28,28 @@ OTHER_OPPONENT_SEEDS = "870000-870024"
 # Never used for development or tuning: played once, after everything above passes.
 FINAL_SEEDS = "910000-910024"
 
+# Wilson 95% lower bound a block's raw win rate (W / (W+L+T), ties counted as
+# not-a-win) must clear to pass. Same test and confidence level as goal.md's
+# displaced-champion submission exception ("Wilson 95% lower bound above 50%"),
+# reused here for consistency rather than inventing a second statistic. This is a
+# deliberately chosen, easily-tunable parameter, not a physical constant -- raise it
+# for a stricter gate.
+WIN_RATE_LB_THRESHOLD = 0.50
+
+
+def wilson_lower_bound(wins: int, losses: int, ties: int = 0, z: float = 1.959963985) -> float:
+    """95% (two-sided) Wilson score interval lower bound on win rate. wins+losses+ties
+    is the block size; ties count in the denominator as a non-win (a draw is not
+    evidence the candidate is better). Returns 0.0 for an empty block."""
+    n = wins + losses + ties
+    if n == 0:
+        return 0.0
+    p = wins / n
+    denom = 1 + z * z / n
+    centre = (p + z * z / (2 * n)) / denom
+    half = z * math.sqrt(p * (1 - p) / n + z * z / (4 * n * n)) / denom
+    return centre - half
+
 
 def candidate_losses(results, cand_path):
     """Games the candidate lost. result is from p0's view, so a candidate loss is
@@ -27,10 +60,31 @@ def candidate_losses(results, cand_path):
             (r["path_p1"] == cand_path and r["result"] == "W")]
 
 
+def candidate_record(results, cand_path):
+    """(wins, losses, ties) for cand_path across results, from cand_path's own view,
+    across whichever seat it played. Harness crashes are excluded, same as candidate_losses."""
+    w = l = t = 0
+    for r in results:
+        if r.get("status_p0") == "HARNESS_ERROR":
+            continue
+        if r["path_p0"] == cand_path:
+            res = r["result"]
+        elif r["path_p1"] == cand_path:
+            res = {"W": "L", "L": "W", "T": "T"}[r["result"]]
+        else:
+            continue
+        w += res == "W"
+        l += res == "L"
+        t += res == "T"
+    return w, l, t
+
+
 def paired_regressions(cand_path, opp_path, results, seed_block, workers, label):
     """A mirror is seat-asymmetric: the opponent loses some (seed, seat) games to itself, so
     "any loss = veto" would veto an exact copy of it. Returns (games where the candidate scores
-    below opponent-vs-itself on the same seed and seat, count of games where it scores above)."""
+    below opponent-vs-itself on the same seed and seat, count of games where it scores above).
+    Diagnostic only since the win-rate test above -- reported alongside the verdict, not used
+    to decide it."""
     mirror = arena.h2h(opp_path, opp_path, seed_block, both_seats=False, workers=workers,
                        label=f"gate:{label}_mirror_baseline")[1]
     base_by_seed = {r["seed"]: r["result"] for r in mirror}  # p0's view; both seats are the same agent
@@ -41,6 +95,14 @@ def paired_regressions(cand_path, opp_path, results, seed_block, workers, label)
     worse = [r for r in ok if sign(r) * pts[r["result"]] < sign(r) * pts[base_by_seed[r["seed"]]]]
     better = sum(1 for r in ok if sign(r) * pts[r["result"]] > sign(r) * pts[base_by_seed[r["seed"]]])
     return worse, better
+
+
+def _block_verdict(cand_path, opp_path, results, label):
+    """Win-rate test for one block: wins, losses, ties, Wilson 95% LB, and whether it
+    clears WIN_RATE_LB_THRESHOLD."""
+    w, l, t = candidate_record(results, cand_path)
+    lb = wilson_lower_bound(w, l, t)
+    return w, l, t, lb, lb > WIN_RATE_LB_THRESHOLD
 
 
 def _resolve(name_or_path):
@@ -93,17 +155,17 @@ def run_gate(candidate: str, parent: str = None, incumbent: str = None, others: 
         batch_id, results = arena.h2h(cand_path, opp_path, seed_block, both_seats=True, workers=workers,
                                        label=f"gate:{Path(cand_path).stem}_vs_{label}")
         per_opponent_batches[label] = batch_id
-        losses = candidate_losses(results, cand_path)
         worse, better = paired_regressions(cand_path, opp_path, results, seed_block, workers, label)
-        steps.append((f"vs_{label}_paired", "VETO" if worse else "PASS",
-                      f"{better} games better than the {label} mirror, {len(worse)} worse (raw losses {len(losses)})"))
-        raw_lost = len(losses)
-        losses = worse
-        if losses:
+        steps.append((f"vs_{label}_paired", "INFO",
+                      f"{better} games better than the {label} mirror, {len(worse)} worse (diagnostic, not a veto)"))
+        w, l, t, lb, passed = _block_verdict(cand_path, opp_path, results, label)
+        if not passed:
             veto = True
-            veto_reason = veto_reason or f"lost to {label} in {len(losses)}/{len(results)} games (seed_block={seed_block})"
-        steps.append((f"vs_{label}", "VETO" if losses else "PASS",
-                      f"raw W-L {len(results) - raw_lost}-{raw_lost}, paired regressions {len(losses)}, over {seed_block}"))
+            veto_reason = veto_reason or (
+                f"win rate vs {label} Wilson 95% LB={lb:.3f} <= {WIN_RATE_LB_THRESHOLD} "
+                f"(seed_block={seed_block})")
+        steps.append((f"vs_{label}", "PASS" if passed else "VETO",
+                      f"raw W-L-T {w}-{l}-{t}, Wilson 95% LB={lb:.3f} (threshold {WIN_RATE_LB_THRESHOLD}), over {seed_block}"))
 
     # step 5: structurally different opponents (only if not already vetoed -- still run, for the report)
     others = others or []
@@ -125,12 +187,16 @@ def run_gate(candidate: str, parent: str = None, incumbent: str = None, others: 
         batch_id, results = arena.h2h(cand_path, incumbent, FINAL_SEEDS, both_seats=True, workers=workers,
                                        label=f"gate:{Path(cand_path).stem}_final_untouched")
         per_opponent_batches["final_untouched"] = batch_id
-        lost, better = paired_regressions(cand_path, incumbent, results, FINAL_SEEDS, workers, "final")
-        if lost:
+        worse, better = paired_regressions(cand_path, incumbent, results, FINAL_SEEDS, workers, "final")
+        steps.append(("final_untouched_paired", "INFO",
+                      f"{better} games better than the final mirror, {len(worse)} worse (diagnostic, not a veto)"))
+        w, l, t, lb, passed = _block_verdict(cand_path, incumbent, results, "final")
+        if not passed:
             veto = True
-            veto_reason = f"lost {len(lost)}/{len(results)} on the untouched final block {FINAL_SEEDS}"
-        steps.append(("final_untouched", "VETO" if lost else "PASS",
-                      f"raw W-L {len(results) - len(candidate_losses(results, cand_path))}-{len(candidate_losses(results, cand_path))}, paired regressions {len(lost)}, over {FINAL_SEEDS}"))
+            veto_reason = (f"win rate on the untouched final block Wilson 95% LB={lb:.3f} "
+                            f"<= {WIN_RATE_LB_THRESHOLD} ({FINAL_SEEDS})")
+        steps.append(("final_untouched", "PASS" if passed else "VETO",
+                      f"raw W-L-T {w}-{l}-{t}, Wilson 95% LB={lb:.3f} (threshold {WIN_RATE_LB_THRESHOLD}), over {FINAL_SEEDS}"))
 
     # step 6: audit
     audit_findings = []
